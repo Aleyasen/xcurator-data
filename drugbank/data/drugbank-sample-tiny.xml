@@ -1,0 +1,2438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<drugbank xmlns="http://www.drugbank.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.drugbank.ca http://www.drugbank.ca/docs/drugbank.xsd" version="4.3">
+    <drug type="biotech" created="2005-06-13" updated="2013-09-13">
+        <drugbank-id primary="true">DB00052</drugbank-id>
+        <drugbank-id>BIOD00086</drugbank-id>
+        <drugbank-id>BTD00086</drugbank-id>
+        <name>Somatropin recombinant</name>
+        <description>Recombinant human growth hormone (somatotropin) 191 residues, MW 22.1 kD, synthesized in E. coli</description>
+        <cas-number>12629-01-5</cas-number>
+        <groups>
+            <group>approved</group>
+            <group>investigational</group>
+        </groups>
+        <general-references># Seltzer V, Tonge SR: Proceedings: Methylamphetamine withdrawal as a model for the depressive state: antagonism of post-amphetamine depression by imipramine. J Pharm Pharmacol. 1975 Dec;27 Suppl?-2:16P. "Pubmed":http://www.ncbi.nlm.nih.gov/pubmed/2688&#13;
+            # Alba-Roth J, Muller OA, Schopohl J, von Werder K: Arginine stimulates growth hormone secretion by suppressing endogenous somatostatin secretion. J Clin Endocrinol Metab. 1988 Dec;67(6):1186-9. "Pubmed":http://www.ncbi.nlm.nih.gov/pubmed/2903866&#13;
+            # Scarth JP: Modulation of the growth hormone-insulin-like growth factor (GH-IGF) axis by pharmaceutical, nutraceutical and environmental xenobiotics: an emerging role for xenobiotic-metabolizing enzymes and the transcription factors regulating their expression. A review. Xenobiotica. 2006 Feb-Mar;36(2-3):119-218. "Pubmed":http://www.ncbi.nlm.nih.gov/pubmed/16702112&#13;
+            # Takahashi Y, Kipnis DM, Daughaday WH: Growth hormone secretion during sleep. J Clin Invest. 1968 Sep;47(9):2079-90. "Pubmed":http://www.ncbi.nlm.nih.gov/pubmed/5675428</general-references>
+        <synthesis-reference>Mandayam J. Narasimhan, John A. Anderson, "Process for the large scale production of human growth hormone by serial secondary suspension culture." U.S. Patent US4124448, issued January, 1963.</synthesis-reference>
+        <indication>For treatment of dwarfism, acromegaly and prevention of HIV-induced weight loss</indication>
+        <pharmacodynamics>Used in the treatment of dwarfism and growth failure, growth hormone (hGH) stimulates skeletal growth in pediatric patients with growth failure due to a lack of adequate secretion of endogenous GH. Skeletal growth is accomplished at the epiphyseal plates at the ends of a growing bone. Growth and metabolism of epiphyseal plate cells are directly stimulated by GH and one of its mediators, IGF-I (insulin-like growth factor).</pharmacodynamics>
+        <mechanism-of-action>hGH binds to the human growth hormone receptor (GHR). Upon binding, hGH causes dimerization of GHR, activation of the GHR-associated JAK2 tyrosine kinase, and tyrosyl phosphorylation of both JAK2 and GHR. These events recruit and/or activate a variety of signaling molecules, including MAP kinases, insulin receptor substrates, phosphatidylinositol 3' phosphate kinase, diacylglycerol, protein kinase C, intracellular calcium, and Stat transcription factors. These signaling molecules contribute to the GH-induced changes in enzymatic activity, transport function, and gene expression that ultimately culminate in changes in growth and metabolism.</mechanism-of-action>
+        <toxicity/>
+        <metabolism/>
+        <absorption/>
+        <half-life/>
+        <protein-binding/>
+        <route-of-elimination>Although calcium excretion in the urine is increased, there is a simultaneous increase in calcium absorption from the intestine. Somatropin stimulates the synthesis of chondroitin sulfate and collagen, and increases the urinary excretion of hydroxyproline.</route-of-elimination>
+        <volume-of-distribution/>
+        <clearance>* 2.3 +/- 1.8 mL/min/kg [GHD patients (IV 33 ng/kg/min)]</clearance>
+        <classification>
+            <description/>
+            <direct-parent>Peptides</direct-parent>
+            <kingdom>Organic Compounds</kingdom>
+            <superclass>Organic Acids</superclass>
+            <class>Carboxylic Acids and Derivatives</class>
+            <subclass>Amino Acids, Peptides, and Analogues</subclass>
+        </classification>
+        <salts/>
+        <synonyms>
+            <synonym language="" coder="">GH</synonym>
+            <synonym language="" coder="">GH-N</synonym>
+            <synonym language="" coder="">Growth hormone</synonym>
+            <synonym language="" coder="">Growth hormone 1</synonym>
+            <synonym language="" coder="">Pituitary growth hormone</synonym>
+            <synonym language="" coder="">Somatotropin precursor</synonym>
+            <synonym language="" coder="">Somatropin</synonym>
+        </synonyms>
+        <products>
+            <product>
+                <name>Bio-tropin</name>
+                <ndc-id/>
+                <ndc-product-code/>
+                <dpd-id>02231515</dpd-id>
+                <started-marketing-on/>
+                <ended-marketing-on/>
+                <dosage-form>liquid; powder for solution</dosage-form>
+                <strength>10 ml</strength>
+                <route>subcutaneous</route>
+                <fda-application-number/>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>Canada</country>
+                <source>DPD</source>
+            </product>
+            <product>
+                <name>Bio-tropin</name>
+                <ndc-id/>
+                <ndc-product-code/>
+                <dpd-id>02231516</dpd-id>
+                <started-marketing-on/>
+                <ended-marketing-on/>
+                <dosage-form>liquid; powder for solution</dosage-form>
+                <strength>10 ml</strength>
+                <route>subcutaneous</route>
+                <fda-application-number/>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>Canada</country>
+                <source>DPD</source>
+            </product>
+            <product>
+                <name>Genotropin</name>
+                <ndc-id/>
+                <ndc-product-code/>
+                <dpd-id>02401681</dpd-id>
+                <started-marketing-on/>
+                <ended-marketing-on/>
+                <dosage-form>powder for solution</dosage-form>
+                <strength>5 mg</strength>
+                <route>subcutaneous</route>
+                <fda-application-number/>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>Canada</country>
+                <source>DPD</source>
+            </product>
+            <product>
+                <name>Genotropin</name>
+                <ndc-id/>
+                <ndc-product-code/>
+                <dpd-id>02401746</dpd-id>
+                <started-marketing-on/>
+                <ended-marketing-on/>
+                <dosage-form>powder for solution</dosage-form>
+                <strength>0.2 mg</strength>
+                <route>subcutaneous</route>
+                <fda-application-number/>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>Canada</country>
+                <source>DPD</source>
+            </product>
+            <product>
+                <name>Genotropin</name>
+                <ndc-id/>
+                <ndc-product-code/>
+                <dpd-id>02401754</dpd-id>
+                <started-marketing-on/>
+                <ended-marketing-on/>
+                <dosage-form>powder for solution</dosage-form>
+                <strength>0.4 mg</strength>
+                <route>subcutaneous</route>
+                <fda-application-number/>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>Canada</country>
+                <source>DPD</source>
+            </product>
+            <product>
+                <name>Genotropin</name>
+                <ndc-id/>
+                <ndc-product-code/>
+                <dpd-id>02401703</dpd-id>
+                <started-marketing-on>2013-09-18</started-marketing-on>
+                <ended-marketing-on/>
+                <dosage-form>powder for solution</dosage-form>
+                <strength>5.3 mg</strength>
+                <route>subcutaneous</route>
+                <fda-application-number/>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>Canada</country>
+                <source>DPD</source>
+            </product>
+            <product>
+                <name>Genotropin</name>
+                <ndc-id/>
+                <ndc-product-code/>
+                <dpd-id>02401711</dpd-id>
+                <started-marketing-on>2013-09-18</started-marketing-on>
+                <ended-marketing-on/>
+                <dosage-form>powder for solution</dosage-form>
+                <strength>12 mg</strength>
+                <route>subcutaneous</route>
+                <fda-application-number/>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>Canada</country>
+                <source>DPD</source>
+            </product>
+            <product>
+                <name>Genotropin</name>
+                <ndc-id/>
+                <ndc-product-code/>
+                <dpd-id>02401762</dpd-id>
+                <started-marketing-on>2013-09-18</started-marketing-on>
+                <ended-marketing-on/>
+                <dosage-form>powder for solution</dosage-form>
+                <strength>0.6 mg</strength>
+                <route>subcutaneous</route>
+                <fda-application-number/>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>Canada</country>
+                <source>DPD</source>
+            </product>
+            <product>
+                <name>Genotropin</name>
+                <ndc-id/>
+                <ndc-product-code/>
+                <dpd-id>02401770</dpd-id>
+                <started-marketing-on>2013-09-18</started-marketing-on>
+                <ended-marketing-on/>
+                <dosage-form>powder for solution</dosage-form>
+                <strength>0.8 mg</strength>
+                <route>subcutaneous</route>
+                <fda-application-number/>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>Canada</country>
+                <source>DPD</source>
+            </product>
+            <product>
+                <name>Genotropin</name>
+                <ndc-id/>
+                <ndc-product-code/>
+                <dpd-id>02401789</dpd-id>
+                <started-marketing-on>2013-09-18</started-marketing-on>
+                <ended-marketing-on/>
+                <dosage-form>powder for solution</dosage-form>
+                <strength>1.0 mg</strength>
+                <route>subcutaneous</route>
+                <fda-application-number/>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>Canada</country>
+                <source>DPD</source>
+            </product>
+            <product>
+                <name>Genotropin</name>
+                <ndc-id/>
+                <ndc-product-code/>
+                <dpd-id>02401797</dpd-id>
+                <started-marketing-on>2013-09-18</started-marketing-on>
+                <ended-marketing-on/>
+                <dosage-form>powder for solution</dosage-form>
+                <strength>1.2 mg</strength>
+                <route>subcutaneous</route>
+                <fda-application-number/>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>Canada</country>
+                <source>DPD</source>
+            </product>
+            <product>
+                <name>Genotropin</name>
+                <ndc-id/>
+                <ndc-product-code/>
+                <dpd-id>02401800</dpd-id>
+                <started-marketing-on>2013-09-18</started-marketing-on>
+                <ended-marketing-on/>
+                <dosage-form>powder for solution</dosage-form>
+                <strength>1.4 mg</strength>
+                <route>subcutaneous</route>
+                <fda-application-number/>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>Canada</country>
+                <source>DPD</source>
+            </product>
+            <product>
+                <name>Genotropin</name>
+                <ndc-id/>
+                <ndc-product-code/>
+                <dpd-id>02401819</dpd-id>
+                <started-marketing-on>2013-09-18</started-marketing-on>
+                <ended-marketing-on/>
+                <dosage-form>powder for solution</dosage-form>
+                <strength>1.6 mg</strength>
+                <route>subcutaneous</route>
+                <fda-application-number/>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>Canada</country>
+                <source>DPD</source>
+            </product>
+            <product>
+                <name>Genotropin</name>
+                <ndc-id/>
+                <ndc-product-code/>
+                <dpd-id>02401827</dpd-id>
+                <started-marketing-on>2013-09-18</started-marketing-on>
+                <ended-marketing-on/>
+                <dosage-form>powder for solution</dosage-form>
+                <strength>1.8 mg</strength>
+                <route>subcutaneous</route>
+                <fda-application-number/>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>Canada</country>
+                <source>DPD</source>
+            </product>
+            <product>
+                <name>Genotropin</name>
+                <ndc-id/>
+                <ndc-product-code/>
+                <dpd-id>02401835</dpd-id>
+                <started-marketing-on>2013-09-18</started-marketing-on>
+                <ended-marketing-on/>
+                <dosage-form>powder for solution</dosage-form>
+                <strength>2.0 mg</strength>
+                <route>subcutaneous</route>
+                <fda-application-number/>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>Canada</country>
+                <source>DPD</source>
+            </product>
+            <product>
+                <name>Humatrope Inj 1mg/ml</name>
+                <ndc-id/>
+                <ndc-product-code/>
+                <dpd-id>00745626</dpd-id>
+                <started-marketing-on>1987-12-31</started-marketing-on>
+                <ended-marketing-on/>
+                <dosage-form>powder for solution</dosage-form>
+                <strength>1 mg</strength>
+                <route>intramuscular; subcutaneous</route>
+                <fda-application-number/>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>Canada</country>
+                <source>DPD</source>
+            </product>
+            <product>
+                <name>Norditropin</name>
+                <ndc-id>0169-7703_d3cd279e-c599-4d0c-b2e7-bf52e97fba13</ndc-id>
+                <ndc-product-code>0169-7703</ndc-product-code>
+                <dpd-id/>
+                <started-marketing-on>2009-03-30</started-marketing-on>
+                <ended-marketing-on/>
+                <dosage-form>injection, solution</dosage-form>
+                <strength>30 mg/3mL</strength>
+                <route>subcutaneous</route>
+                <fda-application-number>NDA021148</fda-application-number>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>US</country>
+                <source>FDA NDC</source>
+            </product>
+            <product>
+                <name>Norditropin</name>
+                <ndc-id>0169-7704_d3cd279e-c599-4d0c-b2e7-bf52e97fba13</ndc-id>
+                <ndc-product-code>0169-7704</ndc-product-code>
+                <dpd-id/>
+                <started-marketing-on>2005-01-03</started-marketing-on>
+                <ended-marketing-on/>
+                <dosage-form>injection, solution</dosage-form>
+                <strength>5 mg/1.5mL</strength>
+                <route>subcutaneous</route>
+                <fda-application-number>NDA021148</fda-application-number>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>US</country>
+                <source>FDA NDC</source>
+            </product>
+            <product>
+                <name>Norditropin</name>
+                <ndc-id>0169-7705_d3cd279e-c599-4d0c-b2e7-bf52e97fba13</ndc-id>
+                <ndc-product-code>0169-7705</ndc-product-code>
+                <dpd-id/>
+                <started-marketing-on>2006-01-02</started-marketing-on>
+                <ended-marketing-on/>
+                <dosage-form>injection, solution</dosage-form>
+                <strength>10 mg/1.5mL</strength>
+                <route>subcutaneous</route>
+                <fda-application-number>NDA021148</fda-application-number>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>US</country>
+                <source>FDA NDC</source>
+            </product>
+            <product>
+                <name>Norditropin</name>
+                <ndc-id>0169-7708_d3cd279e-c599-4d0c-b2e7-bf52e97fba13</ndc-id>
+                <ndc-product-code>0169-7708</ndc-product-code>
+                <dpd-id/>
+                <started-marketing-on>2005-01-03</started-marketing-on>
+                <ended-marketing-on/>
+                <dosage-form>injection, solution</dosage-form>
+                <strength>15 mg/1.5mL</strength>
+                <route>subcutaneous</route>
+                <fda-application-number>NDA021148</fda-application-number>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>US</country>
+                <source>FDA NDC</source>
+            </product>
+            <product>
+                <name>Norditropin</name>
+                <ndc-id>54868-6146_7af60e76-41ca-4324-8f44-c6cc00fdd694</ndc-id>
+                <ndc-product-code>54868-6146</ndc-product-code>
+                <dpd-id/>
+                <started-marketing-on>2010-08-10</started-marketing-on>
+                <ended-marketing-on/>
+                <dosage-form>injection, solution</dosage-form>
+                <strength>5 mg/1.5mL</strength>
+                <route>subcutaneous</route>
+                <fda-application-number>NDA021148</fda-application-number>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>US</country>
+                <source>FDA NDC</source>
+            </product>
+            <product>
+                <name>Norditropin Nordiflex</name>
+                <ndc-id/>
+                <ndc-product-code/>
+                <dpd-id>02334852</dpd-id>
+                <started-marketing-on>2014-08-15</started-marketing-on>
+                <ended-marketing-on/>
+                <dosage-form>solution</dosage-form>
+                <strength>5 mg</strength>
+                <route>subcutaneous</route>
+                <fda-application-number/>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>Canada</country>
+                <source>DPD</source>
+            </product>
+            <product>
+                <name>Norditropin Nordiflex</name>
+                <ndc-id/>
+                <ndc-product-code/>
+                <dpd-id>02334860</dpd-id>
+                <started-marketing-on>2014-08-15</started-marketing-on>
+                <ended-marketing-on/>
+                <dosage-form>solution</dosage-form>
+                <strength>10 mg</strength>
+                <route>subcutaneous</route>
+                <fda-application-number/>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>Canada</country>
+                <source>DPD</source>
+            </product>
+            <product>
+                <name>Norditropin Nordiflex</name>
+                <ndc-id/>
+                <ndc-product-code/>
+                <dpd-id>02334879</dpd-id>
+                <started-marketing-on>2014-08-15</started-marketing-on>
+                <ended-marketing-on/>
+                <dosage-form>solution</dosage-form>
+                <strength>15 mg</strength>
+                <route>subcutaneous</route>
+                <fda-application-number/>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>Canada</country>
+                <source>DPD</source>
+            </product>
+            <product>
+                <name>Norditropin Simplexx</name>
+                <ndc-id/>
+                <ndc-product-code/>
+                <dpd-id>02334968</dpd-id>
+                <started-marketing-on>2010-05-04</started-marketing-on>
+                <ended-marketing-on>2015-06-19</ended-marketing-on>
+                <dosage-form>solution</dosage-form>
+                <strength>15 mg</strength>
+                <route>subcutaneous</route>
+                <fda-application-number/>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>Canada</country>
+                <source>DPD</source>
+            </product>
+            <product>
+                <name>Norditropin Simplexx</name>
+                <ndc-id/>
+                <ndc-product-code/>
+                <dpd-id>02334941</dpd-id>
+                <started-marketing-on>2010-05-04</started-marketing-on>
+                <ended-marketing-on>2015-06-19</ended-marketing-on>
+                <dosage-form>solution</dosage-form>
+                <strength>10 mg</strength>
+                <route>subcutaneous</route>
+                <fda-application-number/>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>Canada</country>
+                <source>DPD</source>
+            </product>
+            <product>
+                <name>Norditropin Simplexx</name>
+                <ndc-id/>
+                <ndc-product-code/>
+                <dpd-id>02334925</dpd-id>
+                <started-marketing-on>2010-05-04</started-marketing-on>
+                <ended-marketing-on>2015-06-19</ended-marketing-on>
+                <dosage-form>solution</dosage-form>
+                <strength>5 mg</strength>
+                <route>subcutaneous</route>
+                <fda-application-number/>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>Canada</country>
+                <source>DPD</source>
+            </product>
+            <product>
+                <name>Nutropin - Kit  Pws(10mg) &amp; Liq(10ml) Im Sc</name>
+                <ndc-id/>
+                <ndc-product-code/>
+                <dpd-id>02216191</dpd-id>
+                <started-marketing-on>2002-10-08</started-marketing-on>
+                <ended-marketing-on>2013-12-02</ended-marketing-on>
+                <dosage-form>kit; powder for solution</dosage-form>
+                <strength>10 mg</strength>
+                <route>intramuscular; subcutaneous</route>
+                <fda-application-number/>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>Canada</country>
+                <source>DPD</source>
+            </product>
+            <product>
+                <name>Nutropin - Kit  Pws(5mg) &amp; Liq(10ml) Im Sc</name>
+                <ndc-id/>
+                <ndc-product-code/>
+                <dpd-id>02216183</dpd-id>
+                <started-marketing-on>1997-01-20</started-marketing-on>
+                <ended-marketing-on>2011-07-19</ended-marketing-on>
+                <dosage-form>kit; powder for solution</dosage-form>
+                <strength>5 mg</strength>
+                <route>intramuscular; subcutaneous</route>
+                <fda-application-number/>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>Canada</country>
+                <source>DPD</source>
+            </product>
+            <product>
+                <name>Nutropin Aq - Sc 5mg/ml</name>
+                <ndc-id/>
+                <ndc-product-code/>
+                <dpd-id>02229722</dpd-id>
+                <started-marketing-on>1997-10-14</started-marketing-on>
+                <ended-marketing-on>2013-04-16</ended-marketing-on>
+                <dosage-form>liquid</dosage-form>
+                <strength>5 mg</strength>
+                <route>subcutaneous</route>
+                <fda-application-number/>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>Canada</country>
+                <source>DPD</source>
+            </product>
+            <product>
+                <name>Nutropin Aq Nuspin 10</name>
+                <ndc-id>50242-074_e18cba5f-c533-4435-83ea-9cf3867ad56f</ndc-id>
+                <ndc-product-code>50242-074</ndc-product-code>
+                <dpd-id/>
+                <started-marketing-on>1995-12-29</started-marketing-on>
+                <ended-marketing-on/>
+                <dosage-form>injection, solution</dosage-form>
+                <strength>10 mg/2mL</strength>
+                <route>subcutaneous</route>
+                <fda-application-number>NDA020522</fda-application-number>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>US</country>
+                <source>FDA NDC</source>
+            </product>
+            <product>
+                <name>Nutropin Aq Nuspin 10</name>
+                <ndc-id/>
+                <ndc-product-code/>
+                <dpd-id>02376393</dpd-id>
+                <started-marketing-on>2012-05-18</started-marketing-on>
+                <ended-marketing-on/>
+                <dosage-form>solution</dosage-form>
+                <strength>10 mg</strength>
+                <route>subcutaneous</route>
+                <fda-application-number/>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>Canada</country>
+                <source>DPD</source>
+            </product>
+            <product>
+                <name>Nutropin Aq Nuspin 20</name>
+                <ndc-id/>
+                <ndc-product-code/>
+                <dpd-id>02399083</dpd-id>
+                <started-marketing-on>2013-09-09</started-marketing-on>
+                <ended-marketing-on/>
+                <dosage-form>solution</dosage-form>
+                <strength>20 mg</strength>
+                <route>subcutaneous</route>
+                <fda-application-number/>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>Canada</country>
+                <source>DPD</source>
+            </product>
+            <product>
+                <name>Nutropin Aq Nuspin 20</name>
+                <ndc-id>50242-076_e18cba5f-c533-4435-83ea-9cf3867ad56f</ndc-id>
+                <ndc-product-code>50242-076</ndc-product-code>
+                <dpd-id/>
+                <started-marketing-on>1995-12-29</started-marketing-on>
+                <ended-marketing-on/>
+                <dosage-form>injection, solution</dosage-form>
+                <strength>20 mg/2mL</strength>
+                <route>subcutaneous</route>
+                <fda-application-number>NDA020522</fda-application-number>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>US</country>
+                <source>FDA NDC</source>
+            </product>
+            <product>
+                <name>Nutropin Aq Nuspin 5</name>
+                <ndc-id/>
+                <ndc-product-code/>
+                <dpd-id>02399091</dpd-id>
+                <started-marketing-on>2013-09-09</started-marketing-on>
+                <ended-marketing-on/>
+                <dosage-form>solution</dosage-form>
+                <strength>5 mg</strength>
+                <route>subcutaneous</route>
+                <fda-application-number/>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>Canada</country>
+                <source>DPD</source>
+            </product>
+            <product>
+                <name>Nutropin Aq Nuspin 5</name>
+                <ndc-id>50242-075_e18cba5f-c533-4435-83ea-9cf3867ad56f</ndc-id>
+                <ndc-product-code>50242-075</ndc-product-code>
+                <dpd-id/>
+                <started-marketing-on>1995-12-29</started-marketing-on>
+                <ended-marketing-on/>
+                <dosage-form>injection, solution</dosage-form>
+                <strength>5 mg/2mL</strength>
+                <route>subcutaneous</route>
+                <fda-application-number>NDA020522</fda-application-number>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>US</country>
+                <source>FDA NDC</source>
+            </product>
+            <product>
+                <name>Nutropin Aq Pen 10</name>
+                <ndc-id>50242-043_e18cba5f-c533-4435-83ea-9cf3867ad56f</ndc-id>
+                <ndc-product-code>50242-043</ndc-product-code>
+                <dpd-id/>
+                <started-marketing-on>1995-12-29</started-marketing-on>
+                <ended-marketing-on/>
+                <dosage-form>injection, solution</dosage-form>
+                <strength>10 mg/2mL</strength>
+                <route>subcutaneous</route>
+                <fda-application-number>NDA020522</fda-application-number>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>US</country>
+                <source>FDA NDC</source>
+            </product>
+            <product>
+                <name>Nutropin Aq Pen 20</name>
+                <ndc-id>50242-073_e18cba5f-c533-4435-83ea-9cf3867ad56f</ndc-id>
+                <ndc-product-code>50242-073</ndc-product-code>
+                <dpd-id/>
+                <started-marketing-on>1995-12-29</started-marketing-on>
+                <ended-marketing-on/>
+                <dosage-form>injection, solution</dosage-form>
+                <strength>20 mg/2mL</strength>
+                <route>subcutaneous</route>
+                <fda-application-number>NDA020522</fda-application-number>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>US</country>
+                <source>FDA NDC</source>
+            </product>
+            <product>
+                <name>Nutropin Aq Pen Cartridge</name>
+                <ndc-id/>
+                <ndc-product-code/>
+                <dpd-id>02249002</dpd-id>
+                <started-marketing-on>2004-08-09</started-marketing-on>
+                <ended-marketing-on/>
+                <dosage-form>solution</dosage-form>
+                <strength>10 mg</strength>
+                <route>subcutaneous</route>
+                <fda-application-number/>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>Canada</country>
+                <source>DPD</source>
+            </product>
+            <product>
+                <name>Omnitrope</name>
+                <ndc-id/>
+                <ndc-product-code/>
+                <dpd-id>02325063</dpd-id>
+                <started-marketing-on>2009-04-20</started-marketing-on>
+                <ended-marketing-on/>
+                <dosage-form>solution</dosage-form>
+                <strength>5.0 mg</strength>
+                <route>subcutaneous</route>
+                <fda-application-number/>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>Canada</country>
+                <source>DPD</source>
+            </product>
+            <product>
+                <name>Omnitrope</name>
+                <ndc-id/>
+                <ndc-product-code/>
+                <dpd-id>02325071</dpd-id>
+                <started-marketing-on>2009-04-20</started-marketing-on>
+                <ended-marketing-on/>
+                <dosage-form>solution</dosage-form>
+                <strength>10.0 mg</strength>
+                <route>subcutaneous</route>
+                <fda-application-number/>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>Canada</country>
+                <source>DPD</source>
+            </product>
+            <product>
+                <name>Omnitrope</name>
+                <ndc-id/>
+                <ndc-product-code/>
+                <dpd-id>02325055</dpd-id>
+                <started-marketing-on/>
+                <ended-marketing-on/>
+                <dosage-form>kit; powder for solution</dosage-form>
+                <strength>5.8 mg</strength>
+                <route>subcutaneous</route>
+                <fda-application-number/>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>Canada</country>
+                <source>DPD</source>
+            </product>
+            <product>
+                <name>Omnitrope</name>
+                <ndc-id>0781-3001_27a5c992-5724-4ed9-a72c-d7d7e1953fc9</ndc-id>
+                <ndc-product-code>0781-3001</ndc-product-code>
+                <dpd-id/>
+                <started-marketing-on>2006-05-30</started-marketing-on>
+                <ended-marketing-on/>
+                <dosage-form>injection, solution</dosage-form>
+                <strength>5 mg/1.5mL</strength>
+                <route>subcutaneous</route>
+                <fda-application-number>NDA021426</fda-application-number>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>US</country>
+                <source>FDA NDC</source>
+            </product>
+            <product>
+                <name>Omnitrope</name>
+                <ndc-id>0781-3004_27a5c992-5724-4ed9-a72c-d7d7e1953fc9</ndc-id>
+                <ndc-product-code>0781-3004</ndc-product-code>
+                <dpd-id/>
+                <started-marketing-on>2006-05-30</started-marketing-on>
+                <ended-marketing-on/>
+                <dosage-form>injection, solution</dosage-form>
+                <strength>10 mg/1.5mL</strength>
+                <route>subcutaneous</route>
+                <fda-application-number>NDA021426</fda-application-number>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>US</country>
+                <source>FDA NDC</source>
+            </product>
+            <product>
+                <name>Saizen</name>
+                <ndc-id/>
+                <ndc-product-code/>
+                <dpd-id>02350122</dpd-id>
+                <started-marketing-on>2010-12-02</started-marketing-on>
+                <ended-marketing-on/>
+                <dosage-form>solution</dosage-form>
+                <strength>5.83 mg</strength>
+                <route>subcutaneous</route>
+                <fda-application-number/>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>Canada</country>
+                <source>DPD</source>
+            </product>
+            <product>
+                <name>Saizen</name>
+                <ndc-id/>
+                <ndc-product-code/>
+                <dpd-id>02350130</dpd-id>
+                <started-marketing-on>2010-12-02</started-marketing-on>
+                <ended-marketing-on/>
+                <dosage-form>solution</dosage-form>
+                <strength>8 mg</strength>
+                <route>subcutaneous</route>
+                <fda-application-number/>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>Canada</country>
+                <source>DPD</source>
+            </product>
+            <product>
+                <name>Saizen</name>
+                <ndc-id/>
+                <ndc-product-code/>
+                <dpd-id>02350149</dpd-id>
+                <started-marketing-on>2010-12-02</started-marketing-on>
+                <ended-marketing-on/>
+                <dosage-form>solution</dosage-form>
+                <strength>8 mg</strength>
+                <route>subcutaneous</route>
+                <fda-application-number/>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>Canada</country>
+                <source>DPD</source>
+            </product>
+            <product>
+                <name>Saizen</name>
+                <ndc-id/>
+                <ndc-product-code/>
+                <dpd-id>02237971</dpd-id>
+                <started-marketing-on>1999-10-26</started-marketing-on>
+                <ended-marketing-on/>
+                <dosage-form>powder for solution</dosage-form>
+                <strength>5 mg</strength>
+                <route>intramuscular; subcutaneous</route>
+                <fda-application-number/>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>Canada</country>
+                <source>DPD</source>
+            </product>
+            <product>
+                <name>Saizen 10iu  -  Kit</name>
+                <ndc-id/>
+                <ndc-product-code/>
+                <dpd-id>02215136</dpd-id>
+                <started-marketing-on>1996-10-17</started-marketing-on>
+                <ended-marketing-on/>
+                <dosage-form>powder for solution</dosage-form>
+                <strength>5 ml</strength>
+                <route>intramuscular; subcutaneous</route>
+                <fda-application-number/>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>Canada</country>
+                <source>DPD</source>
+            </product>
+            <product>
+                <name>Saizen 8.8mg (5.83mg/ml)</name>
+                <ndc-id/>
+                <ndc-product-code/>
+                <dpd-id>02272083</dpd-id>
+                <started-marketing-on>2006-01-23</started-marketing-on>
+                <ended-marketing-on/>
+                <dosage-form>powder for solution</dosage-form>
+                <strength>8.8 mg</strength>
+                <route>subcutaneous</route>
+                <fda-application-number/>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>Canada</country>
+                <source>DPD</source>
+            </product>
+            <product>
+                <name>Serostim</name>
+                <ndc-id/>
+                <ndc-product-code/>
+                <dpd-id>02239046</dpd-id>
+                <started-marketing-on>1999-07-28</started-marketing-on>
+                <ended-marketing-on/>
+                <dosage-form>powder for solution</dosage-form>
+                <strength>5 mg</strength>
+                <route>subcutaneous</route>
+                <fda-application-number/>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>Canada</country>
+                <source>DPD</source>
+            </product>
+            <product>
+                <name>Serostim</name>
+                <ndc-id/>
+                <ndc-product-code/>
+                <dpd-id>02239047</dpd-id>
+                <started-marketing-on>1999-06-30</started-marketing-on>
+                <ended-marketing-on>2013-07-15</ended-marketing-on>
+                <dosage-form>powder for solution</dosage-form>
+                <strength>6 mg</strength>
+                <route>subcutaneous</route>
+                <fda-application-number/>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>Canada</country>
+                <source>DPD</source>
+            </product>
+        </products>
+        <international-brands>
+            <international-brand>
+                <name>BioTropin</name>
+                <company>Biotech General</company>
+            </international-brand>
+            <international-brand>
+                <name>NutropinAQ</name>
+                <company>Genentech Inc.</company>
+            </international-brand>
+        </international-brands>
+        <mixtures>
+            <mixture>
+                <name>Norditropin</name>
+                <ingredients>Somatropin recombinant</ingredients>
+            </mixture>
+            <mixture>
+                <name>Norditropin</name>
+                <ingredients>Somatropin recombinant</ingredients>
+            </mixture>
+            <mixture>
+                <name>Norditropin</name>
+                <ingredients>Somatropin recombinant</ingredients>
+            </mixture>
+            <mixture>
+                <name>Norditropin</name>
+                <ingredients>Somatropin recombinant</ingredients>
+            </mixture>
+            <mixture>
+                <name>Omnitrope</name>
+                <ingredients>Somatropin recombinant</ingredients>
+            </mixture>
+            <mixture>
+                <name>Omnitrope</name>
+                <ingredients>Somatropin recombinant</ingredients>
+            </mixture>
+            <mixture>
+                <name>Nutropin Aq Pen 10</name>
+                <ingredients>Somatropin recombinant</ingredients>
+            </mixture>
+            <mixture>
+                <name>Nutropin Aq Pen 20</name>
+                <ingredients>Somatropin recombinant</ingredients>
+            </mixture>
+            <mixture>
+                <name>Nutropin Aq Nuspin 10</name>
+                <ingredients>Somatropin recombinant</ingredients>
+            </mixture>
+            <mixture>
+                <name>Nutropin Aq Nuspin 5</name>
+                <ingredients>Somatropin recombinant</ingredients>
+            </mixture>
+            <mixture>
+                <name>Nutropin Aq Nuspin 20</name>
+                <ingredients>Somatropin recombinant</ingredients>
+            </mixture>
+            <mixture>
+                <name>Norditropin</name>
+                <ingredients>Somatropin recombinant</ingredients>
+            </mixture>
+            <mixture>
+                <name>Saizen 10iu  -  Kit</name>
+                <ingredients>Sodium Chloride + Somatropin recombinant</ingredients>
+            </mixture>
+            <mixture>
+                <name>Saizen</name>
+                <ingredients>Somatropin recombinant</ingredients>
+            </mixture>
+            <mixture>
+                <name>Serostim</name>
+                <ingredients>Somatropin recombinant + Water</ingredients>
+            </mixture>
+            <mixture>
+                <name>Nutropin Aq Pen Cartridge</name>
+                <ingredients>Somatropin recombinant</ingredients>
+            </mixture>
+            <mixture>
+                <name>Saizen 8.8mg (5.83mg/ml)</name>
+                <ingredients>Somatropin recombinant</ingredients>
+            </mixture>
+            <mixture>
+                <name>Omnitrope</name>
+                <ingredients>Somatropin recombinant</ingredients>
+            </mixture>
+            <mixture>
+                <name>Omnitrope</name>
+                <ingredients>Somatropin recombinant</ingredients>
+            </mixture>
+            <mixture>
+                <name>Humatrope Inj 1mg/ml</name>
+                <ingredients>Somatropin recombinant</ingredients>
+            </mixture>
+            <mixture>
+                <name>Norditropin Nordiflex</name>
+                <ingredients>Somatropin recombinant</ingredients>
+            </mixture>
+            <mixture>
+                <name>Norditropin Nordiflex</name>
+                <ingredients>Somatropin recombinant</ingredients>
+            </mixture>
+            <mixture>
+                <name>Norditropin Nordiflex</name>
+                <ingredients>Somatropin recombinant</ingredients>
+            </mixture>
+            <mixture>
+                <name>Saizen</name>
+                <ingredients>Somatropin recombinant</ingredients>
+            </mixture>
+            <mixture>
+                <name>Saizen</name>
+                <ingredients>Somatropin recombinant</ingredients>
+            </mixture>
+            <mixture>
+                <name>Saizen</name>
+                <ingredients>Somatropin recombinant</ingredients>
+            </mixture>
+            <mixture>
+                <name>Nutropin Aq Nuspin 10</name>
+                <ingredients>Somatropin recombinant</ingredients>
+            </mixture>
+            <mixture>
+                <name>Nutropin Aq Nuspin 20</name>
+                <ingredients>Somatropin recombinant</ingredients>
+            </mixture>
+            <mixture>
+                <name>Nutropin Aq Nuspin 5</name>
+                <ingredients>Somatropin recombinant</ingredients>
+            </mixture>
+            <mixture>
+                <name>Genotropin</name>
+                <ingredients>Somatropin recombinant</ingredients>
+            </mixture>
+            <mixture>
+                <name>Genotropin</name>
+                <ingredients>Somatropin recombinant</ingredients>
+            </mixture>
+            <mixture>
+                <name>Genotropin</name>
+                <ingredients>Somatropin recombinant</ingredients>
+            </mixture>
+            <mixture>
+                <name>Genotropin</name>
+                <ingredients>Somatropin recombinant</ingredients>
+            </mixture>
+            <mixture>
+                <name>Genotropin</name>
+                <ingredients>Somatropin recombinant</ingredients>
+            </mixture>
+            <mixture>
+                <name>Genotropin</name>
+                <ingredients>Somatropin recombinant</ingredients>
+            </mixture>
+            <mixture>
+                <name>Genotropin</name>
+                <ingredients>Somatropin recombinant</ingredients>
+            </mixture>
+            <mixture>
+                <name>Genotropin</name>
+                <ingredients>Somatropin recombinant</ingredients>
+            </mixture>
+            <mixture>
+                <name>Genotropin</name>
+                <ingredients>Somatropin recombinant</ingredients>
+            </mixture>
+            <mixture>
+                <name>Genotropin</name>
+                <ingredients>Somatropin recombinant</ingredients>
+            </mixture>
+            <mixture>
+                <name>Nutropin - Kit  Pws(5mg) &amp; Liq(10ml) Im Sc</name>
+                <ingredients>Somatropin recombinant + Water</ingredients>
+            </mixture>
+            <mixture>
+                <name>Nutropin - Kit  Pws(10mg) &amp; Liq(10ml) Im Sc</name>
+                <ingredients>Somatropin recombinant + Water</ingredients>
+            </mixture>
+            <mixture>
+                <name>Nutropin Aq - Sc 5mg/ml</name>
+                <ingredients>Somatropin recombinant</ingredients>
+            </mixture>
+            <mixture>
+                <name>Serostim</name>
+                <ingredients>Somatropin recombinant + Water</ingredients>
+            </mixture>
+            <mixture>
+                <name>Norditropin Simplexx</name>
+                <ingredients>Somatropin recombinant</ingredients>
+            </mixture>
+            <mixture>
+                <name>Norditropin Simplexx</name>
+                <ingredients>Somatropin recombinant</ingredients>
+            </mixture>
+            <mixture>
+                <name>Norditropin Simplexx</name>
+                <ingredients>Somatropin recombinant</ingredients>
+            </mixture>
+            <mixture>
+                <name>Bio-tropin</name>
+                <ingredients>Sodium Chloride + Somatropin recombinant</ingredients>
+            </mixture>
+            <mixture>
+                <name>Bio-tropin</name>
+                <ingredients>Sodium Chloride + Somatropin recombinant</ingredients>
+            </mixture>
+            <mixture>
+                <name>Omnitrope</name>
+                <ingredients>Somatropin recombinant + Water</ingredients>
+            </mixture>
+            <mixture>
+                <name>Genotropin</name>
+                <ingredients>Somatropin recombinant</ingredients>
+            </mixture>
+            <mixture>
+                <name>Genotropin</name>
+                <ingredients>Somatropin recombinant</ingredients>
+            </mixture>
+            <mixture>
+                <name>Genotropin</name>
+                <ingredients>Somatropin recombinant</ingredients>
+            </mixture>
+        </mixtures>
+        <packagers>
+            <packager>
+                <name>Bio Technology General Ltd.</name>
+                <url/>
+            </packager>
+            <packager>
+                <name>Bristol-Myers Squibb Co.</name>
+                <url>http://www.bms.com</url>
+            </packager>
+            <packager>
+                <name>BTG Pharmaceuticals Corp.</name>
+                <url>http://www.btgplc.com</url>
+            </packager>
+            <packager>
+                <name>Ebewe Pharma</name>
+                <url>http://www.ebewe.at</url>
+            </packager>
+            <packager>
+                <name>Eli Lilly &amp; Co.</name>
+                <url>http://www.lilly.com</url>
+            </packager>
+            <packager>
+                <name>EMD Canada Inc.</name>
+                <url>http://www.emdcanada.com</url>
+            </packager>
+            <packager>
+                <name>F Hoffmann-La Roche Ltd.</name>
+                <url>http://www.roche.com</url>
+            </packager>
+            <packager>
+                <name>First KJM Corporation</name>
+                <url/>
+            </packager>
+            <packager>
+                <name>Gate Pharmaceuticals</name>
+                <url/>
+            </packager>
+            <packager>
+                <name>Genentech Inc.</name>
+                <url>http://www.gene.com</url>
+            </packager>
+            <packager>
+                <name>Hospira Inc.</name>
+                <url>http://www.hospira.com</url>
+            </packager>
+            <packager>
+                <name>Merck KGaA</name>
+                <url>http://www.merck.de</url>
+            </packager>
+            <packager>
+                <name>Merck Serono SPA</name>
+                <url>http://www.merckserono.net</url>
+            </packager>
+            <packager>
+                <name>Novartis AG</name>
+                <url>http://www.novartis.com</url>
+            </packager>
+            <packager>
+                <name>Novo Nordisk Inc.</name>
+                <url>http://www.novonordisk.com</url>
+            </packager>
+            <packager>
+                <name>Pfizer Inc.</name>
+                <url>http://www.pfizer.com</url>
+            </packager>
+            <packager>
+                <name>Pharmacia Inc.</name>
+                <url>http://www.pharmaciaupjohn.com</url>
+            </packager>
+            <packager>
+                <name>Physicians Total Care Inc.</name>
+                <url>http://www.physicianstotalcare.com</url>
+            </packager>
+            <packager>
+                <name>Sandoz</name>
+                <url>http://www.sandoz.ca</url>
+            </packager>
+            <packager>
+                <name>Serono SA</name>
+                <url>http://www.merckserono.net</url>
+            </packager>
+            <packager>
+                <name>Vetter Pharma Fertigung GmbH and Co. KG</name>
+                <url>http://www.vetter-pharma.com</url>
+            </packager>
+            <packager>
+                <name>Wasserburger Arzneimittelwerk GmbH</name>
+                <url/>
+            </packager>
+        </packagers>
+        <manufacturers>
+            <manufacturer generic="false">Genentech inc</manufacturer>
+            <manufacturer generic="false">Serono laboratories inc</manufacturer>
+            <manufacturer generic="false">Cangene corp</manufacturer>
+            <manufacturer generic="false">Ferring pharmaceuticals inc</manufacturer>
+            <manufacturer generic="false">Pharmacia and upjohn co</manufacturer>
+            <manufacturer generic="false">Eli lilly and co</manufacturer>
+            <manufacturer generic="false">Novo nordisk inc</manufacturer>
+            <manufacturer generic="false">Sandoz inc</manufacturer>
+            <manufacturer generic="false">Emd serono inc</manufacturer>
+            <manufacturer generic="false">Lg life sciences ltd</manufacturer>
+        </manufacturers>
+        <prices>
+            <price>
+                <description>Genotropin miniquick 0.2 mg</description>
+                <cost currency="USD">15.05</cost>
+                <unit>each</unit>
+            </price>
+            <price>
+                <description>Genotropin miniquick 0.4 mg</description>
+                <cost currency="USD">30.09</cost>
+                <unit>each</unit>
+            </price>
+            <price>
+                <description>Genotropin miniquick 0.6 mg</description>
+                <cost currency="USD">45.14</cost>
+                <unit>each</unit>
+            </price>
+            <price>
+                <description>Genotropin miniquick 0.8 mg</description>
+                <cost currency="USD">60.19</cost>
+                <unit>each</unit>
+            </price>
+            <price>
+                <description>Genotropin miniquick 1 mg</description>
+                <cost currency="USD">75.23</cost>
+                <unit>each</unit>
+            </price>
+            <price>
+                <description>Genotropin MiniQuick 1 mg (7 Cartridges Per Box)</description>
+                <cost currency="USD">77.36</cost>
+                <unit>cartridge</unit>
+            </price>
+            <price>
+                <description>Genotropin miniquick 1.2 mg</description>
+                <cost currency="USD">90.28</cost>
+                <unit>each</unit>
+            </price>
+            <price>
+                <description>Genotropin MiniQuick 1.2 mg (7 Cartridges Per Box)</description>
+                <cost currency="USD">92.83</cost>
+                <unit>cartridge</unit>
+            </price>
+            <price>
+                <description>Genotropin miniquick 1.4 mg</description>
+                <cost currency="USD">105.32</cost>
+                <unit>each</unit>
+            </price>
+            <price>
+                <description>Genotropin MiniQuick 1.4 mg (7 Cartridges Per Box)</description>
+                <cost currency="USD">108.78</cost>
+                <unit>cartridge</unit>
+            </price>
+            <price>
+                <description>Genotropin MiniQuick 0.2 mg (7 Cartridges Per Box)</description>
+                <cost currency="USD">110.52</cost>
+                <unit>box</unit>
+            </price>
+            <price>
+                <description>Genotropin miniquick 1.6 mg</description>
+                <cost currency="USD">120.37</cost>
+                <unit>each</unit>
+            </price>
+            <price>
+                <description>Genotropin MiniQuick 1.6 mg (7 Cartridges Per Box)</description>
+                <cost currency="USD">123.78</cost>
+                <unit>cartridge</unit>
+            </price>
+            <price>
+                <description>Genotropin miniquick 1.8 mg</description>
+                <cost currency="USD">135.41</cost>
+                <unit>each</unit>
+            </price>
+            <price>
+                <description>Genotropin miniquick 2 mg</description>
+                <cost currency="USD">150.46</cost>
+                <unit>each</unit>
+            </price>
+            <price>
+                <description>Genotropin MiniQuick 2 mg (7 Cartridges Per Box)</description>
+                <cost currency="USD">154.72</cost>
+                <unit>cartridge</unit>
+            </price>
+            <price>
+                <description>Serostim 4 mg vial</description>
+                <cost currency="USD">221.9</cost>
+                <unit>vial</unit>
+            </price>
+            <price>
+                <description>Genotropin MiniQuick 0.4 mg (7 Cartridges Per Box)</description>
+                <cost currency="USD">228.45</cost>
+                <unit>box</unit>
+            </price>
+            <price>
+                <description>Tev-tropin 5 mg vial</description>
+                <cost currency="USD">239.51</cost>
+                <unit>vial</unit>
+            </price>
+            <price>
+                <description>Tev-Tropin 5 mg Solution Vial</description>
+                <cost currency="USD">259.45</cost>
+                <unit>vial</unit>
+            </price>
+            <price>
+                <description>Protropin 5 mg Solution Vial</description>
+                <cost currency="USD">274.95</cost>
+                <unit>vial</unit>
+            </price>
+            <price>
+                <description>Serostim 5 mg vial</description>
+                <cost currency="USD">277.38</cost>
+                <unit>vial</unit>
+            </price>
+            <price>
+                <description>Omnitrope 5.8 mg Solution Vial</description>
+                <cost currency="USD">283.38</cost>
+                <unit>vial</unit>
+            </price>
+            <price>
+                <description>Genotropin MiniQuick 0.6 mg (7 Cartridges Per Box)</description>
+                <cost currency="USD">326.67</cost>
+                <unit>box</unit>
+            </price>
+            <price>
+                <description>Serostim 6 mg vial</description>
+                <cost currency="USD">332.86</cost>
+                <unit>vial</unit>
+            </price>
+            <price>
+                <description>Saizen 5 mg vial</description>
+                <cost currency="USD">376.26</cost>
+                <unit>vial</unit>
+            </price>
+            <price>
+                <description>Norditropin 5 mg/1.5ml Solution 1.5ml Cartridge</description>
+                <cost currency="USD">389.44</cost>
+                <unit>cartridge</unit>
+            </price>
+            <price>
+                <description>Norditropin NordiFlex Pen 5 mg/1.5ml Solution 1 Syringe = 1.5ml</description>
+                <cost currency="USD">389.44</cost>
+                <unit>pen</unit>
+            </price>
+            <price>
+                <description>Genotropin 5.8 mg Cartridge</description>
+                <cost currency="USD">391.21</cost>
+                <unit>cartridge</unit>
+            </price>
+            <price>
+                <description>Saizen 5 mg Solution Vial</description>
+                <cost currency="USD">391.31</cost>
+                <unit>vial</unit>
+            </price>
+            <price>
+                <description>Nutropin 5 mg vial</description>
+                <cost currency="USD">392.35</cost>
+                <unit>vial</unit>
+            </price>
+            <price>
+                <description>Serostim 8.8 mg vial</description>
+                <cost currency="USD">418.66</cost>
+                <unit>vial</unit>
+            </price>
+            <price>
+                <description>Genotropin MiniQuick 0.8 mg (7 Cartridges Per Box)</description>
+                <cost currency="USD">433.56</cost>
+                <unit>box</unit>
+            </price>
+            <price>
+                <description>Humatrope 6 mg cartridge</description>
+                <cost currency="USD">455.72</cost>
+                <unit>cartridge</unit>
+            </price>
+            <price>
+                <description>Protropin 10 mg Solution Vial</description>
+                <cost currency="USD">549.9</cost>
+                <unit>vial</unit>
+            </price>
+            <price>
+                <description>Saizen 8.8 mg vial</description>
+                <cost currency="USD">602.02</cost>
+                <unit>vial</unit>
+            </price>
+            <price>
+                <description>Saizen 8.8 mg Solution Vial</description>
+                <cost currency="USD">626.1</cost>
+                <unit>vial</unit>
+            </price>
+            <price>
+                <description>Saizen Click.Easy 8.8 mg Solution Vial</description>
+                <cost currency="USD">626.1</cost>
+                <unit>vial</unit>
+            </price>
+            <price>
+                <description>Norditropin nordiflex 30 mg/3</description>
+                <cost currency="USD">748.92</cost>
+                <unit>ml</unit>
+            </price>
+            <price>
+                <description>Norditropin NordiFlex Pen 10 mg/1.5ml Solution 1 Syringe = 1.5ml</description>
+                <cost currency="USD">753.86</cost>
+                <unit>pen</unit>
+            </price>
+            <price>
+                <description>Nutropin aq 20 mg/2ml pen cart</description>
+                <cost currency="USD">759.55</cost>
+                <unit>ml</unit>
+            </price>
+            <price>
+                <description>Nutropin aq nuspin 20 pen cart</description>
+                <cost currency="USD">759.55</cost>
+                <unit>ml</unit>
+            </price>
+            <price>
+                <description>Nutropin 10 mg vial</description>
+                <cost currency="USD">784.7</cost>
+                <unit>vial</unit>
+            </price>
+            <price>
+                <description>Humatrope 12 mg cartridge</description>
+                <cost currency="USD">911.45</cost>
+                <unit>cartridge</unit>
+            </price>
+            <price>
+                <description>Genotropin 12 mg Solution</description>
+                <cost currency="USD">928.36</cost>
+                <unit>each</unit>
+            </price>
+            <price>
+                <description>Norditropin 15 mg/1.5 ml cartridge</description>
+                <cost currency="USD">1123.38</cost>
+                <unit>ml</unit>
+            </price>
+            <price>
+                <description>Norditropin nordiflx 15 mg/1.5</description>
+                <cost currency="USD">1123.38</cost>
+                <unit>ml</unit>
+            </price>
+            <price>
+                <description>Norditropin 15 mg/1.5ml Solution 1.5ml Cartridge</description>
+                <cost currency="USD">1168.32</cost>
+                <unit>cartridge</unit>
+            </price>
+            <price>
+                <description>Norditropin NordiFlex Pen 15 mg/1.5ml Solution 1 Syringe = 1.5ml</description>
+                <cost currency="USD">1168.32</cost>
+                <unit>pen</unit>
+            </price>
+            <price>
+                <description>Norditropin flexpro 15 mg/1.5</description>
+                <cost currency="USD">1179.54</cost>
+                <unit>ml</unit>
+            </price>
+            <price>
+                <description>Humatrope 24 mg cartridge</description>
+                <cost currency="USD">1822.9</cost>
+                <unit>cartridge</unit>
+            </price>
+        </prices>
+        <categories>
+            <category>
+                <category>Hormone Replacement Agents</category>
+                <mesh-id/>
+            </category>
+        </categories>
+        <affected-organisms>
+            <affected-organism>Humans and other mammals</affected-organism>
+        </affected-organisms>
+        <dosages>
+            <dosage>
+                <form>Liquid; powder for solution</form>
+                <route>subcutaneous</route>
+                <strength>10 ml</strength>
+            </dosage>
+            <dosage>
+                <form>Powder for solution</form>
+                <route>subcutaneous</route>
+                <strength>0.2 mg</strength>
+            </dosage>
+            <dosage>
+                <form>Powder for solution</form>
+                <route>subcutaneous</route>
+                <strength>0.4 mg</strength>
+            </dosage>
+            <dosage>
+                <form>Powder for solution</form>
+                <route>subcutaneous</route>
+                <strength>0.6 mg</strength>
+            </dosage>
+            <dosage>
+                <form>Powder for solution</form>
+                <route>subcutaneous</route>
+                <strength>0.8 mg</strength>
+            </dosage>
+            <dosage>
+                <form>Powder for solution</form>
+                <route>subcutaneous</route>
+                <strength>1.0 mg</strength>
+            </dosage>
+            <dosage>
+                <form>Powder for solution</form>
+                <route>subcutaneous</route>
+                <strength>1.2 mg</strength>
+            </dosage>
+            <dosage>
+                <form>Powder for solution</form>
+                <route>subcutaneous</route>
+                <strength>1.4 mg</strength>
+            </dosage>
+            <dosage>
+                <form>Powder for solution</form>
+                <route>subcutaneous</route>
+                <strength>1.6 mg</strength>
+            </dosage>
+            <dosage>
+                <form>Powder for solution</form>
+                <route>subcutaneous</route>
+                <strength>1.8 mg</strength>
+            </dosage>
+            <dosage>
+                <form>Powder for solution</form>
+                <route>subcutaneous</route>
+                <strength>12 mg</strength>
+            </dosage>
+            <dosage>
+                <form>Powder for solution</form>
+                <route>subcutaneous</route>
+                <strength>2.0 mg</strength>
+            </dosage>
+            <dosage>
+                <form>Powder for solution</form>
+                <route>subcutaneous</route>
+                <strength>5 mg</strength>
+            </dosage>
+            <dosage>
+                <form>Powder for solution</form>
+                <route>subcutaneous</route>
+                <strength>5.3 mg</strength>
+            </dosage>
+            <dosage>
+                <form>Powder for solution</form>
+                <route>intramuscular; subcutaneous</route>
+                <strength>1 mg</strength>
+            </dosage>
+            <dosage>
+                <form>Injection, solution</form>
+                <route>subcutaneous</route>
+                <strength>10 mg/1.5mL</strength>
+            </dosage>
+            <dosage>
+                <form>Injection, solution</form>
+                <route>subcutaneous</route>
+                <strength>15 mg/1.5mL</strength>
+            </dosage>
+            <dosage>
+                <form>Injection, solution</form>
+                <route>subcutaneous</route>
+                <strength>30 mg/3mL</strength>
+            </dosage>
+            <dosage>
+                <form>Injection, solution</form>
+                <route>subcutaneous</route>
+                <strength>5 mg/1.5mL</strength>
+            </dosage>
+            <dosage>
+                <form>Solution</form>
+                <route>subcutaneous</route>
+                <strength>15 mg</strength>
+            </dosage>
+            <dosage>
+                <form>Solution</form>
+                <route>subcutaneous</route>
+                <strength>5 mg</strength>
+            </dosage>
+            <dosage>
+                <form>Kit; powder for solution</form>
+                <route>intramuscular; subcutaneous</route>
+                <strength>10 mg</strength>
+            </dosage>
+            <dosage>
+                <form>Kit; powder for solution</form>
+                <route>intramuscular; subcutaneous</route>
+                <strength>5 mg</strength>
+            </dosage>
+            <dosage>
+                <form>Liquid</form>
+                <route>subcutaneous</route>
+                <strength>5 mg</strength>
+            </dosage>
+            <dosage>
+                <form>Solution</form>
+                <route>subcutaneous</route>
+                <strength>20 mg</strength>
+            </dosage>
+            <dosage>
+                <form>Injection, solution</form>
+                <route>subcutaneous</route>
+                <strength>5 mg/2mL</strength>
+            </dosage>
+            <dosage>
+                <form>Injection, solution</form>
+                <route>subcutaneous</route>
+                <strength>10 mg/2mL</strength>
+            </dosage>
+            <dosage>
+                <form>Injection, solution</form>
+                <route>subcutaneous</route>
+                <strength>20 mg/2mL</strength>
+            </dosage>
+            <dosage>
+                <form>Solution</form>
+                <route>subcutaneous</route>
+                <strength>10 mg</strength>
+            </dosage>
+            <dosage>
+                <form>Kit; powder for solution</form>
+                <route>subcutaneous</route>
+                <strength>5.8 mg</strength>
+            </dosage>
+            <dosage>
+                <form>Solution</form>
+                <route>subcutaneous</route>
+                <strength>10.0 mg</strength>
+            </dosage>
+            <dosage>
+                <form>Solution</form>
+                <route>subcutaneous</route>
+                <strength>5.0 mg</strength>
+            </dosage>
+            <dosage>
+                <form>Powder for solution</form>
+                <route>intramuscular; subcutaneous</route>
+                <strength>5 mg</strength>
+            </dosage>
+            <dosage>
+                <form>Solution</form>
+                <route>subcutaneous</route>
+                <strength>5.83 mg</strength>
+            </dosage>
+            <dosage>
+                <form>Solution</form>
+                <route>subcutaneous</route>
+                <strength>8 mg</strength>
+            </dosage>
+            <dosage>
+                <form>Powder for solution</form>
+                <route>intramuscular; subcutaneous</route>
+                <strength>5 ml</strength>
+            </dosage>
+            <dosage>
+                <form>Powder for solution</form>
+                <route>subcutaneous</route>
+                <strength>8.8 mg</strength>
+            </dosage>
+            <dosage>
+                <form>Powder for solution</form>
+                <route>subcutaneous</route>
+                <strength>5 mg</strength>
+            </dosage>
+            <dosage>
+                <form>Powder for solution</form>
+                <route>subcutaneous</route>
+                <strength>6 mg</strength>
+            </dosage>
+        </dosages>
+        <atc-codes>
+            <atc-code code="H01AC01">
+                <level code="H">SYSTEMIC HORMONAL PREPARATIONS, EXCL. SEX HORMONES AND INSULINS</level>
+                <level code="H01">PITUITARY AND HYPOTHALAMIC HORMONES AND ANALOGUES</level>
+                <level code="H01A">ANTERIOR PITUITARY LOBE HORMONES AND ANALOGUES</level>
+                <level code="H01AC">Somatropin and somatropin agonists</level>
+            </atc-code>
+        </atc-codes>
+        <ahfs-codes/>
+        <patents>
+            <patent>
+                <number>1326439</number>
+                <country>Canada</country>
+                <approved>1994-01-25</approved>
+                <expires>2011-01-25</expires>
+            </patent>
+            <patent>
+                <number>2252535</number>
+                <country>Canada</country>
+                <approved>2009-06-23</approved>
+                <expires>2017-04-24</expires>
+            </patent>
+            <patent>
+                <number>5288703</number>
+                <country>United States</country>
+                <approved>1994-10-07</approved>
+                <expires>2011-10-07</expires>
+            </patent>
+            <patent>
+                <number>6152897</number>
+                <country>United States</country>
+                <approved>1998-11-20</approved>
+                <expires>2018-11-20</expires>
+            </patent>
+        </patents>
+        <food-interactions/>
+        <drug-interactions>
+            <drug-interaction>
+                <drugbank-id>DB01380</drugbank-id>
+                <name>Cortisone acetate</name>
+                <description>May diminish the therapeutic effect of Cortisone. Growth hormone may reduce the conversion of cortisone to the active cortisol metabolite.</description>
+            </drug-interaction>
+            <drug-interaction>
+                <drugbank-id>DB01395</drugbank-id>
+                <name>Drospirenone</name>
+                <description>Estrogen Derivatives may diminish the therapeutic effect of Somatropin. Shown to be a concern with oral hormone replacement therapy in postmenopausal women.</description>
+            </drug-interaction>
+            <drug-interaction>
+                <drugbank-id>DB00783</drugbank-id>
+                <name>Estradiol</name>
+                <description>Estrogen Derivatives may diminish the therapeutic effect of Somatropin. Shown to be a concern with oral hormone replacement therapy in postmenopausal women.</description>
+            </drug-interaction>
+            <drug-interaction>
+                <drugbank-id>DB04574</drugbank-id>
+                <name>Estropipate</name>
+                <description>Estrogen Derivatives may diminish the therapeutic effect of Somatropin. Shown to be a concern with oral hormone replacement therapy in postmenopausal women.</description>
+            </drug-interaction>
+            <drug-interaction>
+                <drugbank-id>DB00957</drugbank-id>
+                <name>Norgestimate</name>
+                <description>Estrogen Derivatives may diminish the therapeutic effect of Somatropin. Shown to be a concern with oral hormone replacement therapy in postmenopausal women.</description>
+            </drug-interaction>
+            <drug-interaction>
+                <drugbank-id>DB00592</drugbank-id>
+                <name>Piperazine</name>
+                <description>Estrogen Derivatives may diminish the therapeutic effect of Somatropin. Shown to be a concern with oral hormone replacement therapy in postmenopausal women.</description>
+            </drug-interaction>
+            <drug-interaction>
+                <drugbank-id>DB00635</drugbank-id>
+                <name>Prednisone</name>
+                <description>May diminish the therapeutic effect of Prednisone. Growth hormone may reduce the conversion of Prednisone to the active prednisolone metabolite.</description>
+            </drug-interaction>
+        </drug-interactions>
+        <sequences>
+            <sequence format="FASTA">&gt;DB00052 sequence
+                FPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPT
+                PSNREETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEG
+                IQTLMGRLEDGSPRTGQIFKQTYSKFDTNSHNDDALLKNYGLLYCFRKDMDKVETFLRIV
+                QCRSVEGSCGF</sequence>
+        </sequences>
+        <experimental-properties>
+            <property>
+                <kind>Melting Point</kind>
+                <value>76 °C at pH 3.5</value>
+                <source>Gomez-Orellana, I. et al., Protein Sci. 7:1352-1358 (1998)</source>
+            </property>
+            <property>
+                <kind>Hydrophobicity</kind>
+                <value>-0.411</value>
+                <source/>
+            </property>
+            <property>
+                <kind>Isoelectric Point</kind>
+                <value>5.27</value>
+                <source/>
+            </property>
+            <property>
+                <kind>Molecular Weight</kind>
+                <value>22129.0000</value>
+                <source/>
+            </property>
+            <property>
+                <kind>Molecular Formula</kind>
+                <value>C990H1532N262O300S7</value>
+                <source/>
+            </property>
+        </experimental-properties>
+        <external-identifiers>
+            <external-identifier>
+                <resource>Drugs Product Database (DPD)</resource>
+                <identifier>7364</identifier>
+            </external-identifier>
+            <external-identifier>
+                <resource>National Drug Code Directory</resource>
+                <identifier>0169-7704-21</identifier>
+            </external-identifier>
+            <external-identifier>
+                <resource>GenBank</resource>
+                <identifier>AF374232</identifier>
+            </external-identifier>
+            <external-identifier>
+                <resource>PharmGKB</resource>
+                <identifier>PA451446</identifier>
+            </external-identifier>
+            <external-identifier>
+                <resource>UniProtKB</resource>
+                <identifier>P58756</identifier>
+            </external-identifier>
+            <external-identifier>
+                <resource>Wikipedia</resource>
+                <identifier>Somatropin_recombinant</identifier>
+            </external-identifier>
+        </external-identifiers>
+        <external-links>
+            <external-link>
+                <resource>RxList</resource>
+                <url>http://www.rxlist.com/cgi/generic3/nutropin.htm</url>
+            </external-link>
+            <external-link>
+                <resource>Drugs.com</resource>
+                <url>http://www.drugs.com/cdi/somatropin-rdna-origin-nonrefrigerated.html</url>
+            </external-link>
+        </external-links>
+        <pathways/>
+        <reactions/>
+        <snp-effects/>
+        <snp-adverse-drug-reactions/>
+        <targets>
+            <target>
+                <id>BE0000075</id>
+                <name>Growth hormone receptor</name>
+                <organism>Human</organism>
+                <actions>
+                    <action>binder</action>
+                </actions>
+                <references># Walenkamp MJ, Wit JM: Genetic disorders in the growth hormone - insulin-like growth factor-I axis. Horm Res. 2006;66(5):221-30. "Pubmed":http://www.ncbi.nlm.nih.gov/pubmed/16917171&#13;
+                    # Wu XY, Xu Z, Chen C, Liu FK, Li JS: [Correlation of growth hormone receptor expression to preoperative radiosensitivity of rectal cancer patients] Ai Zheng. 2006 Sep;25(9):1162-7. "Pubmed":http://www.ncbi.nlm.nih.gov/pubmed/16965663&#13;
+                    # Adriani M, Garbi C, Amodio G, Russo I, Giovannini M, Amorosi S, Matrecano E, Cosentini E, Candotti F, Pignata C: Functional interaction of common gamma-chain and growth hormone receptor signaling apparatus. J Immunol. 2006 Nov 15;177(10):6889-95. "Pubmed":http://www.ncbi.nlm.nih.gov/pubmed/17082603&#13;
+                    # Choi JH, Kim HS, Kim SH, Yang YR, Bae YS, Chang JS, Kwon HM, Ryu SH, Suh PG: Phospholipase Cgamma1 negatively regulates growth hormone signalling by forming a ternary complex with Jak2 and protein tyrosine phosphatase-1B. Nat Cell Biol. 2006 Dec;8(12):1389-97. Epub 2006 Nov 26. "Pubmed":http://www.ncbi.nlm.nih.gov/pubmed/17128263&#13;
+                    # Bernstein RM, Leigh SR, Donovan SM, Monaco MH: Hormones and body size evolution in papionin primates. Am J Phys Anthropol. 2007 Feb;132(2):247-60. "Pubmed":http://www.ncbi.nlm.nih.gov/pubmed/17133434&#13;
+                    # Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5. "Pubmed":http://www.ncbi.nlm.nih.gov/pubmed/11752352</references>
+                <known-action>yes</known-action>
+                <polypeptide id="P10912" source="Swiss-Prot">
+                    <name>Growth hormone receptor</name>
+                    <general-function>Involved in hematopoietin/interferon-class (D200-domain) cytokine receptor activity</general-function>
+                    <specific-function>Isoform 2 up-regulates the production of GHBP and acts as a negative inhibitor of GH signaling</specific-function>
+                    <gene-name>GHR</gene-name>
+                    <locus>5p13-p12</locus>
+                    <cellular-location>Cell membrane; single-pass type I membrane protein. GHBP:Secreted protein. On growth hormone binding</cellular-location>
+                    <transmembrane-regions>265-288</transmembrane-regions>
+                    <signal-regions/>
+                    <theoretical-pi>4.51</theoretical-pi>
+                    <molecular-weight>71500.0</molecular-weight>
+                    <chromosome-location/>
+                    <organism ncbi-taxonomy-id="9606">Human</organism>
+                    <external-identifiers>
+                        <external-identifier>
+                            <resource>HUGO Gene Nomenclature Committee (HGNC)</resource>
+                            <identifier>HGNC:4263</identifier>
+                        </external-identifier>
+                        <external-identifier>
+                            <resource>GenAtlas</resource>
+                            <identifier>GHR</identifier>
+                        </external-identifier>
+                        <external-identifier>
+                            <resource>GeneCards</resource>
+                            <identifier>GHR</identifier>
+                        </external-identifier>
+                        <external-identifier>
+                            <resource>GenBank Gene Database</resource>
+                            <identifier>X06562</identifier>
+                        </external-identifier>
+                        <external-identifier>
+                            <resource>GenBank Protein Database</resource>
+                            <identifier>31738</identifier>
+                        </external-identifier>
+                        <external-identifier>
+                            <resource>UniProtKB</resource>
+                            <identifier>P10912</identifier>
+                        </external-identifier>
+                        <external-identifier>
+                            <resource>UniProt Accession</resource>
+                            <identifier>GHR_HUMAN</identifier>
+                        </external-identifier>
+                    </external-identifiers>
+                    <synonyms>
+                        <synonym>GH receptor</synonym>
+                        <synonym>Growth hormone receptor precursor</synonym>
+                        <synonym>Somatotropin receptor</synonym>
+                    </synonyms>
+                    <amino-acid-sequence format="FASTA">&gt;Growth hormone receptor precursor
+                        MDLWQLLLTLALAGSSDAFSGSEATAAILSRAPWSLQSVNPGLKTNSSKEPKFTKCRSPE
+                        RETFSCHWTDEVHHGTKNLGPIQLFYTRRNTQEWTQEWKECPDYVSAGENSCYFNSSFTS
+                        IWIPYCIKLTSNGGTVDEKCFSVDEIVQPDPPIALNWTLLNVSLTGIHADIQVRWEAPRN
+                        ADIQKGWMVLEYELQYKEVNETKWKMMDPILTTSVPVYSLKVDKEYEVRVRSKQRNSGNY
+                        GEFSEVLYVTLPQMSQFTCEEDFYFPWLLIIIFGIFGLTVMLFVFLFSKQQRIKMLILPP
+                        VPVPKIKGIDPDLLKEGKLEEVNTILAIHDSYKPEFHSDDSWVEFIELDIDEPDEKTEES
+                        DTDRLLSSDHEKSHSNLGVKDGDSGRTSCCEPDILETDFNANDIHEGTSEVAQPQRLKGE
+                        ADLLCLDQKNQNNSPYHDACPATQQPSVIQAEKNKPQPLPTEGAESTHQAAHIQLSNPSS
+                        LSNIDFYAQVSDITPAGSVVLSPGQKNKAGMSQCDMHPEMVSLCQENFLMDNAYFCEADA
+                        KKCIPVAPHIKVESHIQPSLNQEDIYITTESLTTAAGRPGTGEHVPGSEMPVPDYTSIHI
+                        VQSPQGLILNATALPLPDKEFLSSCGYVSTDQLNKIMP</amino-acid-sequence>
+                    <gene-sequence format="FASTA">&gt;1917 bp
+                        ATGGATCTCTGGCAGCTGCTGTTGACCTTGGCACTGGCAGGATCAAGTGATGCTTTTTCT
+                        GGAAGTGAGGCCACAGCAGCTATCCTTAGCAGAGCACCCTGGAGTCTGCAAAGTGTTAAT
+                        CCAGGCCTAAAGACAAATTCTTCTAAGGAGCCTAAATTCACCAAGTGCCGTTCACCTGAG
+                        CGAGAGACTTTTTCATGCCACTGGACAGATGAGGTTCATCATGGTACAAAGAACCTAGGA
+                        CCCATACAGCTGTTCTATACCAGAAGGAACACTCAAGAATGGACTCAAGAATGGAAAGAA
+                        TGCCCTGATTATGTTTCTGCTGGGGAAAACAGCTGTTACTTTAATTCATCGTTTACCTCC
+                        ATCTGGATACCTTATTGTATCAAGCTAACTAGCAATGGTGGTACAGTGGATGAAAAGTGT
+                        TTCTCTGTTGATGAAATAGTGCAACCAGATCCACCCATTGCCCTCAACTGGACTTTACTG
+                        AACGTCAGTTTAACTGGGATTCATGCAGATATCCAAGTGAGATGGGAAGCACCACGCAAT
+                        GCAGATATTCAGAAAGGATGGATGGTTCTGGAGTATGAACTTCAATACAAAGAAGTAAAT
+                        GAAACTAAATGGAAAATGATGGACCCTATATTGACAACATCAGTTCCAGTGTACTCATTG
+                        AAAGTGGATAAGGAATATGAAGTGCGTGTGAGATCCAAACAACGAAACTCTGGAAATTAT
+                        GGCGAGTTCAGTGAGGTGCTCTATGTAACACTTCCTCAGATGAGCCAATTTACATGTGAA
+                        GAAGATTTCTACTTTCCATGGCTCTTAATTATTATCTTTGGAATATTTGGGCTAACAGTG
+                        ATGCTATTTGTATTCTTATTTTCTAAACAGCAAAGGATTAAAATGCTGATTCTGCCCCCA
+                        GTTCCAGTTCCAAAGATTAAAGGAATCGATCCAGATCTCCTCAAGGAAGGAAAATTAGAG
+                        GAGGTGAACACAATCTTAGCCATTCATGATAGCTATAAACCCGAATTCCACAGTGATGAC
+                        TCTTGGGTTGAATTTATTGAGCTAGATATTGATGAGCCAGATGAAAAGACTGAGGAATCA
+                        GACACAGACAGACTTCTAAGCAGTGACCATGAGAAATCACATAGTAACCTAGGGGTGAAG
+                        GATGGCGACTCTGGACGTACCAGCTGTTGTGAACCTGACATTCTGGAGACTGATTTCAAT
+                        GCCAATGACATACATGAGGGTACCTCAGAGGTTGCTCAGCCACAGAGGTTAAAAGGGGAA
+                        GCAGATCTCTTATGCCTTGACCAGAAGAATCAAAATAACTCACCTTATCATGATGCTTGC
+                        CCTGCTACTCAGCAGCCCAGTGTTATCCAAGCAGAGAAAAACAAACCACAACCACTTCCT
+                        ACTGAAGGAGCTGAGTCAACTCACCAAGCTGCCCATATTCAGCTAAGCAATCCAAGTTCA
+                        CTGTCAAACATCGACTTTTATGCCCAGGTGAGCGACATTACACCAGCAGGTAGTGTGGTC
+                        CTTTCCCCGGGCCAAAAGAATAAGGCAGGGATGTCCCAATGTGACATGCACCCGGAAATG
+                        GTCTCACTCTGCCAAGAAAACTTCCTTATGGACAATGCCTACTTCTGTGAGGCAGATGCC
+                        AAAAAGTGCATCCCTGTGGCTCCTCACATCAAGGTTGAATCACACATACAGCCAAGCTTA
+                        AACCAAGAGGACATTTACATCACCACAGAAAGCCTTACCACTGCTGCTGGGAGGCCTGGG
+                        ACAGGAGAACATGTTCCAGGTTCTGAGATGCCTGTCCCAGACTATACCTCCATTCATATA
+                        GTACAGTCCCCACAGGGCCTCATACTCAATGCGACTGCCTTGCCCTTGCCTGACAAAGAG
+                        TTTCTCTCATCATGTGGCTATGTGAGCACAGACCAACTGAACAAAATCATGCCTTAG</gene-sequence>
+                    <pfams>
+                        <pfam>
+                            <identifier>PF00041</identifier>
+                            <name>fn3</name>
+                        </pfam>
+                    </pfams>
+                    <go-classifiers>
+                        <go-classifier>
+                            <category>component</category>
+                            <description>cell</description>
+                        </go-classifier>
+                        <go-classifier>
+                            <category>component</category>
+                            <description>membrane</description>
+                        </go-classifier>
+                        <go-classifier>
+                            <category>function</category>
+                            <description>signal transducer activity</description>
+                        </go-classifier>
+                        <go-classifier>
+                            <category>function</category>
+                            <description>receptor activity</description>
+                        </go-classifier>
+                        <go-classifier>
+                            <category>function</category>
+                            <description>transmembrane receptor activity</description>
+                        </go-classifier>
+                        <go-classifier>
+                            <category>function</category>
+                            <description>hematopoietin/interferon-class (D200-domain) cytokine receptor activity</description>
+                        </go-classifier>
+                    </go-classifiers>
+                </polypeptide>
+            </target>
+            <target>
+                <id>BE0000345</id>
+                <name>Prolactin receptor</name>
+                <organism>Human</organism>
+                <actions/>
+                <references># Keeler C, Jablonski EM, Albert YB, Taylor BD, Myszka DG, Clevenger CV, Hodsdon ME: The kinetics of binding human prolactin, but not growth hormone, to the prolactin receptor vary over a physiologic pH range. Biochemistry. 2007 Mar 6;46(9):2398-410. Epub 2007 Feb 6. "Pubmed":http://www.ncbi.nlm.nih.gov/pubmed/17279774&#13;
+                    # Ahmed TA, Buzzelli MD, Lang CH, Capen JB, Shumate ML, Navaratnarajah M, Nagarajan M, Cooney RN: Interleukin-6 inhibits growth hormone-mediated gene expression in hepatocytes. Am J Physiol Gastrointest Liver Physiol. 2007 Jun;292(6):G1793-803. Epub 2007 Mar 29. "Pubmed":http://www.ncbi.nlm.nih.gov/pubmed/17395896&#13;
+                    # Moderscheim TA, Gorba T, Pathipati P, Kokay IC, Grattan DR, Williams CE, Scheepens A: Prolactin is involved in glial responses following a focal injury to the juvenile rat brain. Neuroscience. 2007 Mar 30;145(3):963-73. Epub 2007 Feb 20. "Pubmed":http://www.ncbi.nlm.nih.gov/pubmed/17317019&#13;
+                    # Cunningham BC, Bass S, Fuh G, Wells JA: Zinc mediation of the binding of human growth hormone to the human prolactin receptor. Science. 1990 Dec 21;250(4988):1709-12. "Pubmed":http://www.ncbi.nlm.nih.gov/pubmed/2270485</references>
+                <known-action>yes</known-action>
+                <polypeptide id="P16471" source="Swiss-Prot">
+                    <name>Prolactin receptor</name>
+                    <general-function>Involved in hematopoietin/interferon-class (D200-domain) cytokine receptor activity</general-function>
+                    <specific-function>This is a receptor for the anterior pituitary hormone prolactin</specific-function>
+                    <gene-name>PRLR</gene-name>
+                    <locus>5p14-p13</locus>
+                    <cellular-location>Membrane; single-pass type I membrane protein</cellular-location>
+                    <transmembrane-regions>235-258</transmembrane-regions>
+                    <signal-regions/>
+                    <theoretical-pi>5.08</theoretical-pi>
+                    <molecular-weight>69506.0</molecular-weight>
+                    <chromosome-location/>
+                    <organism ncbi-taxonomy-id="9606">Human</organism>
+                    <external-identifiers>
+                        <external-identifier>
+                            <resource>HUGO Gene Nomenclature Committee (HGNC)</resource>
+                            <identifier>HGNC:9446</identifier>
+                        </external-identifier>
+                        <external-identifier>
+                            <resource>GenAtlas</resource>
+                            <identifier>PRLR</identifier>
+                        </external-identifier>
+                        <external-identifier>
+                            <resource>GeneCards</resource>
+                            <identifier>PRLR</identifier>
+                        </external-identifier>
+                        <external-identifier>
+                            <resource>GenBank Gene Database</resource>
+                            <identifier>M31661</identifier>
+                        </external-identifier>
+                        <external-identifier>
+                            <resource>GenBank Protein Database</resource>
+                            <identifier>190362</identifier>
+                        </external-identifier>
+                        <external-identifier>
+                            <resource>UniProtKB</resource>
+                            <identifier>P16471</identifier>
+                        </external-identifier>
+                        <external-identifier>
+                            <resource>UniProt Accession</resource>
+                            <identifier>PRLR_HUMAN</identifier>
+                        </external-identifier>
+                    </external-identifiers>
+                    <synonyms>
+                        <synonym>PRL-R</synonym>
+                        <synonym>Prolactin receptor precursor</synonym>
+                    </synonyms>
+                    <amino-acid-sequence format="FASTA">&gt;Prolactin receptor precursor
+                        MKENVASATVFTLLLFLNTCLLNGQLPPGKPEIFKCRSPNKETFTCWWRPGTDGGLPTNY
+                        SLTYHREGETLMHECPDYITGGPNSCHFGKQYTSMWRTYIMMVNATNQMGSSFSDELYVD
+                        VTYIVQPDPPLELAVEVKQPEDRKPYLWIKWSPPTLIDLKTGWFTLLYEIRLKPEKAAEW
+                        EIHFAGQQTEFKILSLHPGQKYLVQVRCKPDHGYWSAWSPATFIQIPSDFTMNDTTVWIS
+                        VAVLSAVICLIIVWAVALKGYSMVTCIFPPVPGPKIKGFDAHLLEKGKSEELLSALGCQD
+                        FPPTSDYEDLLVEYLEVDDSEDQHLMSVHSKEHPSQGMKPTYLDPDTDSGRGSCDSPSLL
+                        SEKCEEPQANPSTFYDPEVIEKPENPETTHTWDPQCISMEGKIPYFHAGGSKCSTWPLPQ
+                        PSQHNPRSSYHNITDVCELAVGPAGAPATLLNEAGKDALKSSQTIKSREEGKATQQREVE
+                        SFHSETDQDTPWLLPQEKTPFGSAKPLDYVEIHKVNKDGALSLLPKQRENSGKPKKPGTP
+                        ENNKEYAKVSGVMDNNILVLVPDPHAKNVACFEESAKEAPPSLEQNQAEKALANFTATSS
+                        KCRLQLGGLDYLDPACFTHSFH</amino-acid-sequence>
+                    <gene-sequence format="FASTA">&gt;1869 bp
+                        ATGAAGGAAAATGTGGCATCTGCAACCGTTTTCACTCTGCTACTTTTTCTCAACACCTGC
+                        CTTCTGAATGGACAGTTACCTCCTGGAAAACCTGAGATCTTTAAATGTCGTTCTCCCAAT
+                        AAGGAAACATTCACCTGCTGGTGGAGGCCTGGGACAGATGGAGGACTTCCTACCAATTAT
+                        TCACTGACTTACCACAGGGAAGGAGAGACACTCATGCATGAATGTCCAGACTACATAACC
+                        GGTGGCCCCAACTCCTGCCACTTTGGCAAGCAGTACACCTCCATGTGGAGGACATACATC
+                        ATGATGGTCAATGCCACTAACCAGATGGGAAGCAGTTTCTCGGATGAACTTTATGTGGAC
+                        GTGACTTACATAGTTCAGCCAGACCCTCCTTTGGAGCTGGCTGTGGAAGTAAAACAGCCA
+                        GAAGACAGAAAACCCTACCTGTGGATTAAATGGTCTCCACCTACCCTGATTGACTTAAAA
+                        ACTGGTTGGTTCACGCTCCTGTATGAAATTCGATTAAAACCCGAGAAAGCAGCTGAGTGG
+                        GAGATCCATTTTGCTGGGCAGCAAACAGAGTTTAAGATTCTCAGCCTACATCCAGGACAG
+                        AAATACCTTGTCCAGGTTCGCTGCAAACCAGACCATGGATACTGGAGTGCATGGAGTCCA
+                        GCGACCTTCATTCAGATACCTAGTGACTTCACCATGAATGATACAACCGTGTGGATCTCT
+                        GTGGCTGTCCTTTCTGCTGTCATCTGTTTGATTATTGTCTGGGCAGTGGCTTTGAAGGGC
+                        TATAGCATGGTGACCTGCATCTTTCCGCCAGTTCCTGGGCCAAAAATAAAAGGATTTGAT
+                        GCTCATCTGTTGGAGAAGGGCAAGTCTGAAGAACTACTGAGTGCCTTGGGATGCCAAGAC
+                        TTTCCTCCCACTTCTGACTATGAGGACTTGCTGGTGGAGTATTTAGAAGTAGATGATAGT
+                        GAGGACCAGCATCTAATGTCAGTCCATTCAAAAGAACACCCAAGTCAAGGTATGAAACCC
+                        ACATACCTGGATCCTGACACTGACTCAGGCCGGGGGAGCTGTGACAGCCCTTCCCTTTTG
+                        TCTGAAAAGTGTGAGGAACCCCAGGCCAATCCCTCCACATTCTATGATCCTGAGGTCATT
+                        GAGAAGCCAGAGAATCCTGAAACAACCCACACCTGGGACCCCCAGTGCATAAGCATGGAA
+                        GGCAAAATCCCCTATTTTCATGCTGGTGGATCCAAATGTTCAACATGGCCCTTACCACAG
+                        CCCAGCCAGCACAACCCCAGATCCTCTTACCACAATATTACTGATGTGTGTGAGCTGGCT
+                        GTGGGCCCTGCAGGTGCACCGGCCACTCTGTTGAATGAAGCAGGTAAAGATGCTTTAAAA
+                        TCCTCTCAAACCATTAAGTCTAGAGAAGAGGGAAAGGCAACCCAGCAGAGGGAGGTAGAA
+                        AGCTTCCATTCTGAGACTGACCAGGATACGCCCTGGCTGCTGCCCCAGGAGAAAACCCCC
+                        TTTGGCTCCGCTAAACCCTTGGATTATGTGGAGATTCACAAGGTCAACAAAGATGGTGCA
+                        TTATCATTGCTACCAAAACAGAGAGAGAACAGCGGCAAGCCCAAGAAGCCCGGGACTCCT
+                        GAGAACAATAAGGAGTATGCCAAGGTGTCCGGGGTCATGGATAACAACATCCTGGTGTTG
+                        GTGCCAGATCCACATGCTAAAAACGTGGCTTGCTTTGAAGAATCAGCCAAAGAGGCCCCA
+                        CCATCACTTGAACAGAATCAAGCTGAGAAAGCCCTGGCCAACTTCACTGCAACATCAAGC
+                        AAGTGCAGGCTCCAGCTGGGTGGTTTGGATTACCTGGATCCCGCATGTTTTACACACTCC
+                        TTTCACTGA</gene-sequence>
+                    <pfams>
+                        <pfam>
+                            <identifier>PF00041</identifier>
+                            <name>fn3</name>
+                        </pfam>
+                    </pfams>
+                    <go-classifiers>
+                        <go-classifier>
+                            <category>component</category>
+                            <description>cell</description>
+                        </go-classifier>
+                        <go-classifier>
+                            <category>component</category>
+                            <description>membrane</description>
+                        </go-classifier>
+                        <go-classifier>
+                            <category>function</category>
+                            <description>signal transducer activity</description>
+                        </go-classifier>
+                        <go-classifier>
+                            <category>function</category>
+                            <description>receptor activity</description>
+                        </go-classifier>
+                        <go-classifier>
+                            <category>function</category>
+                            <description>transmembrane receptor activity</description>
+                        </go-classifier>
+                        <go-classifier>
+                            <category>function</category>
+                            <description>hematopoietin/interferon-class (D200-domain) cytokine receptor activity</description>
+                        </go-classifier>
+                    </go-classifiers>
+                </polypeptide>
+            </target>
+        </targets>
+        <enzymes/>
+        <carriers/>
+        <transporters/>
+    </drug>
+    <drug type="biotech" created="2005-06-13" updated="2011-08-04">
+        <drugbank-id primary="true">DB00053</drugbank-id>
+        <drugbank-id>BIOD00026</drugbank-id>
+        <drugbank-id>BTD00026</drugbank-id>
+        <name>Imiglucerase</name>
+        <description>Human Beta-glucocerebrosidase or Beta-D-glucosyl-N-acylsphingosine glucohydrolase E.C. 3.2.1.45. 497 residue protein with N-linked carbohydrates, MW=59.3 kD. Alglucerase is prepared by modification of the oligosaccharide chains of human Beta-glucocerebrosidase. The modification alters the sugar residues at the non-reducing ends of the oligosaccharide chains of the glycoprotein so that they are predominantly terminated with mannose residues</description>
+        <cas-number>143003-46-7</cas-number>
+        <groups>
+            <group>approved</group>
+        </groups>
+        <general-references># Pastores GM, Hughes DA: Gaucher Disease  "Pubmed":http://www.ncbi.nlm.nih.gov/pubmed/20301446</general-references>
+        <synthesis-reference/>
+        <indication>For the treatment of Gaucher's disease (deficiency in glucocerebrosidase)</indication>
+        <pharmacodynamics>Gaucher disease is characterized by a functional deficiency in Beta-glucocerebrosidase enzymatic activity and the resultant accumulation of lipid glucocerebroside in tissue macrophages which become engorged and are termed Gaucher cells. Gaucher cells are typically found in liver, spleen and bone marrow. This can lead to an enlarged spleen and liver (hepatosplenomegaly). Secondary hematologic sequelae include severe anemia and thrombocytopenia. Injections of imiglucerase into Gaucher disease patients leads to elevated serum levels of the enzyme and reduction in the accumulation of glucocerebroside leading to reduced anemia and thrombocytopenia, reduced spleen and liver size, and decreased cachexia</pharmacodynamics>
+        <mechanism-of-action>Imiglucerase catalyzes the hydrolysis of the glycolipid, glucocerebroside, to glucose and ceramide as part of the normal degradation pathway for membrane lipids.</mechanism-of-action>
+        <toxicity/>
+        <metabolism/>
+        <absorption/>
+        <half-life>3.6-10.4 min</half-life>
+        <protein-binding/>
+        <route-of-elimination/>
+        <volume-of-distribution>* 0.09 to 0.15 L/kg</volume-of-distribution>
+        <clearance>* 14.5 +/- 4.0 mL/min/kg</clearance>
+        <classification>
+            <description/>
+            <direct-parent>Peptides</direct-parent>
+            <kingdom>Organic Compounds</kingdom>
+            <superclass>Organic Acids</superclass>
+            <class>Carboxylic Acids and Derivatives</class>
+            <subclass>Amino Acids, Peptides, and Analogues</subclass>
+        </classification>
+        <salts/>
+        <synonyms/>
+        <products>
+            <product>
+                <name>Cerezyme</name>
+                <ndc-id/>
+                <ndc-product-code/>
+                <dpd-id>02230694</dpd-id>
+                <started-marketing-on>1997-05-01</started-marketing-on>
+                <ended-marketing-on/>
+                <dosage-form>powder for solution</dosage-form>
+                <strength>200 unit</strength>
+                <route>intravenous</route>
+                <fda-application-number/>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>Canada</country>
+                <source>DPD</source>
+            </product>
+            <product>
+                <name>Cerezyme</name>
+                <ndc-id/>
+                <ndc-product-code/>
+                <dpd-id>02241751</dpd-id>
+                <started-marketing-on>2000-06-14</started-marketing-on>
+                <ended-marketing-on/>
+                <dosage-form>powder for solution</dosage-form>
+                <strength>400 unit</strength>
+                <route>intravenous</route>
+                <fda-application-number/>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>Canada</country>
+                <source>DPD</source>
+            </product>
+            <product>
+                <name>Cerezyme</name>
+                <ndc-id>58468-1983_c07ea20e-36bc-4f7b-a218-d79927f7c77e</ndc-id>
+                <ndc-product-code>58468-1983</ndc-product-code>
+                <dpd-id/>
+                <started-marketing-on>1994-05-23</started-marketing-on>
+                <ended-marketing-on/>
+                <dosage-form>injection, powder, lyophilized, for solution</dosage-form>
+                <strength>40 U/mL</strength>
+                <route>intravenous</route>
+                <fda-application-number>NDA020367</fda-application-number>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>US</country>
+                <source>FDA NDC</source>
+            </product>
+            <product>
+                <name>Cerezyme</name>
+                <ndc-id>58468-4663_c07ea20e-36bc-4f7b-a218-d79927f7c77e</ndc-id>
+                <ndc-product-code>58468-4663</ndc-product-code>
+                <dpd-id/>
+                <started-marketing-on>1994-05-23</started-marketing-on>
+                <ended-marketing-on/>
+                <dosage-form>injection, powder, lyophilized, for solution</dosage-form>
+                <strength>40 U/mL</strength>
+                <route>intravenous</route>
+                <fda-application-number>NDA020367</fda-application-number>
+                <generic>false</generic>
+                <over-the-counter>false</over-the-counter>
+                <approved>true</approved>
+                <country>US</country>
+                <source>FDA NDC</source>
+            </product>
+        </products>
+        <international-brands/>
+        <mixtures>
+            <mixture>
+                <name>Cerezyme</name>
+                <ingredients>Imiglucerase</ingredients>
+            </mixture>
+            <mixture>
+                <name>Cerezyme</name>
+                <ingredients>Imiglucerase</ingredients>
+            </mixture>
+            <mixture>
+                <name>Cerezyme</name>
+                <ingredients>Imiglucerase</ingredients>
+            </mixture>
+            <mixture>
+                <name>Cerezyme</name>
+                <ingredients>Imiglucerase</ingredients>
+            </mixture>
+        </mixtures>
+        <packagers>
+            <packager>
+                <name>Genzyme Inc.</name>
+                <url>http://www.genzyme.ca</url>
+            </packager>
+        </packagers>
+        <manufacturers>
+            <manufacturer generic="false">Genzyme corp</manufacturer>
+        </manufacturers>
+        <prices>
+            <price>
+                <description>Ceredase 80 unit/ml vial</description>
+                <cost currency="USD">380.64</cost>
+                <unit>ml</unit>
+            </price>
+            <price>
+                <description>Cerezyme 200 unit vial</description>
+                <cost currency="USD">951.6</cost>
+                <unit>vial</unit>
+            </price>
+            <price>
+                <description>Cerezyme 400 unit vial</description>
+                <cost currency="USD">1903.2</cost>
+                <unit>vial</unit>
+            </price>
+        </prices>
+        <categories>
+            <category>
+                <category>Enzyme Replacement Agents</category>
+                <mesh-id/>
+            </category>
+        </categories>
+        <affected-organisms>
+            <affected-organism>Humans and other mammals</affected-organism>
+        </affected-organisms>
+        <dosages>
+            <dosage>
+                <form>Injection, powder, lyophilized, for solution</form>
+                <route>intravenous</route>
+                <strength>40 U/mL</strength>
+            </dosage>
+            <dosage>
+                <form>Powder for solution</form>
+                <route>intravenous</route>
+                <strength>200 unit</strength>
+            </dosage>
+            <dosage>
+                <form>Powder for solution</form>
+                <route>intravenous</route>
+                <strength>400 unit</strength>
+            </dosage>
+        </dosages>
+        <atc-codes>
+            <atc-code code="A16AB02">
+                <level code="A">ALIMENTARY TRACT AND METABOLISM</level>
+                <level code="A16">OTHER ALIMENTARY TRACT AND METABOLISM PRODUCTS</level>
+                <level code="A16A">OTHER ALIMENTARY TRACT AND METABOLISM PRODUCTS</level>
+                <level code="A16AB">Enzymes</level>
+            </atc-code>
+        </atc-codes>
+        <ahfs-codes>
+            <ahfs-code>44:00.00</ahfs-code>
+        </ahfs-codes>
+        <patents>
+            <patent>
+                <number>5549892</number>
+                <country>United States</country>
+                <approved>1993-08-27</approved>
+                <expires>2013-08-27</expires>
+            </patent>
+        </patents>
+        <food-interactions/>
+        <drug-interactions/>
+        <sequences>
+            <sequence format="FASTA">&gt;DB00053 sequence
+                ARPCIPKSFGYSSVVCVCNATYCDSFDPPTFPALGTFSRYESTRSGRRMELSMGPIQANH
+                TGTGLLLTLQPEQKFQKVKGFGGAMTDAAALNILALSPPAQNLLLKSYFSEEGIGYNIIR
+                VPMASCDFSIRTYTYADTPDDFQLHNFSLPEEDTKLKIPLIHRALQLAQRPVSLLASPWT
+                SPTWLKTNGAVNGKGSLKGQPGDIYHQTWARYFVKFLDAYAEHKLQFWAVTAENEPSAGL
+                LSGYPFQCLGFTPEHQRDFIARDLGPTLANSTHHNVRLLMLDDQRLLLPHWAKVVLTDPE
+                AAKYVHGIAVHWYLDFLAPAKATLGETHRLFPNTMLFASEACVGSKFWEQSVRLGSWDRG
+                MQYSHSIITNLLYHVVGWTDWNLALNPEGGPNWVRNFVDSPIIVDITKDTFYKQPMFYHL
+                GHFSKFIPEGSQRVGLVASQKNDLDAVALMHPDGSAVVVVLNRSSKDVPLTIKDPAVGFL
+                ETISPGYSIHTYLWRRQ</sequence>
+        </sequences>
+        <experimental-properties>
+            <property>
+                <kind>Hydrophobicity</kind>
+                <value>-0.168</value>
+                <source/>
+            </property>
+            <property>
+                <kind>Isoelectric Point</kind>
+                <value>7.41</value>
+                <source/>
+            </property>
+            <property>
+                <kind>Molecular Weight</kind>
+                <value>55597.4000</value>
+                <source/>
+            </property>
+            <property>
+                <kind>Molecular Formula</kind>
+                <value>C2532H3854N672O711S16</value>
+                <source/>
+            </property>
+        </experimental-properties>
+        <external-identifiers>
+            <external-identifier>
+                <resource>Drugs Product Database (DPD)</resource>
+                <identifier>11365</identifier>
+            </external-identifier>
+            <external-identifier>
+                <resource>KEGG Drug</resource>
+                <identifier>D02810</identifier>
+            </external-identifier>
+            <external-identifier>
+                <resource>National Drug Code Directory</resource>
+                <identifier>58468-4663-1</identifier>
+            </external-identifier>
+            <external-identifier>
+                <resource>GenBank</resource>
+                <identifier>M16328</identifier>
+            </external-identifier>
+            <external-identifier>
+                <resource>PharmGKB</resource>
+                <identifier>PA164742934</identifier>
+            </external-identifier>
+            <external-identifier>
+                <resource>UniProtKB</resource>
+                <identifier>P04062</identifier>
+            </external-identifier>
+            <external-identifier>
+                <resource>Wikipedia</resource>
+                <identifier>Imiglucerase</identifier>
+            </external-identifier>
+        </external-identifiers>
+        <external-links>
+            <external-link>
+                <resource>RxList</resource>
+                <url>http://www.rxlist.com/cgi/generic2/imiglucerase.htm</url>
+            </external-link>
+            <external-link>
+                <resource>Drugs.com</resource>
+                <url>http://www.drugs.com/cdi/imiglucerase.html</url>
+            </external-link>
+        </external-links>
+        <pathways/>
+        <reactions/>
+        <snp-effects/>
+        <snp-adverse-drug-reactions/>
+        <targets>
+            <target position="1">
+                <id>BE0004806</id>
+                <name>Glucocerebroside</name>
+                <organism>Human</organism>
+                <actions>
+                    <action>other/unknown</action>
+                </actions>
+                <references># Pastores GM, Hughes DA: Gaucher Disease  "Pubmed":http://www.ncbi.nlm.nih.gov/pubmed/20301446</references>
+                <known-action>yes</known-action>
+            </target>
+        </targets>
+        <enzymes/>
+        <carriers/>
+        <transporters/>
+    </drug>
+</drugbank>
