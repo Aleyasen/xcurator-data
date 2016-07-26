@@ -1,0 +1,158 @@
+>> owl:Class
+Brand
+Monoisotopic Weight
+kingdom
+InChIKey
+Target Relation
+SMILES
+Rule of Five
+Physiological Charge
+Toxicity
+IUPAC Name
+manufacturer
+Polar Surface Area (PSA)
+Transporter
+Mechanism of action
+Rotatable Bond Count
+drug-drug interaction
+pKa
+Protein binding
+Melting Point
+Transporter relation
+Category
+unit
+Pharmacology
+Ghose Filter
+substructures
+Half life
+Route of elimination
+patent
+salt
+mixture
+logS
+Molecular Weight
+Boiling Point
+Enzyme Relation
+Target relation
+Absorption
+Carrier Relation
+food-interaction
+Bioavailability
+pKa (strongest acidic)
+Affected-organism
+Source
+Biotransformation
+pharmaceutical
+Carrier relation
+Molecular Formula
+Enzyme
+Water Solubility
+Refractivity
+MDDR-Like Rule
+Hydrophobicity
+Number of Rings
+H Bond Donor Count
+Synonym
+Indication
+caco2 Permeability
+Polarizability
+Isoelectric Point
+Clearance
+Carrier
+H Bond Acceptor Count
+Traditional IUPAC Name
+Type
+Volume of distribution
+Group
+Enzyme relation
+InChI
+Target
+Transporter Relation
+pKa (strongest basic)
+Drug
+logP
+
+
+>> owl:DatatypeProperty
+known action	
+ingredients	
+general function	
+value	
+organism	
+gene name	
+expires	
+molecular weight	
+cellular location	
+theoretical pi	
+price	
+name	
+transmembrane regions	
+id	
+approved	
+specific function	
+locus
+	
+>> owl:ObjectProperty
+x ahfs	
+experimental properties	
+biotransformation	
+mixture	
+half life	
+product	
+dosage	
+packager	
+carrier	
+brand	
+x chemspider	
+transporter	
+group	
+x wikipedia	
+enzyme	
+x genbank	
+x iuphar	
+x genecards	
+ingredient	
+x pharmgkb	
+food interaction	
+synonym	
+x chebi	
+affected organism	
+reference	
+manufacturer	
+indication	
+mechanism of action	
+drug	
+x gtp	
+x gi	
+x pubchemsubstance	
+action	
+absorption	
+volume of distribution	
+x atc	
+x uniprot	
+salt	
+x pubchemcompound	
+target	
+category	
+x hgnc	
+type	
+route of elimination	
+ddi interactor in	
+toxicity	
+source	
+x bindingdb	
+pharmacology	
+form	
+x kegg	
+patent	
+protein binding	
+x ndc	
+x genatlas	
+country	
+kingdom	
+x pdb	
+route	
+substructure	
+calculated properties	
+clearance	
+x dpd

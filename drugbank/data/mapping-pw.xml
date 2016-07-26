@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xcurator:mapping xmlns:xcurator="http://www.cs.toronto.edu/xcurator" xmlns="http://www.drugbank.ca" xmlns:class="http://xcurator.com/resource/class" xmlns:property="http://xcurator.com/resource/property" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:pathways" type="class:pathways" xmlType=":pathways">
+    <xcurator:relation name="property:pathway" path="./:pathway" targetEntityXmlType=":pathway"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:drugbank-id" type="class:drugbank-id" xmlType=":drugbank-id">
+    <xcurator:attribute name="property:value" path="text()"/>
+    <xcurator:attribute name="property:primary" path="@primary"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:prices" type="class:prices" xmlType=":prices">
+    <xcurator:relation name="property:price" path="./:price" targetEntityXmlType=":price"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:pathways/:pathway/:drugs" type="class:drugs" xmlType=":drugs">
+    <xcurator:relation name="property:drug" path="./:drug" targetEntityXmlType=":drug"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:pathways/:pathway/:enzymes|/:drugbank/:drug/:enzymes/:enzyme/:polypeptide|/:drugbank/:drug/:targets/:target/:polypeptide" type="class:polypeptide" xmlType=":polypeptide">
+    <xcurator:attribute name="property:cellular-location" path="./:cellular-location/text()"/>
+    <xcurator:attribute name="property:chromosome-location" path="./:chromosome-location/text()"/>
+    <xcurator:attribute name="property:molecular-weight" path="./:molecular-weight/text()"/>
+    <xcurator:attribute name="property:general-function" path="./:general-function/text()"/>
+    <xcurator:attribute name="property:gene-name" path="./:gene-name/text()"/>
+    <xcurator:attribute name="property:transmembrane-regions" path="./:transmembrane-regions/text()"/>
+    <xcurator:attribute name="property:theoretical-pi" path="./:theoretical-pi/text()"/>
+    <xcurator:attribute name="property:signal-regions" path="./:signal-regions/text()"/>
+    <xcurator:attribute name="property:source" path="@source"/>
+    <xcurator:attribute name="property:go-classifiers" path="./:go-classifiers/text()"/>
+    <xcurator:attribute name="property:id" path="@id"/>
+    <xcurator:attribute name="property:specific-function" path="./:specific-function/text()"/>
+    <xcurator:attribute name="property:name" path="./:name/text()"/>
+    <xcurator:attribute name="property:locus" path="./:locus/text()"/>
+    <xcurator:relation name="property:external-identifiers" path="./:external-identifiers" targetEntityXmlType=":external-identifiers"/>
+    <xcurator:relation name="property:organism" path="./:organism" targetEntityXmlType=":organism"/>
+    <xcurator:relation name="property:amino-acid-sequence" path="./:amino-acid-sequence" targetEntityXmlType=":amino-acid-sequence"/>
+    <xcurator:relation name="property:go-classifiers" path="./:go-classifiers" targetEntityXmlType=":go-classifiers"/>
+    <xcurator:relation name="property:pfams" path="./:pfams" targetEntityXmlType=":pfams"/>
+    <xcurator:relation name="property:synonyms" path="./:synonyms" targetEntityXmlType=":synonyms"/>
+    <xcurator:relation name="property:gene-sequence" path="./:gene-sequence" targetEntityXmlType=":gene-sequence"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:atc-codes" type="class:atc-codes" xmlType=":atc-codes">
+    <xcurator:relation name="property:atc-code" path="./:atc-code" targetEntityXmlType=":atc-code"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:pathways/:pathway/:enzymes|/:drugbank/:drug/:targets/:target/:polypeptide/:gene-sequence|/:drugbank/:drug/:enzymes/:enzyme/:polypeptide" type="class:gene-sequence" xmlType=":gene-sequence">
+    <xcurator:attribute name="property:format" path="@format"/>
+    <xcurator:attribute name="property:value" path="text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:pathways/:pathway/:enzymes|/:drugbank/:drug/:enzymes/:enzyme/:polypeptide|/:drugbank/:drug/:targets/:target/:polypeptide/:synonyms|/:drugbank/:drug/:synonyms" type="class:synonyms" xmlType=":synonyms">
+    <xcurator:attribute name="property:synonym" path="./:synonym/text()"/>
+    <xcurator:relation name="property:synonym" path="./:synonym" targetEntityXmlType=":synonym"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank" type="class:drugbank" xmlType=":drugbank">
+    <xcurator:relation name="property:drug" path="./:drug" targetEntityXmlType=":drug"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:dosages/:dosage" type="class:dosage" xmlType=":dosage">
+    <xcurator:attribute name="property:form" path="./:form/text()"/>
+    <xcurator:attribute name="property:route" path="./:route/text()"/>
+    <xcurator:attribute name="property:strength" path="./:strength/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:manufacturers/:manufacturer" type="class:manufacturer" xmlType=":manufacturer">
+    <xcurator:attribute name="property:generic" path="@generic"/>
+    <xcurator:attribute name="property:value" path="text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:enzymes|/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:enzymes/:enzyme" type="class:enzyme" xmlType=":enzyme">
+    <xcurator:attribute name="property:organism" path="./:organism/text()"/>
+    <xcurator:attribute name="property:references" path="./:references/text()"/>
+    <xcurator:attribute name="property:id" path="./:id/text()"/>
+    <xcurator:attribute name="property:name" path="./:name/text()"/>
+    <xcurator:attribute name="property:induction-strength" path="./:induction-strength/text()"/>
+    <xcurator:attribute name="property:known-action" path="./:known-action/text()"/>
+    <xcurator:attribute name="property:position" path="@position"/>
+    <xcurator:attribute name="property:inhibition-strength" path="./:inhibition-strength/text()"/>
+    <xcurator:relation name="property:polypeptide" path="./:polypeptide" targetEntityXmlType=":polypeptide"/>
+    <xcurator:relation name="property:actions" path="./:actions" targetEntityXmlType=":actions"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:affected-organisms" type="class:affected-organisms" xmlType=":affected-organisms">
+    <xcurator:attribute name="property:affected-organism" path="./:affected-organism/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:sequences/:sequence" type="class:sequence" xmlType=":sequence">
+    <xcurator:attribute name="property:format" path="@format"/>
+    <xcurator:attribute name="property:value" path="text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:patents/:patent" type="class:patent" xmlType=":patent">
+    <xcurator:attribute name="property:number" path="./:number/text()"/>
+    <xcurator:attribute name="property:expires" path="./:expires/text()"/>
+    <xcurator:attribute name="property:country" path="./:country/text()"/>
+    <xcurator:attribute name="property:approved" path="./:approved/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:drug-interactions/:drug-interaction" type="class:drug-interaction" xmlType=":drug-interaction">
+    <xcurator:attribute name="property:name" path="./:name/text()"/>
+    <xcurator:attribute name="property:description" path="./:description/text()"/>
+    <xcurator:attribute name="property:drugbank-id" path="./:drugbank-id/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:sequences" type="class:sequences" xmlType=":sequences">
+    <xcurator:relation name="property:sequence" path="./:sequence" targetEntityXmlType=":sequence"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:targets/:target" type="class:target" xmlType=":target">
+    <xcurator:attribute name="property:actions" path="./:actions/text()"/>
+    <xcurator:attribute name="property:organism" path="./:organism/text()"/>
+    <xcurator:attribute name="property:known-action" path="./:known-action/text()"/>
+    <xcurator:attribute name="property:position" path="@position"/>
+    <xcurator:attribute name="property:name" path="./:name/text()"/>
+    <xcurator:attribute name="property:id" path="./:id/text()"/>
+    <xcurator:attribute name="property:references" path="./:references/text()"/>
+    <xcurator:relation name="property:actions" path="./:actions" targetEntityXmlType=":actions"/>
+    <xcurator:relation name="property:polypeptide" path="./:polypeptide" targetEntityXmlType=":polypeptide"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:external-links" type="class:external-links" xmlType=":external-links">
+    <xcurator:relation name="property:external-link" path="./:external-link" targetEntityXmlType=":external-link"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:pathways/:pathway/:enzymes|/:drugbank/:drug/:external-identifiers/:external-identifier|/:drugbank/:drug/:enzymes/:enzyme/:polypeptide|/:drugbank/:drug/:targets/:target/:polypeptide/:external-identifiers" type="class:external-identifier" xmlType=":external-identifier">
+    <xcurator:attribute name="property:resource" path="./:resource/text()"/>
+    <xcurator:attribute name="property:identifier" path="./:identifier/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:manufacturers" type="class:manufacturers" xmlType=":manufacturers">
+    <xcurator:relation name="property:manufacturer" path="./:manufacturer" targetEntityXmlType=":manufacturer"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:prices/:price/:cost" type="class:cost" xmlType=":cost">
+    <xcurator:attribute name="property:value" path="text()"/>
+    <xcurator:attribute name="property:currency" path="@currency"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:targets" type="class:targets" xmlType=":targets">
+    <xcurator:relation name="property:target" path="./:target" targetEntityXmlType=":target"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:pathways/:pathway/:enzymes|/:drugbank/:drug/:targets/:target/:polypeptide/:pfams/:pfam|/:drugbank/:drug/:enzymes/:enzyme/:polypeptide" type="class:pfam" xmlType=":pfam">
+    <xcurator:attribute name="property:name" path="./:name/text()"/>
+    <xcurator:attribute name="property:identifier" path="./:identifier/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:classification" type="class:classification" xmlType=":classification">
+    <xcurator:attribute name="property:class" path="./:class/text()"/>
+    <xcurator:attribute name="property:kingdom" path="./:kingdom/text()"/>
+    <xcurator:attribute name="property:subclass" path="./:subclass/text()"/>
+    <xcurator:attribute name="property:description" path="./:description/text()"/>
+    <xcurator:attribute name="property:direct-parent" path="./:direct-parent/text()"/>
+    <xcurator:attribute name="property:superclass" path="./:superclass/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:ahfs-codes" type="class:ahfs-codes" xmlType=":ahfs-codes">
+    <xcurator:attribute name="property:ahfs-code" path="./:ahfs-code/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:groups" type="class:groups" xmlType=":groups">
+    <xcurator:attribute name="property:group" path="./:group/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:mixtures" type="class:mixtures" xmlType=":mixtures">
+    <xcurator:relation name="property:mixture" path="./:mixture" targetEntityXmlType=":mixture"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:categories" type="class:categories" xmlType=":categories">
+    <xcurator:relation name="property:category" path="./:category" targetEntityXmlType=":category"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:pathways/:pathway/:enzymes|/:drugbank/:drug/:targets/:target/:actions|/:drugbank/:drug/:enzymes/:enzyme/:actions" type="class:actions" xmlType=":actions">
+    <xcurator:attribute name="property:action" path="./:action/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:prices/:price" type="class:price" xmlType=":price">
+    <xcurator:attribute name="property:description" path="./:description/text()"/>
+    <xcurator:attribute name="property:unit" path="./:unit/text()"/>
+    <xcurator:relation name="property:cost" path="./:cost" targetEntityXmlType=":cost"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:atc-codes/:atc-code" type="class:atc-code" xmlType=":atc-code">
+    <xcurator:attribute name="property:code" path="@code"/>
+    <xcurator:relation name="property:level" path="./:level" targetEntityXmlType=":level"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:targets/:target/:polypeptide/:amino-acid-sequence|/:drugbank/:drug/:pathways/:pathway/:enzymes|/:drugbank/:drug/:enzymes/:enzyme/:polypeptide" type="class:amino-acid-sequence" xmlType=":amino-acid-sequence">
+    <xcurator:attribute name="property:value" path="text()"/>
+    <xcurator:attribute name="property:format" path="@format"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:pathways/:pathway/:enzymes|/:drugbank/:drug/:enzymes/:enzyme/:polypeptide|/:drugbank/:drug/:targets/:target/:polypeptide/:organism" type="class:organism" xmlType=":organism">
+    <xcurator:attribute name="property:value" path="text()"/>
+    <xcurator:attribute name="property:ncbi-taxonomy-id" path="@ncbi-taxonomy-id"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:drug-interactions" type="class:drug-interactions" xmlType=":drug-interactions">
+    <xcurator:relation name="property:drug-interaction" path="./:drug-interaction" targetEntityXmlType=":drug-interaction"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:pathways/:pathway/:enzymes|/:drugbank/:drug/:targets/:target/:polypeptide/:go-classifiers|/:drugbank/:drug/:enzymes/:enzyme/:polypeptide/:go-classifier|/:drugbank/:drug/:targets/:target/:polypeptide/:go-classifiers/:go-classifier" type="class:go-classifier" xmlType=":go-classifier">
+    <xcurator:attribute name="property:category" path="./:category/text()"/>
+    <xcurator:attribute name="property:description" path="./:description/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:pathways/:pathway/:enzymes|/:drugbank/:drug/:targets/:target/:polypeptide/:go-classifiers|/:drugbank/:drug/:enzymes/:enzyme/:polypeptide" type="class:go-classifiers" xmlType=":go-classifiers">
+    <xcurator:relation name="property:go-classifier" path="./:go-classifier" targetEntityXmlType=":go-classifier"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:mixtures/:mixture" type="class:mixture" xmlType=":mixture">
+    <xcurator:attribute name="property:name" path="./:name/text()"/>
+    <xcurator:attribute name="property:ingredients" path="./:ingredients/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:atc-codes/:atc-code/:level" type="class:level" xmlType=":level">
+    <xcurator:attribute name="property:value" path="text()"/>
+    <xcurator:attribute name="property:code" path="@code"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:experimental-properties" type="class:experimental-properties" xmlType=":experimental-properties">
+    <xcurator:relation name="property:property" path="./:property" targetEntityXmlType=":property"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:dosages" type="class:dosages" xmlType=":dosages">
+    <xcurator:relation name="property:dosage" path="./:dosage" targetEntityXmlType=":dosage"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:external-links/:external-link" type="class:external-link" xmlType=":external-link">
+    <xcurator:attribute name="property:resource" path="./:resource/text()"/>
+    <xcurator:attribute name="property:url" path="./:url/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:pathways/:pathway/:enzymes|/:drugbank/:drug/:enzymes/:enzyme/:polypeptide|/:drugbank/:drug/:targets/:target/:polypeptide/:external-identifiers|/:drugbank/:drug/:external-identifiers" type="class:external-identifiers" xmlType=":external-identifiers">
+    <xcurator:relation name="property:external-identifier" path="./:external-identifier" targetEntityXmlType=":external-identifier"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug" type="class:drug" xmlType=":drug">
+    <xcurator:attribute name="property:name" path="./:name/text()"/>
+    <xcurator:attribute name="property:updated" path="@updated"/>
+    <xcurator:attribute name="property:food-interactions" path="./:food-interactions/text()"/>
+    <xcurator:attribute name="property:synonyms" path="./:synonyms/text()"/>
+    <xcurator:attribute name="property:snp-effects" path="./:snp-effects/text()"/>
+    <xcurator:attribute name="property:mechanism-of-action" path="./:mechanism-of-action/text()"/>
+    <xcurator:attribute name="property:salts" path="./:salts/text()"/>
+    <xcurator:attribute name="property:cas-number" path="./:cas-number/text()"/>
+    <xcurator:attribute name="property:carriers" path="./:carriers/text()"/>
+    <xcurator:attribute name="property:manufacturers" path="./:manufacturers/text()"/>
+    <xcurator:attribute name="property:drugbank-id" path="./:drugbank-id/text()"/>
+    <xcurator:attribute name="property:enzymes" path="./:enzymes/text()"/>
+    <xcurator:attribute name="property:snp-adverse-drug-reactions" path="./:snp-adverse-drug-reactions/text()"/>
+    <xcurator:attribute name="property:description" path="./:description/text()"/>
+    <xcurator:attribute name="property:volume-of-distribution" path="./:volume-of-distribution/text()"/>
+    <xcurator:attribute name="property:clearance" path="./:clearance/text()"/>
+    <xcurator:attribute name="property:created" path="@created"/>
+    <xcurator:attribute name="property:toxicity" path="./:toxicity/text()"/>
+    <xcurator:attribute name="property:drug-interactions" path="./:drug-interactions/text()"/>
+    <xcurator:attribute name="property:protein-binding" path="./:protein-binding/text()"/>
+    <xcurator:attribute name="property:synthesis-reference" path="./:synthesis-reference/text()"/>
+    <xcurator:attribute name="property:route-of-elimination" path="./:route-of-elimination/text()"/>
+    <xcurator:attribute name="property:reactions" path="./:reactions/text()"/>
+    <xcurator:attribute name="property:transporters" path="./:transporters/text()"/>
+    <xcurator:attribute name="property:general-references" path="./:general-references/text()"/>
+    <xcurator:attribute name="property:pharmacodynamics" path="./:pharmacodynamics/text()"/>
+    <xcurator:attribute name="property:pathways" path="./:pathways/text()"/>
+    <xcurator:attribute name="property:type" path="@type"/>
+    <xcurator:attribute name="property:indication" path="./:indication/text()"/>
+    <xcurator:attribute name="property:ahfs-codes" path="./:ahfs-codes/text()"/>
+    <xcurator:attribute name="property:prices" path="./:prices/text()"/>
+    <xcurator:attribute name="property:half-life" path="./:half-life/text()"/>
+    <xcurator:attribute name="property:international-brands" path="./:international-brands/text()"/>
+    <xcurator:attribute name="property:absorption" path="./:absorption/text()"/>
+    <xcurator:attribute name="property:metabolism" path="./:metabolism/text()"/>
+    <xcurator:relation name="property:sequences" path="./:sequences" targetEntityXmlType=":sequences"/>
+    <xcurator:relation name="property:atc-codes" path="./:atc-codes" targetEntityXmlType=":atc-codes"/>
+    <xcurator:relation name="property:food-interactions" path="./:food-interactions" targetEntityXmlType=":food-interactions"/>
+    <xcurator:relation name="property:synonyms" path="./:synonyms" targetEntityXmlType=":synonyms"/>
+    <xcurator:relation name="property:snp-effects" path="./:snp-effects" targetEntityXmlType=":snp-effects"/>
+    <xcurator:relation name="property:groups" path="./:groups" targetEntityXmlType=":groups"/>
+    <xcurator:relation name="property:external-links" path="./:external-links" targetEntityXmlType=":external-links"/>
+    <xcurator:relation name="property:categories" path="./:categories" targetEntityXmlType=":categories"/>
+    <xcurator:relation name="property:experimental-properties" path="./:experimental-properties" targetEntityXmlType=":experimental-properties"/>
+    <xcurator:relation name="property:manufacturers" path="./:manufacturers" targetEntityXmlType=":manufacturers"/>
+    <xcurator:relation name="property:external-identifiers" path="./:external-identifiers" targetEntityXmlType=":external-identifiers"/>
+    <xcurator:relation name="property:packagers" path="./:packagers" targetEntityXmlType=":packagers"/>
+    <xcurator:relation name="property:drugbank-id" path="./:drugbank-id" targetEntityXmlType=":drugbank-id"/>
+    <xcurator:relation name="property:mixtures" path="./:mixtures" targetEntityXmlType=":mixtures"/>
+    <xcurator:relation name="property:patents" path="./:patents" targetEntityXmlType=":patents"/>
+    <xcurator:relation name="property:enzymes" path="./:enzymes" targetEntityXmlType=":enzymes"/>
+    <xcurator:relation name="property:products" path="./:products" targetEntityXmlType=":products"/>
+    <xcurator:relation name="property:targets" path="./:targets" targetEntityXmlType=":targets"/>
+    <xcurator:relation name="property:dosages" path="./:dosages" targetEntityXmlType=":dosages"/>
+    <xcurator:relation name="property:drug-interactions" path="./:drug-interactions" targetEntityXmlType=":drug-interactions"/>
+    <xcurator:relation name="property:affected-organisms" path="./:affected-organisms" targetEntityXmlType=":affected-organisms"/>
+    <xcurator:relation name="property:pathways" path="./:pathways" targetEntityXmlType=":pathways"/>
+    <xcurator:relation name="property:ahfs-codes" path="./:ahfs-codes" targetEntityXmlType=":ahfs-codes"/>
+    <xcurator:relation name="property:prices" path="./:prices" targetEntityXmlType=":prices"/>
+    <xcurator:relation name="property:international-brands" path="./:international-brands" targetEntityXmlType=":international-brands"/>
+    <xcurator:relation name="property:classification" path="./:classification" targetEntityXmlType=":classification"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:patents" type="class:patents" xmlType=":patents">
+    <xcurator:relation name="property:patent" path="./:patent" targetEntityXmlType=":patent"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:enzymes|/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:enzymes" type="class:enzymes" xmlType=":enzymes">
+    <xcurator:attribute name="property:uniprot-id" path="./:uniprot-id/text()"/>
+    <xcurator:relation name="property:enzyme" path="./:enzyme" targetEntityXmlType=":enzyme"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:food-interactions" type="class:food-interactions" xmlType=":food-interactions">
+    <xcurator:attribute name="property:food-interaction" path="./:food-interaction/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:packagers/:packager" type="class:packager" xmlType=":packager">
+    <xcurator:attribute name="property:name" path="./:name/text()"/>
+    <xcurator:attribute name="property:url" path="./:url/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:packagers" type="class:packagers" xmlType=":packagers">
+    <xcurator:relation name="property:packager" path="./:packager" targetEntityXmlType=":packager"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:pathways/:pathway/:enzymes|/:drugbank/:drug/:enzymes/:enzyme/:polypeptide|/:drugbank/:drug/:synonyms/:synonym|/:drugbank/:drug/:targets/:target/:polypeptide/:synonyms" type="class:synonym" xmlType=":synonym">
+    <xcurator:attribute name="property:coder" path="@coder"/>
+    <xcurator:attribute name="property:value" path="text()"/>
+    <xcurator:attribute name="property:language" path="@language"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:international-brands" type="class:international-brands" xmlType=":international-brands">
+    <xcurator:relation name="property:international-brand" path="./:international-brand" targetEntityXmlType=":international-brand"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:experimental-properties/:property" type="class:property" xmlType=":property">
+    <xcurator:attribute name="property:value" path="./:value/text()"/>
+    <xcurator:attribute name="property:source" path="./:source/text()"/>
+    <xcurator:attribute name="property:kind" path="./:kind/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:categories/:category" type="class:category" xmlType=":category">
+    <xcurator:attribute name="property:category" path="./:category/text()"/>
+    <xcurator:attribute name="property:mesh-id" path="./:mesh-id/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:international-brands/:international-brand" type="class:international-brand" xmlType=":international-brand">
+    <xcurator:attribute name="property:name" path="./:name/text()"/>
+    <xcurator:attribute name="property:company" path="./:company/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:products" type="class:products" xmlType=":products">
+    <xcurator:relation name="property:product" path="./:product" targetEntityXmlType=":product"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:pathways/:pathway" type="class:pathway" xmlType=":pathway">
+    <xcurator:attribute name="property:smpdb-id" path="./:smpdb-id/text()"/>
+    <xcurator:attribute name="property:name" path="./:name/text()"/>
+    <xcurator:relation name="property:drugs" path="./:drugs" targetEntityXmlType=":drugs"/>
+    <xcurator:relation name="property:enzymes" path="./:enzymes" targetEntityXmlType=":enzymes"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:products/:product" type="class:product" xmlType=":product">
+    <xcurator:attribute name="property:started-marketing-on" path="./:started-marketing-on/text()"/>
+    <xcurator:attribute name="property:route" path="./:route/text()"/>
+    <xcurator:attribute name="property:generic" path="./:generic/text()"/>
+    <xcurator:attribute name="property:country" path="./:country/text()"/>
+    <xcurator:attribute name="property:approved" path="./:approved/text()"/>
+    <xcurator:attribute name="property:dpd-id" path="./:dpd-id/text()"/>
+    <xcurator:attribute name="property:dosage-form" path="./:dosage-form/text()"/>
+    <xcurator:attribute name="property:ended-marketing-on" path="./:ended-marketing-on/text()"/>
+    <xcurator:attribute name="property:strength" path="./:strength/text()"/>
+    <xcurator:attribute name="property:source" path="./:source/text()"/>
+    <xcurator:attribute name="property:name" path="./:name/text()"/>
+    <xcurator:attribute name="property:ndc-product-code" path="./:ndc-product-code/text()"/>
+    <xcurator:attribute name="property:over-the-counter" path="./:over-the-counter/text()"/>
+    <xcurator:attribute name="property:fda-application-number" path="./:fda-application-number/text()"/>
+    <xcurator:attribute name="property:ndc-id" path="./:ndc-id/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:snp-effects" type="class:snp-effects" xmlType=":snp-effects">
+    <xcurator:relation name="property:effect" path="./:effect" targetEntityXmlType=":effect"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:snp-effects/:effect" type="class:effect" xmlType=":effect">
+    <xcurator:attribute name="property:rs-id" path="./:rs-id/text()"/>
+    <xcurator:attribute name="property:description" path="./:description/text()"/>
+    <xcurator:attribute name="property:defining-change" path="./:defining-change/text()"/>
+    <xcurator:attribute name="property:allele" path="./:allele/text()"/>
+    <xcurator:attribute name="property:protein-name" path="./:protein-name/text()"/>
+    <xcurator:attribute name="property:gene-symbol" path="./:gene-symbol/text()"/>
+    <xcurator:attribute name="property:uniprot-id" path="./:uniprot-id/text()"/>
+    <xcurator:attribute name="property:pubmed-id" path="./:pubmed-id/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/:drugbank/:drug/:pathways/:pathway/:drugs/:drug|/:drugbank/:drug/:pathways/:pathway/:enzymes|/:drugbank/:drug/:enzymes/:enzyme/:polypeptide|/:drugbank/:drug/:targets/:target/:polypeptide/:pfams" type="class:pfams" xmlType=":pfams">
+    <xcurator:relation name="property:pfam" path="./:pfam" targetEntityXmlType=":pfam"/>
+  </xcurator:entity>
+</xcurator:mapping>
