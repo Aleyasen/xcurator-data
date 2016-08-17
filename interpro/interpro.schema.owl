@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:void="http://rdfs.org/ns/void#"
+	xmlns:ns4="http://bio2rdf.org/bio2rdf_vocabulary:" >
+  <rdf:Description rdf:about="http://bio2rdf.org/interpro_vocabulary:Active_site">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/interpro_vocabulary:Binding_site">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/interpro_vocabulary:Conserved_site">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/interpro_vocabulary:Domain">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/interpro_vocabulary:Family">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/interpro_vocabulary:PTM">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/interpro_vocabulary:Repeat">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/interpro_vocabulary:Resource">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpro_resource resource [interpro_vocabulary:Resource]</rdfs:label>
+    <rdfs:label>interpro_resource resource [interpro_vocabulary:Resource]</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/interpro_vocabulary:contains">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty" />
+    <rdf:type rdf:resource="http://bio2rdf.org/interpro_vocabulary:Resource" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contains [interpro_vocabulary:contains]</rdfs:label>
+    <rdfs:label xml:lang="en">contains [interpro_vocabulary:contains]</rdfs:label>
+    <dcterms:title xml:lang="en">contains</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpro_vocabulary:contains</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/interpro_resource:bio2rdf.dataset.interpro.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contains</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpro_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/interpro_vocabulary:contains</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/interpro_vocabulary:example-entry">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdf:type rdf:resource="http://bio2rdf.org/interpro_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">example entry [interpro_vocabulary:example-entry]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">example entry [interpro_vocabulary:example-entry]</rdfs:label>
+    <dcterms:title xml:lang="en">example entry</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpro_vocabulary:example-entry</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/interpro_resource:bio2rdf.dataset.interpro.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">example-entry</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpro_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/interpro_vocabulary:example-entry</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/interpro_vocabulary:found-in">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdf:type rdf:resource="http://bio2rdf.org/interpro_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">found in [interpro_vocabulary:found-in]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">found in [interpro_vocabulary:found-in]</rdfs:label>
+    <dcterms:title xml:lang="en">found in</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpro_vocabulary:found-in</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/interpro_resource:bio2rdf.dataset.interpro.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">found-in</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpro_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/interpro_vocabulary:found-in</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/interpro_vocabulary:parent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdf:type rdf:resource="http://bio2rdf.org/interpro_vocabulary:Resource" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parent [interpro_vocabulary:parent]</rdfs:label>
+    <rdfs:label xml:lang="en">parent [interpro_vocabulary:parent]</rdfs:label>
+    <dcterms:title xml:lang="en">parent</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpro_vocabulary:parent</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/interpro_resource:bio2rdf.dataset.interpro.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parent</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpro_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/interpro_vocabulary:parent</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/interpro_vocabulary:taxon-distribution">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty" />
+    <rdf:type rdf:resource="http://bio2rdf.org/interpro_vocabulary:Resource" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">taxon distribution [interpro_vocabulary:taxon-distribution]</rdfs:label>
+    <rdfs:label xml:lang="en">taxon distribution [interpro_vocabulary:taxon-distribution]</rdfs:label>
+    <dcterms:title xml:lang="en">taxon distribution</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpro_vocabulary:taxon-distribution</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/interpro_resource:bio2rdf.dataset.interpro.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">taxon-distribution</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpro_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/interpro_vocabulary:taxon-distribution</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/interpro_vocabulary:x-blocks">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdf:type rdf:resource="http://bio2rdf.org/interpro_vocabulary:Resource" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x blocks [interpro_vocabulary:x-blocks]</rdfs:label>
+    <rdfs:label xml:lang="en">x blocks [interpro_vocabulary:x-blocks]</rdfs:label>
+    <dcterms:title xml:lang="en">x blocks</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpro_vocabulary:x-blocks</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/interpro_resource:bio2rdf.dataset.interpro.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x-blocks</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpro_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/interpro_vocabulary:x-blocks</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/interpro_vocabulary:x-cath">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdf:type rdf:resource="http://bio2rdf.org/interpro_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">x cath [interpro_vocabulary:x-cath]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x cath [interpro_vocabulary:x-cath]</rdfs:label>
+    <dcterms:title xml:lang="en">x cath</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpro_vocabulary:x-cath</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/interpro_resource:bio2rdf.dataset.interpro.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x-cath</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpro_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/interpro_vocabulary:x-cath</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/interpro_vocabulary:x-cazy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdf:type rdf:resource="http://bio2rdf.org/interpro_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">x cazy [interpro_vocabulary:x-cazy]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x cazy [interpro_vocabulary:x-cazy]</rdfs:label>
+    <dcterms:title xml:lang="en">x cazy</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpro_vocabulary:x-cazy</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/interpro_resource:bio2rdf.dataset.interpro.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x-cazy</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpro_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/interpro_vocabulary:x-cazy</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/interpro_vocabulary:x-come">
+    <rdf:type rdf:resource="http://bio2rdf.org/interpro_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdfs:label xml:lang="en">x come [interpro_vocabulary:x-come]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x come [interpro_vocabulary:x-come]</rdfs:label>
+    <dcterms:title xml:lang="en">x come</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpro_vocabulary:x-come</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/interpro_resource:bio2rdf.dataset.interpro.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x-come</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpro_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/interpro_vocabulary:x-come</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/interpro_vocabulary:x-ec">
+    <rdf:type rdf:resource="http://bio2rdf.org/interpro_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x ec [interpro_vocabulary:x-ec]</rdfs:label>
+    <rdfs:label xml:lang="en">x ec [interpro_vocabulary:x-ec]</rdfs:label>
+    <dcterms:title xml:lang="en">x ec</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpro_vocabulary:x-ec</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/interpro_resource:bio2rdf.dataset.interpro.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x-ec</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpro_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/interpro_vocabulary:x-ec</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/interpro_vocabulary:x-iuphar">
+    <rdf:type rdf:resource="http://bio2rdf.org/interpro_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdfs:label xml:lang="en">x iuphar [interpro_vocabulary:x-iuphar]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x iuphar [interpro_vocabulary:x-iuphar]</rdfs:label>
+    <dcterms:title xml:lang="en">x iuphar</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpro_vocabulary:x-iuphar</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/interpro_resource:bio2rdf.dataset.interpro.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x-iuphar</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpro_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/interpro_vocabulary:x-iuphar</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/interpro_vocabulary:x-kegg">
+    <rdf:type rdf:resource="http://bio2rdf.org/interpro_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x kegg [interpro_vocabulary:x-kegg]</rdfs:label>
+    <rdfs:label xml:lang="en">x kegg [interpro_vocabulary:x-kegg]</rdfs:label>
+    <dcterms:title xml:lang="en">x kegg</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpro_vocabulary:x-kegg</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/interpro_resource:bio2rdf.dataset.interpro.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x-kegg</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpro_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/interpro_vocabulary:x-kegg</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/interpro_vocabulary:x-merops">
+    <rdf:type rdf:resource="http://bio2rdf.org/interpro_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x merops [interpro_vocabulary:x-merops]</rdfs:label>
+    <rdfs:label xml:lang="en">x merops [interpro_vocabulary:x-merops]</rdfs:label>
+    <dcterms:title xml:lang="en">x merops</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpro_vocabulary:x-merops</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/interpro_resource:bio2rdf.dataset.interpro.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x-merops</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpro_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/interpro_vocabulary:x-merops</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/interpro_vocabulary:x-metacyc">
+    <rdf:type rdf:resource="http://bio2rdf.org/interpro_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x metacyc [interpro_vocabulary:x-metacyc]</rdfs:label>
+    <rdfs:label xml:lang="en">x metacyc [interpro_vocabulary:x-metacyc]</rdfs:label>
+    <dcterms:title xml:lang="en">x metacyc</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpro_vocabulary:x-metacyc</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/interpro_resource:bio2rdf.dataset.interpro.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x-metacyc</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpro_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/interpro_vocabulary:x-metacyc</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/interpro_vocabulary:x-msdsite">
+    <rdf:type rdf:resource="http://bio2rdf.org/interpro_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x msdsite [interpro_vocabulary:x-msdsite]</rdfs:label>
+    <rdfs:label xml:lang="en">x msdsite [interpro_vocabulary:x-msdsite]</rdfs:label>
+    <dcterms:title xml:lang="en">x msdsite</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpro_vocabulary:x-msdsite</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/interpro_resource:bio2rdf.dataset.interpro.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x-msdsite</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpro_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/interpro_vocabulary:x-msdsite</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/interpro_vocabulary:x-pandit">
+    <rdf:type rdf:resource="http://bio2rdf.org/interpro_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x pandit [interpro_vocabulary:x-pandit]</rdfs:label>
+    <rdfs:label xml:lang="en">x pandit [interpro_vocabulary:x-pandit]</rdfs:label>
+    <dcterms:title xml:lang="en">x pandit</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpro_vocabulary:x-pandit</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/interpro_resource:bio2rdf.dataset.interpro.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x-pandit</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpro_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/interpro_vocabulary:x-pandit</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/interpro_vocabulary:x-pdb">
+    <rdf:type rdf:resource="http://bio2rdf.org/interpro_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x pdb [interpro_vocabulary:x-pdb]</rdfs:label>
+    <rdfs:label xml:lang="en">x pdb [interpro_vocabulary:x-pdb]</rdfs:label>
+    <dcterms:title xml:lang="en">x pdb</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpro_vocabulary:x-pdb</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/interpro_resource:bio2rdf.dataset.interpro.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x-pdb</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpro_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/interpro_vocabulary:x-pdb</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/interpro_vocabulary:x-priam">
+    <rdf:type rdf:resource="http://bio2rdf.org/interpro_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x priam [interpro_vocabulary:x-priam]</rdfs:label>
+    <rdfs:label xml:lang="en">x priam [interpro_vocabulary:x-priam]</rdfs:label>
+    <dcterms:title xml:lang="en">x priam</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpro_vocabulary:x-priam</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/interpro_resource:bio2rdf.dataset.interpro.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x-priam</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpro_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/interpro_vocabulary:x-priam</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/interpro_vocabulary:x-prositedoc">
+    <rdf:type rdf:resource="http://bio2rdf.org/interpro_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdfs:label xml:lang="en">x prositedoc [interpro_vocabulary:x-prositedoc]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x prositedoc [interpro_vocabulary:x-prositedoc]</rdfs:label>
+    <dcterms:title xml:lang="en">x prositedoc</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpro_vocabulary:x-prositedoc</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/interpro_resource:bio2rdf.dataset.interpro.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x-prositedoc</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpro_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/interpro_vocabulary:x-prositedoc</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/interpro_vocabulary:x-pubmed">
+    <rdf:type rdf:resource="http://bio2rdf.org/interpro_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdfs:label xml:lang="en">x pubmed [interpro_vocabulary:x-pubmed]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x pubmed [interpro_vocabulary:x-pubmed]</rdfs:label>
+    <dcterms:title xml:lang="en">x pubmed</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpro_vocabulary:x-pubmed</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/interpro_resource:bio2rdf.dataset.interpro.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x-pubmed</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpro_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/interpro_vocabulary:x-pubmed</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/interpro_vocabulary:x-scop">
+    <rdf:type rdf:resource="http://bio2rdf.org/interpro_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x scop [interpro_vocabulary:x-scop]</rdfs:label>
+    <rdfs:label xml:lang="en">x scop [interpro_vocabulary:x-scop]</rdfs:label>
+    <dcterms:title xml:lang="en">x scop</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpro_vocabulary:x-scop</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/interpro_resource:bio2rdf.dataset.interpro.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x-scop</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interpro_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/interpro_vocabulary:x-scop</ns4:uri>
+  </rdf:Description>
+</rdf:RDF>

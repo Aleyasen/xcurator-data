@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:void="http://rdfs.org/ns/void#"
+	xmlns:ns4="http://bio2rdf.org/bio2rdf_vocabulary:" >
+  <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:Chemical-Disease-Association">
+    <rdf:type rdf:resource="http://bio2rdf.org/ctd_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class" />
+    <rdfs:label xml:lang="en">A CTD association between a chemical and a disease [ctd_vocabulary:Chemical-Disease-Association]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A CTD association between a chemical and a disease [ctd_vocabulary:Chemical-Disease-Association]</rdfs:label>
+    <dcterms:title xml:lang="en">A CTD association between a chemical and a disease</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary:Chemical-Disease-Association</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/ctd_resource:bio2rdf.dataset.ctd.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemical-Disease-Association</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/ctd_vocabulary:Chemical-Disease-Association</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:article">
+    <rdf:type rdf:resource="http://bio2rdf.org/ctd_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">article [ctd_vocabulary:article]</rdfs:label>
+    <rdfs:label xml:lang="en">article [ctd_vocabulary:article]</rdfs:label>
+    <dcterms:title xml:lang="en">article</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary:article</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/ctd_resource:bio2rdf.dataset.ctd.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">article</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/ctd_vocabulary:article</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:disease">
+    <rdf:type rdf:resource="http://bio2rdf.org/ctd_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdfs:label xml:lang="en">disease [ctd_vocabulary:disease]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease [ctd_vocabulary:disease]</rdfs:label>
+    <dcterms:title xml:lang="en">disease</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary:disease</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/ctd_resource:bio2rdf.dataset.ctd.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/ctd_vocabulary:disease</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:Resource">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary resource [ctd_vocabulary:Resource]</rdfs:label>
+    <rdfs:label>ctd_resource resource [ctd_vocabulary:Resource]</rdfs:label>
+    <rdfs:label>ctd_vocabulary resource [ctd_vocabulary:Resource]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_resource resource [ctd_vocabulary:Resource]</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:Chemical-Gene-Association">
+    <rdf:type rdf:resource="http://bio2rdf.org/ctd_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A CTD association between a chemical and a gene [ctd_vocabulary:Chemical-Gene-Association]</rdfs:label>
+    <rdfs:label xml:lang="en">A CTD association between a chemical and a gene [ctd_vocabulary:Chemical-Gene-Association]</rdfs:label>
+    <dcterms:title xml:lang="en">A CTD association between a chemical and a gene</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary:Chemical-Gene-Association</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/ctd_resource:bio2rdf.dataset.ctd.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemical-Gene-Association</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/ctd_vocabulary:Chemical-Gene-Association</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:action">
+    <rdf:type rdf:resource="http://bio2rdf.org/ctd_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">action [ctd_vocabulary:action]</rdfs:label>
+    <rdfs:label xml:lang="en">action [ctd_vocabulary:action]</rdfs:label>
+    <dcterms:title xml:lang="en">action</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary:action</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/ctd_resource:bio2rdf.dataset.ctd.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">action</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/ctd_vocabulary:action</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:chemical">
+    <rdf:type rdf:resource="http://bio2rdf.org/ctd_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemical [ctd_vocabulary:chemical]</rdfs:label>
+    <rdfs:label xml:lang="en">chemical [ctd_vocabulary:chemical]</rdfs:label>
+    <dcterms:title xml:lang="en">chemical</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary:chemical</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/ctd_resource:bio2rdf.dataset.ctd.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemical</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/ctd_vocabulary:chemical</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:gene">
+    <rdf:type rdf:resource="http://bio2rdf.org/ctd_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene [ctd_vocabulary:gene]</rdfs:label>
+    <rdfs:label xml:lang="en">gene [ctd_vocabulary:gene]</rdfs:label>
+    <dcterms:title xml:lang="en">gene</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary:gene</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/ctd_resource:bio2rdf.dataset.ctd.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/ctd_vocabulary:gene</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:organism">
+    <rdf:type rdf:resource="http://bio2rdf.org/ctd_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdfs:label xml:lang="en">organism [ctd_vocabulary:organism]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organism [ctd_vocabulary:organism]</rdfs:label>
+    <dcterms:title xml:lang="en">organism</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary:organism</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/ctd_resource:bio2rdf.dataset.ctd.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organism</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/ctd_vocabulary:organism</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:Disease">
+    <rdf:type rdf:resource="http://bio2rdf.org/ctd_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTD Disease [ctd_vocabulary:Disease]</rdfs:label>
+    <rdfs:label xml:lang="en">CTD Disease [ctd_vocabulary:Disease]</rdfs:label>
+    <dcterms:title xml:lang="en">CTD Disease</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary:Disease</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/ctd_resource:bio2rdf.dataset.ctd.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/ctd_vocabulary:Disease</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:Gene">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class" />
+    <rdf:type rdf:resource="http://bio2rdf.org/ctd_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">CTD Gene [ctd_vocabulary:Gene]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTD Gene [ctd_vocabulary:Gene]</rdfs:label>
+    <dcterms:title xml:lang="en">CTD Gene</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary:Gene</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/ctd_resource:bio2rdf.dataset.ctd.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gene</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/ctd_vocabulary:Gene</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:alternative-ncbigene-id">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdf:type rdf:resource="http://bio2rdf.org/ctd_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">alternative ncbigene id [ctd_vocabulary:alternative-ncbigene-id]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alternative ncbigene id [ctd_vocabulary:alternative-ncbigene-id]</rdfs:label>
+    <dcterms:title xml:lang="en">alternative ncbigene id</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary:alternative-ncbigene-id</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/ctd_resource:bio2rdf.dataset.ctd.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alternative-ncbigene-id</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/ctd_vocabulary:alternative-ncbigene-id</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:gene-symbol">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty" />
+    <rdf:type rdf:resource="http://bio2rdf.org/ctd_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">gene symbol [ctd_vocabulary:gene-symbol]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene symbol [ctd_vocabulary:gene-symbol]</rdfs:label>
+    <dcterms:title xml:lang="en">gene symbol</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary:gene-symbol</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/ctd_resource:bio2rdf.dataset.ctd.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene-symbol</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/ctd_vocabulary:gene-symbol</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:synonym">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty" />
+    <rdf:type rdf:resource="http://bio2rdf.org/ctd_vocabulary:Resource" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">synonym [ctd_vocabulary:synonym]</rdfs:label>
+    <rdfs:label xml:lang="en">synonym [ctd_vocabulary:synonym]</rdfs:label>
+    <dcterms:title xml:lang="en">synonym</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary:synonym</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/ctd_resource:bio2rdf.dataset.ctd.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">synonym</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/ctd_vocabulary:synonym</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:x-biogrid">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdf:type rdf:resource="http://bio2rdf.org/ctd_vocabulary:Resource" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x biogrid [ctd_vocabulary:x-biogrid]</rdfs:label>
+    <rdfs:label xml:lang="en">x biogrid [ctd_vocabulary:x-biogrid]</rdfs:label>
+    <dcterms:title xml:lang="en">x biogrid</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary:x-biogrid</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/ctd_resource:bio2rdf.dataset.ctd.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x-biogrid</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/ctd_vocabulary:x-biogrid</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:x-uniprot">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdf:type rdf:resource="http://bio2rdf.org/ctd_vocabulary:Resource" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x uniprot [ctd_vocabulary:x-uniprot]</rdfs:label>
+    <rdfs:label xml:lang="en">x uniprot [ctd_vocabulary:x-uniprot]</rdfs:label>
+    <dcterms:title xml:lang="en">x uniprot</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary:x-uniprot</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/ctd_resource:bio2rdf.dataset.ctd.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x-uniprot</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/ctd_vocabulary:x-uniprot</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:has-function">
+    <rdf:type rdf:resource="http://bio2rdf.org/ctd_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdfs:label xml:lang="en">has function [ctd_vocabulary:has-function]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has function [ctd_vocabulary:has-function]</rdfs:label>
+    <dcterms:title xml:lang="en">has function</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary:has-function</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/ctd_resource:bio2rdf.dataset.ctd.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has-function</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/ctd_vocabulary:has-function</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:is-located-in">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdf:type rdf:resource="http://bio2rdf.org/ctd_vocabulary:Resource" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is located in [ctd_vocabulary:is-located-in]</rdfs:label>
+    <rdfs:label xml:lang="en">is located in [ctd_vocabulary:is-located-in]</rdfs:label>
+    <dcterms:title xml:lang="en">is located in</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary:is-located-in</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/ctd_resource:bio2rdf.dataset.ctd.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is-located-in</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/ctd_vocabulary:is-located-in</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:is-participant-in">
+    <rdf:type rdf:resource="http://bio2rdf.org/ctd_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is participant in [ctd_vocabulary:is-participant-in]</rdfs:label>
+    <rdfs:label xml:lang="en">is participant in [ctd_vocabulary:is-participant-in]</rdfs:label>
+    <dcterms:title xml:lang="en">is participant in</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary:is-participant-in</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/ctd_resource:bio2rdf.dataset.ctd.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is-participant-in</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/ctd_vocabulary:is-participant-in</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:Chemical-Pathway-Association">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:p-value">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty" />
+    <rdf:type rdf:resource="http://bio2rdf.org/ctd_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">p value [ctd_vocabulary:p-value]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p value [ctd_vocabulary:p-value]</rdfs:label>
+    <dcterms:title xml:lang="en">p value</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary:p-value</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/ctd_resource:bio2rdf.dataset.ctd.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p-value</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/ctd_vocabulary:p-value</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:pathway">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdf:type rdf:resource="http://bio2rdf.org/ctd_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">pathway [ctd_vocabulary:pathway]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathway [ctd_vocabulary:pathway]</rdfs:label>
+    <dcterms:title xml:lang="en">pathway</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary:pathway</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/ctd_resource:bio2rdf.dataset.ctd.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathway</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/ctd_vocabulary:pathway</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:Chemical">
+    <rdf:type rdf:resource="http://bio2rdf.org/ctd_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class" />
+    <rdfs:label xml:lang="en">CTD Chemical [ctd_vocabulary:Chemical]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTD Chemical [ctd_vocabulary:Chemical]</rdfs:label>
+    <dcterms:title xml:lang="en">CTD Chemical</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary:Chemical</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/ctd_resource:bio2rdf.dataset.ctd.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemical</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/ctd_vocabulary:Chemical</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:x-cas">
+    <rdf:type rdf:resource="http://bio2rdf.org/ctd_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x cas [ctd_vocabulary:x-cas]</rdfs:label>
+    <rdfs:label xml:lang="en">x cas [ctd_vocabulary:x-cas]</rdfs:label>
+    <dcterms:title xml:lang="en">x cas</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary:x-cas</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/ctd_resource:bio2rdf.dataset.ctd.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x-cas</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/ctd_vocabulary:x-cas</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:x-pharmgkb">
+    <rdf:type rdf:resource="http://bio2rdf.org/ctd_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdfs:label xml:lang="en">x pharmgkb [ctd_vocabulary:x-pharmgkb]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x pharmgkb [ctd_vocabulary:x-pharmgkb]</rdfs:label>
+    <dcterms:title xml:lang="en">x pharmgkb</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary:x-pharmgkb</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/ctd_resource:bio2rdf.dataset.ctd.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x-pharmgkb</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/ctd_vocabulary:x-pharmgkb</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:Gene-Disease-Association">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/ctd_vocabulary:Pathway">
+    <rdf:type rdf:resource="http://bio2rdf.org/ctd_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTD Pathway [ctd_vocabulary:Pathway]</rdfs:label>
+    <rdfs:label xml:lang="en">CTD Pathway [ctd_vocabulary:Pathway]</rdfs:label>
+    <dcterms:title xml:lang="en">CTD Pathway</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary:Pathway</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/ctd_resource:bio2rdf.dataset.ctd.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ctd_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/ctd_vocabulary:Pathway</ns4:uri>
+  </rdf:Description>
+</rdf:RDF>
