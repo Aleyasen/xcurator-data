@@ -1,0 +1,8 @@
+active_site
+resource
+PTM
+family
+repeat
+binding_site
+conserved_site
+domain

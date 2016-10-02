@@ -1,0 +1,6 @@
+CTD Gene
+A CTD association between a chemical and a disease
+CTD Disease
+CTD Pathway
+A CTD association between a chemical and a gene
+CTD Chemical

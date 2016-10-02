@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xcurator:mapping xmlns:xcurator="http://www.cs.toronto.edu/xcurator" xmlns:class="http://xcurator.com/resource/class" xmlns:property="http://xcurator.com/resource/property">
+  <xcurator:entity path="/RowSet/Row" type="class:Row" xmlType="Row">
+    <xcurator:attribute name="property:ParentIDs" path="./ParentIDs/text()"/>
+    <xcurator:attribute name="property:DrugBankIDs" path="./DrugBankIDs/text()"/>
+    <xcurator:attribute name="property:ChemicalName" path="./ChemicalName/text()"/>
+    <xcurator:attribute name="property:Synonyms" path="./Synonyms/text()"/>
+    <xcurator:attribute name="property:ChemicalID" path="./ChemicalID/text()"/>
+    <xcurator:attribute name="property:Definition" path="./Definition/text()"/>
+    <xcurator:attribute name="property:CasRN" path="./CasRN/text()"/>
+    <xcurator:attribute name="property:TreeNumbers" path="./TreeNumbers/text()"/>
+    <xcurator:attribute name="property:ParentTreeNumbers" path="./ParentTreeNumbers/text()"/>
+  </xcurator:entity>
+</xcurator:mapping>

@@ -1,0 +1,54 @@
+ENTITIES:
+result:
+ [Row]
+size: 1
+
+ground:
+ [CTD Disease, A CTD association between a chemical and a disease, CTD Chemical, A CTD association between a chemical and a gene, CTD Gene, CTD Pathway]
+size: 6
+
+intersection:
+ []
+size: 0
+
+Prec:	0
+Recall:	0
+F1:	?
+0	0	?
+ATTRIBUTES:
+result:
+ [Synonyms, ParentIDs, DrugBankIDs, ChemicalName, Definition, ChemicalID, CasRN, TreeNumbers, ParentTreeNumbers]
+size: 9
+
+ground:
+ [synonym, p-value, action, gene-symbol]
+size: 4
+
+intersection:
+ []
+size: 0
+
+Prec:	0
+Recall:	0
+F1:	?
+0	0	?
+
+MISSED:
+Only In Result (both entities & attributes):
+[Synonyms, ParentIDs, DrugBankIDs, ChemicalName, Definition, Row, ChemicalID, CasRN, TreeNumbers, ParentTreeNumbers]
+size: 10
+
+Only In GroundTruth (both entities & attributes):
+[CTD Disease, A CTD association between a chemical and a disease, synonym, p-value, CTD Chemical, A CTD association between a chemical and a gene, action, CTD Gene, gene-symbol, CTD Pathway]
+size: 10
+
+
+Attributes that recognized as entity:
+[]
+size: 0
+
+
+Entities that recognized as attribute:
+[]
+size: 0
+

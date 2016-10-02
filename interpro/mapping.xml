@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xcurator:mapping xmlns:xcurator="http://www.cs.toronto.edu/xcurator" xmlns:class="http://xcurator.com/resource/class" xmlns:property="http://xcurator.com/resource/property">
+  <xcurator:entity path="/interprodb/interpro/taxonomy_distribution/taxon_data" type="class:taxon_data" xmlType="taxon_data">
+    <xcurator:attribute name="property:name" path="@name"/>
+    <xcurator:attribute name="property:proteins_count" path="@proteins_count"/>
+  </xcurator:entity>
+  <xcurator:entity path="/interprodb/interpro/abstract/p/ul|/interprodb/interpro/abstract/p|/interprodb/interpro/abstract/ol/li|/interprodb/interpro/abstract/ul|/interprodb/interpro/abstract/li/ul|/interprodb/interpro/abstract/ul/li|/interprodb/interpro/abstract/p/ol|/interprodb/interpro/abstract/p/p/p/ul|/interprodb/interpro/abstract/p/p/p/sup|/interprodb/interpro/abstract/p/p/ul|/interprodb/interpro/abstract/p/p" type="class:sup" xmlType="sup">
+    <xcurator:attribute name="property:sup" path="./sup/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/interprodb/interpro/contains/rel_ref|/interprodb/interpro/child_list/rel_ref|/interprodb/interpro/parent_list/rel_ref|/interprodb/interpro/found_in/rel_ref" type="class:rel_ref" xmlType="rel_ref">
+    <xcurator:attribute name="property:ipr_ref" path="@ipr_ref"/>
+  </xcurator:entity>
+  <xcurator:entity path="/interprodb/release/dbinfo" type="class:dbinfo" xmlType="dbinfo">
+    <xcurator:attribute name="property:version" path="@version"/>
+    <xcurator:attribute name="property:dbname" path="@dbname"/>
+    <xcurator:attribute name="property:file_date" path="@file_date"/>
+    <xcurator:attribute name="property:entry_count" path="@entry_count"/>
+  </xcurator:entity>
+  <xcurator:entity path="/interprodb/interpro/pub_list/publication" type="class:publication" xmlType="publication">
+    <xcurator:attribute name="property:id" path="@id"/>
+    <xcurator:attribute name="property:year" path="./year/text()"/>
+    <xcurator:attribute name="property:journal" path="./journal/text()"/>
+    <xcurator:attribute name="property:author_list" path="./author_list/text()"/>
+    <xcurator:attribute name="property:title" path="./title/text()"/>
+    <xcurator:relation name="property:location" path="./location" targetEntityXmlType="location"/>
+    <xcurator:relation name="property:db_xref" path="./db_xref" targetEntityXmlType="db_xref"/>
+  </xcurator:entity>
+  <xcurator:entity path="/interprodb/interpro/abstract/p/ul|/interprodb/interpro/abstract/p|/interprodb/interpro/abstract/ol/li|/interprodb/interpro/abstract/ul|/interprodb/interpro/abstract/li/ul|/interprodb/interpro/abstract/ul/li|/interprodb/interpro/abstract/p/ol|/interprodb/interpro/abstract/p/p/p/ul|/interprodb/interpro/abstract/p/p/ul|/interprodb/interpro/abstract/p/p/p/p|/interprodb/interpro/abstract/p/p" type="class:ul" xmlType="ul">
+    <xcurator:attribute name="property:li" path="./li/text()"/>
+    <xcurator:attribute name="property:p" path="./p/text()"/>
+    <xcurator:relation name="property:cite" path="./cite" targetEntityXmlType="cite"/>
+    <xcurator:relation name="property:li" path="./li" targetEntityXmlType="li"/>
+    <xcurator:relation name="property:p" path="./p" targetEntityXmlType="p"/>
+  </xcurator:entity>
+  <xcurator:entity path="/interprodb/interpro/abstract/p/p/li|/interprodb/interpro/abstract/li/li|/interprodb/interpro/abstract/p|/interprodb/interpro/abstract/p/p/p/li|/interprodb/interpro/abstract/li/taxon|/interprodb/interpro/abstract/ul|/interprodb/interpro/abstract/ol|/interprodb/interpro/abstract/p/ul|/interprodb/interpro/abstract/ul/li/taxon|/interprodb/interpro/abstract/ol/li|/interprodb/interpro/abstract/p/ol/li|/interprodb/interpro/abstract/p/ol|/interprodb/interpro/abstract/p/p/p/taxon|/interprodb/interpro/abstract/p/p|/interprodb/interpro/abstract/p/p/p/ol|/interprodb/interpro/abstract/p/taxon|/interprodb/interpro/abstract/li/ul|/interprodb/interpro/abstract/p/ol/taxon|/interprodb/interpro/abstract/p/p/p/ul|/interprodb/interpro/abstract/li|/interprodb/interpro/abstract/p/p/ul|/interprodb/interpro/abstract/p/p/p/p|/interprodb/interpro/abstract/taxon|/interprodb/interpro/abstract/p/p/taxon|/interprodb/interpro/abstract/p/p/ul/li|/interprodb/interpro/abstract/ul/li" type="class:taxon" xmlType="taxon">
+    <xcurator:attribute name="property:tax_id" path="@tax_id"/>
+    <xcurator:attribute name="property:value" path="text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/interprodb/interpro/abstract/p|/interprodb/interpro/abstract/p/p/p/ol|/interprodb/interpro/abstract/p/ol|/interprodb/interpro/abstract/ol|/interprodb/interpro/abstract/p/p" type="class:ol" xmlType="ol">
+    <xcurator:attribute name="property:li" path="./li/text()"/>
+    <xcurator:relation name="property:li" path="./li" targetEntityXmlType="li"/>
+  </xcurator:entity>
+  <xcurator:entity path="/interprodb/interpro/abstract/p/p/li|/interprodb/interpro/abstract/li/li|/interprodb/interpro/abstract/p|/interprodb/interpro/abstract/ul/li/db_xref|/interprodb/interpro/abstract/p/p/p/li|/interprodb/interpro/abstract/p/db_xref|/interprodb/interpro/abstract/pre/db_xref|/interprodb/interpro/abstract/ul|/interprodb/interpro/abstract/p/p/b|/interprodb/interpro/abstract/ol|/interprodb/interpro/abstract/b|/interprodb/interpro/abstract/p/ul|/interprodb/interpro/abstract/p/ol/db_xref|/interprodb/interpro/structure_db_links/db_xref|/interprodb/interpro/abstract/ol/li|/interprodb/interpro/abstract/db_xref|/interprodb/interpro/abstract/p/ol/li|/interprodb/interpro/abstract/p/ol|/interprodb/interpro/abstract/p/p|/interprodb/interpro/abstract/p/p/p/ol|/interprodb/interpro/abstract/li/ul|/interprodb/interpro/abstract/p/p/p/ul|/interprodb/interpro/abstract/li/db_xref|/interprodb/interpro/external_doc_list/db_xref|/interprodb/interpro/abstract/li|/interprodb/interpro/abstract/p/p/ul|/interprodb/interpro/abstract/p/p/p/p|/interprodb/interpro/abstract/p/p/db_xref|/interprodb/interpro/abstract/p/p/p/db_xref|/interprodb/interpro/pub_list/publication/db_xref|/interprodb/interpro/abstract/p/p/ul/li|/interprodb/interpro/abstract/ul/li|/interprodb/interpro/member_list/db_xref" type="class:db_xref" xmlType="db_xref">
+    <xcurator:attribute name="property:protein_count" path="@protein_count"/>
+    <xcurator:attribute name="property:db" path="@db"/>
+    <xcurator:attribute name="property:name" path="@name"/>
+    <xcurator:attribute name="property:dbkey" path="@dbkey"/>
+  </xcurator:entity>
+  <xcurator:entity path="/interprodb/interpro/abstract/p/p/li|/interprodb/interpro/abstract/li/li|/interprodb/interpro/abstract/p|/interprodb/interpro/abstract/p/p/p/ol|/interprodb/interpro/abstract/p/p/p/li|/interprodb/interpro/abstract/ul|/interprodb/interpro/abstract/li/ul|/interprodb/interpro/abstract/p/p/b|/interprodb/interpro/abstract/p/p/p/ul|/interprodb/interpro/abstract/li|/interprodb/interpro/abstract/ol|/interprodb/interpro/abstract/p/p/ul|/interprodb/interpro/abstract/p/p/p/p|/interprodb/interpro/abstract/b|/interprodb/interpro/abstract/p/ul|/interprodb/interpro/abstract/ol/li|/interprodb/interpro/abstract/p/ol/li|/interprodb/interpro/abstract/p/p/ul/li|/interprodb/interpro/abstract/ul/li|/interprodb/interpro/abstract/p/ol" type="class:b" xmlType="b">
+    <xcurator:attribute name="property:p" path="./p/text()"/>
+    <xcurator:relation name="property:db_xref" path="./db_xref" targetEntityXmlType="db_xref"/>
+  </xcurator:entity>
+  <xcurator:entity path="/interprodb/interpro/abstract/p|/interprodb/interpro/abstract/ul|/interprodb/interpro/abstract/li/ul|/interprodb/interpro/abstract/p/reaction|/interprodb/interpro/abstract/p/p/p/reaction|/interprodb/interpro/abstract/p/p/p/ul|/interprodb/interpro/abstract/p/p/reaction|/interprodb/interpro/abstract/p/p/ul|/interprodb/interpro/abstract/p/p/p/p|/interprodb/interpro/abstract/reaction|/interprodb/interpro/abstract/p/ul|/interprodb/interpro/abstract/ol/li|/interprodb/interpro/abstract/ul/li|/interprodb/interpro/abstract/p/ol|/interprodb/interpro/abstract/p/p" type="class:reaction" xmlType="reaction">
+    <xcurator:attribute name="property:sub" path="./sub/text()"/>
+    <xcurator:attribute name="property:sup" path="./sup/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/interprodb/interpro/abstract" type="class:abstract" xmlType="abstract">
+    <xcurator:attribute name="property:pre" path="./pre/text()"/>
+    <xcurator:attribute name="property:sub" path="./sub/text()"/>
+    <xcurator:attribute name="property:i" path="./i/text()"/>
+    <xcurator:attribute name="property:sup" path="./sup/text()"/>
+    <xcurator:attribute name="property:li" path="./li/text()"/>
+    <xcurator:attribute name="property:p" path="./p/text()"/>
+    <xcurator:attribute name="property:reaction" path="./reaction/text()"/>
+    <xcurator:relation name="property:pre" path="./pre" targetEntityXmlType="pre"/>
+    <xcurator:relation name="property:db_xref" path="./db_xref" targetEntityXmlType="db_xref"/>
+    <xcurator:relation name="property:ul" path="./ul" targetEntityXmlType="ul"/>
+    <xcurator:relation name="property:cite" path="./cite" targetEntityXmlType="cite"/>
+    <xcurator:relation name="property:taxon" path="./taxon" targetEntityXmlType="taxon"/>
+    <xcurator:relation name="property:b" path="./b" targetEntityXmlType="b"/>
+    <xcurator:relation name="property:ol" path="./ol" targetEntityXmlType="ol"/>
+    <xcurator:relation name="property:li" path="./li" targetEntityXmlType="li"/>
+    <xcurator:relation name="property:p" path="./p" targetEntityXmlType="p"/>
+    <xcurator:relation name="property:reaction" path="./reaction" targetEntityXmlType="reaction"/>
+  </xcurator:entity>
+  <xcurator:entity path="/interprodb/interpro/sec_list/sec_ac" type="class:sec_ac" xmlType="sec_ac">
+    <xcurator:attribute name="property:acc" path="@acc"/>
+  </xcurator:entity>
+  <xcurator:entity path="/interprodb/interpro/class_list/classification" type="class:classification" xmlType="classification">
+    <xcurator:attribute name="property:class_type" path="@class_type"/>
+    <xcurator:attribute name="property:description" path="./description/text()"/>
+    <xcurator:attribute name="property:id" path="@id"/>
+    <xcurator:attribute name="property:category" path="./category/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/interprodb/interpro" type="class:interpro" xmlType="interpro">
+    <xcurator:attribute name="property:protein_count" path="@protein_count"/>
+    <xcurator:attribute name="property:abstract" path="./abstract/text()"/>
+    <xcurator:attribute name="property:short_name" path="@short_name"/>
+    <xcurator:attribute name="property:pub_list" path="./pub_list/text()"/>
+    <xcurator:attribute name="property:id" path="@id"/>
+    <xcurator:attribute name="property:type" path="@type"/>
+    <xcurator:attribute name="property:name" path="./name/text()"/>
+    <xcurator:relation name="property:parent_list" path="./parent_list" targetEntityXmlType="parent_list"/>
+    <xcurator:relation name="property:structure_db_links" path="./structure_db_links" targetEntityXmlType="structure_db_links"/>
+    <xcurator:relation name="property:member_list" path="./member_list" targetEntityXmlType="member_list"/>
+    <xcurator:relation name="property:abstract" path="./abstract" targetEntityXmlType="abstract"/>
+    <xcurator:relation name="property:child_list" path="./child_list" targetEntityXmlType="child_list"/>
+    <xcurator:relation name="property:external_doc_list" path="./external_doc_list" targetEntityXmlType="external_doc_list"/>
+    <xcurator:relation name="property:sec_list" path="./sec_list" targetEntityXmlType="sec_list"/>
+    <xcurator:relation name="property:taxonomy_distribution" path="./taxonomy_distribution" targetEntityXmlType="taxonomy_distribution"/>
+    <xcurator:relation name="property:class_list" path="./class_list" targetEntityXmlType="class_list"/>
+    <xcurator:relation name="property:pub_list" path="./pub_list" targetEntityXmlType="pub_list"/>
+    <xcurator:relation name="property:contains" path="./contains" targetEntityXmlType="contains"/>
+    <xcurator:relation name="property:found_in" path="./found_in" targetEntityXmlType="found_in"/>
+  </xcurator:entity>
+  <xcurator:entity path="/interprodb/interpro/abstract/p/ul|/interprodb/interpro/abstract/p|/interprodb/interpro/abstract/ol/li|/interprodb/interpro/abstract/ul|/interprodb/interpro/abstract/li/ul|/interprodb/interpro/abstract/ul/li|/interprodb/interpro/abstract/p/ol|/interprodb/interpro/abstract/p/p/p/ul|/interprodb/interpro/abstract/p/p/ul|/interprodb/interpro/abstract/p/p/p/p|/interprodb/interpro/abstract/p/p|/interprodb/interpro/abstract/p/p/p" type="class:p" xmlType="p">
+    <xcurator:attribute name="property:sup" path="./sup/text()"/>
+    <xcurator:attribute name="property:sub" path="./sub/text()"/>
+    <xcurator:attribute name="property:p" path="./p/text()"/>
+    <xcurator:attribute name="property:b" path="./b/text()"/>
+    <xcurator:attribute name="property:pre" path="./pre/text()"/>
+    <xcurator:attribute name="property:li" path="./li/text()"/>
+    <xcurator:attribute name="property:i" path="./i/text()"/>
+    <xcurator:attribute name="property:reaction" path="./reaction/text()"/>
+    <xcurator:relation name="property:cite" path="./cite" targetEntityXmlType="cite"/>
+    <xcurator:relation name="property:sup" path="./sup" targetEntityXmlType="sup"/>
+    <xcurator:relation name="property:p" path="./p" targetEntityXmlType="p"/>
+    <xcurator:relation name="property:taxon" path="./taxon" targetEntityXmlType="taxon"/>
+    <xcurator:relation name="property:ul" path="./ul" targetEntityXmlType="ul"/>
+    <xcurator:relation name="property:ol" path="./ol" targetEntityXmlType="ol"/>
+    <xcurator:relation name="property:li" path="./li" targetEntityXmlType="li"/>
+    <xcurator:relation name="property:db_xref" path="./db_xref" targetEntityXmlType="db_xref"/>
+    <xcurator:relation name="property:reaction" path="./reaction" targetEntityXmlType="reaction"/>
+  </xcurator:entity>
+  <xcurator:entity path="/interprodb/deleted_entries/del_ref" type="class:del_ref" xmlType="del_ref">
+    <xcurator:attribute name="property:id" path="@id"/>
+  </xcurator:entity>
+  <xcurator:entity path="/interprodb/interpro/abstract/p/p/li|/interprodb/interpro/abstract/li/li|/interprodb/interpro/abstract/p|/interprodb/interpro/abstract/p/p/p/li|/interprodb/interpro/abstract/ul|/interprodb/interpro/abstract/li/cite|/interprodb/interpro/abstract/p/ol/cite|/interprodb/interpro/abstract/ol|/interprodb/interpro/abstract/p/ul|/interprodb/interpro/abstract/cite|/interprodb/interpro/abstract/ol/li|/interprodb/interpro/abstract/p/ol/li|/interprodb/interpro/abstract/p/ol|/interprodb/interpro/abstract/p/p|/interprodb/interpro/abstract/p/cite|/interprodb/interpro/abstract/p/p/p/ol|/interprodb/interpro/abstract/li/ul|/interprodb/interpro/abstract/p/p/ul/cite|/interprodb/interpro/abstract/p/p/p/ul|/interprodb/interpro/abstract/li|/interprodb/interpro/abstract/p/p/ul|/interprodb/interpro/abstract/p/p/p/p|/interprodb/interpro/abstract/ul/li/cite|/interprodb/interpro/abstract/p/p/cite|/interprodb/interpro/abstract/p/p/p/cite|/interprodb/interpro/abstract/p/p/ul/li|/interprodb/interpro/abstract/ul/li" type="class:cite" xmlType="cite">
+    <xcurator:attribute name="property:idref" path="@idref"/>
+  </xcurator:entity>
+  <xcurator:entity path="/interprodb/interpro/pub_list/publication/location" type="class:location" xmlType="location">
+    <xcurator:attribute name="property:issue" path="@issue"/>
+    <xcurator:attribute name="property:pages" path="@pages"/>
+    <xcurator:attribute name="property:volume" path="@volume"/>
+  </xcurator:entity>
+  <xcurator:entity path="/interprodb/interpro/abstract/p/p/li|/interprodb/interpro/abstract/li/li|/interprodb/interpro/abstract/p|/interprodb/interpro/abstract/p/p/p/ol|/interprodb/interpro/abstract/p/p/p/li|/interprodb/interpro/abstract/ul|/interprodb/interpro/abstract/li/ul|/interprodb/interpro/abstract/p/p/p/ul|/interprodb/interpro/abstract/li|/interprodb/interpro/abstract/ol|/interprodb/interpro/abstract/p/p/ul|/interprodb/interpro/abstract/p/p/p/p|/interprodb/interpro/abstract/p/ul|/interprodb/interpro/abstract/ol/li|/interprodb/interpro/abstract/p/ol/li|/interprodb/interpro/abstract/p/p/ul/li|/interprodb/interpro/abstract/ul/li|/interprodb/interpro/abstract/p/ol|/interprodb/interpro/abstract/p/p" type="class:li" xmlType="li">
+    <xcurator:attribute name="property:b" path="./b/text()"/>
+    <xcurator:attribute name="property:sup" path="./sup/text()"/>
+    <xcurator:attribute name="property:sub" path="./sub/text()"/>
+    <xcurator:attribute name="property:i" path="./i/text()"/>
+    <xcurator:attribute name="property:li" path="./li/text()"/>
+    <xcurator:relation name="property:b" path="./b" targetEntityXmlType="b"/>
+    <xcurator:relation name="property:taxon" path="./taxon" targetEntityXmlType="taxon"/>
+    <xcurator:relation name="property:ul" path="./ul" targetEntityXmlType="ul"/>
+    <xcurator:relation name="property:db_xref" path="./db_xref" targetEntityXmlType="db_xref"/>
+    <xcurator:relation name="property:cite" path="./cite" targetEntityXmlType="cite"/>
+    <xcurator:relation name="property:li" path="./li" targetEntityXmlType="li"/>
+  </xcurator:entity>
+</xcurator:mapping>

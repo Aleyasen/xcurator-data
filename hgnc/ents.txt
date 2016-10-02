@@ -1,0 +1,3 @@
+resource
+approved-gene-symbol
+gene-symbol

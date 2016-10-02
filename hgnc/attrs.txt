@@ -1,0 +1,17 @@
+accession
+date-modified
+previous-name
+chromosome
+synonym
+name-synonym
+approved-name
+previous-symbol
+approved-symbol
+gene-family-description
+date-symbol-changed
+gene-family-tag
+locus-specific-xref
+x-ec
+date-name-changed
+date-approved
+record-type

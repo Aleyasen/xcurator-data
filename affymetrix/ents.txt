@@ -1,0 +1,2 @@
+Affymetrix GeneChip array
+Affymetrix probeset

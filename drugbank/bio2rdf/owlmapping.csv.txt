@@ -1,0 +1,86 @@
+Name(OWL)	Name(XML)	Type
+toxicity	toxicity	Entity
+substructures		Entity
+pharmaceutical		Entity
+inchikey		Entity
+smiles		Entity
+molecular-weight		Entity
+source		Entity
+type		Entity
+drug		Entity
+refractivity		Entity
+polar-surface-area-(psa)		Entity
+pharmacology		Entity
+food-interaction		Entity
+brand		Entity
+logs		Entity
+logp		Entity
+group		Entity
+boiling-point		Entity
+polarizability		Entity
+mechanism-of-action	mechanism-of-action	Entity
+inchi		Entity
+absorption		Entity
+caco2-permeability		Entity
+monoisotopic-weight		Entity
+rule-of-five		Entity
+ghose-filter		Entity
+water-solubility		Entity
+half-life		Entity
+unit		Entity
+molecular-formula		Entity
+volume-of-distribution		Entity
+route-of-elimination		Entity
+bioavailability		Entity
+pka-(strongest-basic)		Entity
+transporter-relation		Entity
+physiological-charge		Entity
+indication	indication	Entity
+patent		Entity
+rotatable-bond-count		Entity
+pka		Entity
+mddr-like-rule		Entity
+traditional-iupac-name		Entity
+manufacturer		Entity
+protein-binding		Entity
+iupac-name		Entity
+synonym		Entity
+isoelectric-point		Entity
+drug-drug-interaction		Entity
+mixture		Entity
+number-of-rings		Entity
+clearance		Entity
+h-bond-donor-count		Entity
+carrier-relation		Entity
+enzyme		Entity
+salt		Entity
+h-bond-acceptor-count		Entity
+kingdom		Entity
+target		Entity
+affected-organism		Entity
+enzyme-relation		Entity
+biotransformation	biotransformation	Entity
+hydrophobicity		Entity
+carrier		Entity
+pka-(strongest-acidic)		Entity
+transporter		Entity
+melting-point		Entity
+category		Entity
+target-relation		Entity
+known action		Attribute
+ingredients		Attribute
+general function		Attribute
+value		Attribute
+organism		Attribute
+gene name		Attribute
+expires		Attribute
+molecular weight		Attribute
+cellular location		Attribute
+theoretical pi	theoretical pi	Attribute
+price		Attribute
+name		Attribute
+transmembrane regions		Attribute
+id		Attribute
+approved		Attribute
+specific function		Attribute
+locus		Attribute

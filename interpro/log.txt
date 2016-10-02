@@ -1,0 +1,54 @@
+ENTITIES:
+result:
+ [db_xref, b, reaction, taxon_data, abstract, sec_ac, classification, interpro, sup, p, rel_ref, dbinfo, publication, ul, del_ref, cite, taxon, location, ol, li]
+size: 20
+
+ground:
+ []
+size: 1
+
+intersection:
+ []
+size: 0
+
+Prec:	0
+Recall:	0
+F1:	?
+0	0	?
+ATTRIBUTES:
+result:
+ [acc, sub, year, pub_list, description, title, type, dbkey, sup, file_date, journal, class_type, pages, id, value, pre, b, reaction, issue, proteins_count, entry_count, i, abstract, author_list, version, tax_id, idref, p, volume, dbname, name, protein_count, short_name, category, li, db, ipr_ref]
+size: 37
+
+ground:
+ [taxon-distribution, contains	]
+size: 2
+
+intersection:
+ []
+size: 0
+
+Prec:	0
+Recall:	0
+F1:	?
+0	0	?
+
+MISSED:
+Only In Result (both entities & attributes):
+[acc, year, type, dbkey, file_date, rel_ref, class_type, pages, dbinfo, publication, ul, id, db_xref, pre, issue, entry_count, sec_ac, classification, author_list, version, interpro, tax_id, volume, dbname, del_ref, name, protein_count, short_name, sub, pub_list, description, taxon_data, title, sup, journal, taxon, ol, value, b, reaction, proteins_count, i, abstract, idref, p, cite, location, category, li, db, ipr_ref]
+size: 51
+
+Only In GroundTruth (both entities & attributes):
+[, taxon-distribution, contains	]
+size: 3
+
+
+Attributes that recognized as entity:
+[]
+size: 0
+
+
+Entities that recognized as attribute:
+[]
+size: 0
+

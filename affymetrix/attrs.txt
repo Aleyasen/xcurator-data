@@ -1,0 +1,45 @@
+netaffx annotation docgen version
+chromosomal location
+netaffx annotation docgen method
+genome version create_date
+mirbase version
+probe set id
+gene title
+genome version
+rgap date
+annotation date
+annotation notes
+chip_type
+genome species
+create_date
+netaffx annotation netaffx build
+refseq date
+tair date
+entrezgene date
+representative public id
+sequence source
+netaffx annotation tabular format version
+genome version ucsc
+unigene date
+target description
+rgap version
+unigene cluster type
+genome version ncbi
+ensembl date
+jgi version
+tair version
+omim date
+genbank date
+transcript
+alignments
+netaffx annotation date
+ensembl version
+pathway
+genbank version
+refseq version
+qtl
+jgi date
+mirbase date
+annotation description
+sequence type
+

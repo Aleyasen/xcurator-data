@@ -1,0 +1,155 @@
+"Brand"@en	http://www.w3.org/2002/07/owl#Class	
+"Monoisotopic Weight"@en	http://www.w3.org/2002/07/owl#Class	
+"kingdom"@en	http://www.w3.org/2002/07/owl#Class	
+"InChIKey"@en	http://www.w3.org/2002/07/owl#Class	
+"Target Relation"@en	http://www.w3.org/2002/07/owl#Class	
+"SMILES"@en	http://www.w3.org/2002/07/owl#Class	
+"Rule of Five"@en	http://www.w3.org/2002/07/owl#Class	
+"Physiological Charge"@en	http://www.w3.org/2002/07/owl#Class	
+"Toxicity"@en	http://www.w3.org/2002/07/owl#Class	
+"IUPAC Name"@en	http://www.w3.org/2002/07/owl#Class	
+"manufacturer"@en	http://www.w3.org/2002/07/owl#Class	
+"Polar Surface Area (PSA)"@en	http://www.w3.org/2002/07/owl#Class	
+"Transporter"@en	http://www.w3.org/2002/07/owl#Class	
+"Mechanism of action"@en	http://www.w3.org/2002/07/owl#Class	
+"Rotatable Bond Count"@en	http://www.w3.org/2002/07/owl#Class	
+"drug-drug interaction"@en	http://www.w3.org/2002/07/owl#Class	
+"pKa"@en	http://www.w3.org/2002/07/owl#Class	
+"Protein binding"@en	http://www.w3.org/2002/07/owl#Class	
+"Melting Point"@en	http://www.w3.org/2002/07/owl#Class	
+"Transporter relation"@en	http://www.w3.org/2002/07/owl#Class	
+"Category"@en	http://www.w3.org/2002/07/owl#Class	
+"unit"@en	http://www.w3.org/2002/07/owl#Class	
+"Pharmacology"@en	http://www.w3.org/2002/07/owl#Class	
+"Ghose Filter"@en	http://www.w3.org/2002/07/owl#Class	
+"substructures"@en	http://www.w3.org/2002/07/owl#Class	
+"Half life"@en	http://www.w3.org/2002/07/owl#Class	
+"Route of elimination"@en	http://www.w3.org/2002/07/owl#Class	
+"patent"@en	http://www.w3.org/2002/07/owl#Class	
+"salt"@en	http://www.w3.org/2002/07/owl#Class	
+"mixture"@en	http://www.w3.org/2002/07/owl#Class	
+"logS"@en	http://www.w3.org/2002/07/owl#Class	
+"Molecular Weight"@en	http://www.w3.org/2002/07/owl#Class	
+"Boiling Point"@en	http://www.w3.org/2002/07/owl#Class	
+"Enzyme Relation"@en	http://www.w3.org/2002/07/owl#Class	
+"Target relation"@en	http://www.w3.org/2002/07/owl#Class	
+"Absorption"@en	http://www.w3.org/2002/07/owl#Class	
+"Carrier Relation"@en	http://www.w3.org/2002/07/owl#Class	
+"food-interaction"@en	http://www.w3.org/2002/07/owl#Class	
+"Bioavailability"@en	http://www.w3.org/2002/07/owl#Class	
+"pKa (strongest acidic)"@en	http://www.w3.org/2002/07/owl#Class	
+"Affected-organism"@en	http://www.w3.org/2002/07/owl#Class	
+"Source"@en	http://www.w3.org/2002/07/owl#Class	
+"Biotransformation"@en	http://www.w3.org/2002/07/owl#Class	
+"pharmaceutical"@en	http://www.w3.org/2002/07/owl#Class	
+"Carrier relation"@en	http://www.w3.org/2002/07/owl#Class	
+"Molecular Formula"@en	http://www.w3.org/2002/07/owl#Class	
+"Enzyme"@en	http://www.w3.org/2002/07/owl#Class	
+"Water Solubility"@en	http://www.w3.org/2002/07/owl#Class	
+"Refractivity"@en	http://www.w3.org/2002/07/owl#Class	
+"MDDR-Like Rule"@en	http://www.w3.org/2002/07/owl#Class	
+"Hydrophobicity"@en	http://www.w3.org/2002/07/owl#Class	
+"Number of Rings"@en	http://www.w3.org/2002/07/owl#Class	
+"H Bond Donor Count"@en	http://www.w3.org/2002/07/owl#Class	
+"Synonym"@en	http://www.w3.org/2002/07/owl#Class	
+"Indication"@en	http://www.w3.org/2002/07/owl#Class	
+"caco2 Permeability"@en	http://www.w3.org/2002/07/owl#Class	
+"Polarizability"@en	http://www.w3.org/2002/07/owl#Class	
+"Isoelectric Point"@en	http://www.w3.org/2002/07/owl#Class	
+"Clearance"@en	http://www.w3.org/2002/07/owl#Class	
+"Carrier"@en	http://www.w3.org/2002/07/owl#Class	
+"H Bond Acceptor Count"@en	http://www.w3.org/2002/07/owl#Class	
+"Traditional IUPAC Name"@en	http://www.w3.org/2002/07/owl#Class	
+"Type"@en	http://www.w3.org/2002/07/owl#Class	
+"Volume of distribution"@en	http://www.w3.org/2002/07/owl#Class	
+"Group"@en	http://www.w3.org/2002/07/owl#Class	
+"Enzyme relation"@en	http://www.w3.org/2002/07/owl#Class	
+"InChI"@en	http://www.w3.org/2002/07/owl#Class	
+"Target"@en	http://www.w3.org/2002/07/owl#Class	
+"Transporter Relation"@en	http://www.w3.org/2002/07/owl#Class	
+"pKa (strongest basic)"@en	http://www.w3.org/2002/07/owl#Class	
+"Drug"@en	http://www.w3.org/2002/07/owl#Class	
+"logP"@en	http://www.w3.org/2002/07/owl#Class	
+
+"known action"@en	http://www.w3.org/2002/07/owl#DatatypeProperty	
+"ingredients"@en	http://www.w3.org/2002/07/owl#DatatypeProperty	
+"general function"@en	http://www.w3.org/2002/07/owl#DatatypeProperty	
+"value"@en	http://www.w3.org/2002/07/owl#DatatypeProperty	
+"organism"@en	http://www.w3.org/2002/07/owl#DatatypeProperty	
+"gene name"@en	http://www.w3.org/2002/07/owl#DatatypeProperty	
+"expires"@en	http://www.w3.org/2002/07/owl#DatatypeProperty	
+"molecular weight"@en	http://www.w3.org/2002/07/owl#DatatypeProperty	
+"cellular location"@en	http://www.w3.org/2002/07/owl#DatatypeProperty	
+"theoretical pi"@en	http://www.w3.org/2002/07/owl#DatatypeProperty	
+"price"@en	http://www.w3.org/2002/07/owl#DatatypeProperty	
+"name"@en	http://www.w3.org/2002/07/owl#DatatypeProperty	
+"transmembrane regions"@en	http://www.w3.org/2002/07/owl#DatatypeProperty	
+"id"@en	http://www.w3.org/2002/07/owl#DatatypeProperty	
+"approved"@en	http://www.w3.org/2002/07/owl#DatatypeProperty	
+"specific function"@en	http://www.w3.org/2002/07/owl#DatatypeProperty	
+"locus"@en	http://www.w3.org/2002/07/owl#DatatypeProperty	
+
+
+"x ahfs"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"experimental properties"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"biotransformation"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"mixture"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"half life"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"product"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"dosage"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"packager"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"carrier"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"brand"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"x chemspider"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"transporter"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"group"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"x wikipedia"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"enzyme"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"x genbank"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"x iuphar"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"x genecards"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"ingredient"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"x pharmgkb"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"food interaction"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"synonym"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"x chebi"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"affected organism"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"reference"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"manufacturer"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"indication"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"mechanism of action"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"drug"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"x gtp"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"x gi"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"x pubchemsubstance"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"action"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"absorption"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"volume of distribution"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"x atc"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"x uniprot"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"salt"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"x pubchemcompound"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"target"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"category"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"x hgnc"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"type"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"route of elimination"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"ddi interactor in"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"toxicity"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"source"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"x bindingdb"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"pharmacology"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"form"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"x kegg"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"patent"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"protein binding"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"x ndc"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"x genatlas"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"country"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"kingdom"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"x pdb"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"route"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"substructure"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"calculated properties"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"clearance"@en	http://www.w3.org/2002/07/owl#ObjectProperty	
+"x dpd"@en	http://www.w3.org/2002/07/owl#ObjectProperty
