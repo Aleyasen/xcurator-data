@@ -1,0 +1,54 @@
+ENTITIES:
+result:
+ [drug-interaction, go-classifier, mixtures, drug, external-links, pfam, price, property, external-identifier, drugbank, polypeptide, organism, level, synonyms, international-brand, classification, packager, sequence, atc-code, actions, go-classifiers, external-link, affected-organisms, dosage, experimental-properties, external-identifiers, patent, dosages, pfams, sequences, targets, manufacturer, products, synonym, mixture, atc-codes, patents, categories, prices, product, cost, manufacturers, drug-interactions, groups, packagers, target, international-brands, amino-acid-sequence, ahfs-codes, category, gene-sequence, drugbank-id]
+size: 52
+
+ground:
+ [toxicity, substructures, pharmaceutical, inchikey, smiles, molecular-weight, source, type, drug, refractivity, polar-surface-area-(psa), pharmacology, food-interaction, brand, logs, logp, group, boiling-point, polarizability, mechanism-of-action, inchi, absorption, caco2-permeability, monoisotopic-weight, rule-of-five, ghose-filter, water-solubility, half-life, unit, molecular-formula, volume-of-distribution, route-of-elimination, bioavailability, pka-(strongest-basic), transporter-relation, physiological-charge, indication, patent, rotatable-bond-count, pka, mddr-like-rule, traditional-iupac-name, manufacturer, protein-binding, iupac-name, synonym, isoelectric-point, drug-drug-interaction, mixture, number-of-rings, clearance, h-bond-donor-count, carrier-relation, enzyme, salt, h-bond-acceptor-count, kingdom, target, affected-organism, enzyme-relation, biotransformation, hydrophobicity, carrier, pka-(strongest-acidic), transporter, melting-point, category, target-relation]
+size: 68
+
+intersection:
+ [drug, patent, manufacturer, synonym, mixture, target, category]
+size: 7
+
+Prec:	0.1346
+Recall:	0.1029
+F1:	0.1167
+0.1346	0.1029	0.1167
+ATTRIBUTES:
+result:
+ [toxicity, country, snp-adverse-drug-reactions, general-references, coder, strength, references, molecular-weight, pharmacodynamics, language, source, ndc-product-code, cas-number, type, gene-name, number, approved, specific-function, known-action, superclass, ndc-id, action, food-interactions, id, mesh-id, group, identifier, synthesis-reference, organism, mechanism-of-action, resource, absorption, ncbi-taxonomy-id, synonyms, created, kind, format, fda-application-number, snp-effects, carriers, pathways, half-life, unit, route, volume-of-distribution, route-of-elimination, name, metabolism, position, indication, actions, updated, primary, over-the-counter, expires, theoretical-pi, code, transporters, general-function, description, enzymes, dpd-id, protein-binding, synonym, ingredients, clearance, currency, company, value, class, cellular-location, chromosome-location, salts, drug-interactions, started-marketing-on, ended-marketing-on, ahfs-code, kingdom, generic, url, international-brands, affected-organism, direct-parent, form, subclass, transmembrane-regions, dosage-form, reactions, signal-regions, locus, ahfs-codes, category, drugbank-id]
+size: 93
+
+ground:
+ [expires, theoretical-pi, organism, molecular-weight, general-function, gene-name, approved, known-action, specific-function, price, name, ingredients, transmembrane-regions, id, locus, value, cellular-location]
+size: 17
+
+intersection:
+ [molecular-weight, gene-name, approved, specific-function, known-action, id, organism, name, expires, theoretical-pi, general-function, ingredients, value, cellular-location, transmembrane-regions, locus]
+size: 16
+
+Prec:	0.172
+Recall:	0.9412
+F1:	0.2909
+0.172	0.9412	0.2909
+
+MISSED:
+Only In Result (both entities & attributes):
+[references, pharmacodynamics, go-classifier, cas-number, mixtures, number, external-links, superclass, property, ndc-id, action, mesh-id, drugbank, identifier, synthesis-reference, synonyms, fda-application-number, snp-effects, carriers, classification, packager, route, atc-code, actions, go-classifiers, primary, dosage, dosages, enzymes, pfams, sequences, targets, dpd-id, products, currency, categories, chromosome-location, salts, product, packagers, url, direct-parent, subclass, reactions, ahfs-codes, drugbank-id, country, snp-adverse-drug-reactions, general-references, coder, strength, language, ndc-product-code, drug-interaction, pfam, food-interactions, external-identifier, polypeptide, level, resource, ncbi-taxonomy-id, created, kind, format, international-brand, pathways, sequence, metabolism, position, external-link, updated, affected-organisms, over-the-counter, experimental-properties, external-identifiers, code, transporters, description, atc-codes, patents, company, prices, class, cost, manufacturers, drug-interactions, started-marketing-on, groups, ended-marketing-on, ahfs-code, generic, international-brands, amino-acid-sequence, form, dosage-form, signal-regions, gene-sequence]
+size: 97
+
+Only In GroundTruth (both entities & attributes):
+[substructures, pharmaceutical, inchikey, smiles, refractivity, polar-surface-area-(psa), pharmacology, food-interaction, brand, logs, logp, boiling-point, polarizability, inchi, caco2-permeability, monoisotopic-weight, rule-of-five, ghose-filter, water-solubility, molecular-formula, bioavailability, pka-(strongest-basic), transporter-relation, physiological-charge, rotatable-bond-count, pka, mddr-like-rule, traditional-iupac-name, iupac-name, isoelectric-point, drug-drug-interaction, number-of-rings, h-bond-donor-count, carrier-relation, enzyme, salt, h-bond-acceptor-count, enzyme-relation, biotransformation, hydrophobicity, carrier, pka-(strongest-acidic), transporter, melting-point, target-relation]
+size: 45
+
+
+Attributes that recognized as entity:
+[organism, price]
+size: 2
+
+
+Entities that recognized as attribute:
+[toxicity, molecular-weight, source, type, group, mechanism-of-action, absorption, half-life, unit, volume-of-distribution, route-of-elimination, indication, protein-binding, synonym, clearance, kingdom, affected-organism, category]
+size: 18
+
