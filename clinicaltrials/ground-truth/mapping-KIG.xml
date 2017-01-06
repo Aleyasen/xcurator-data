@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xcurator:mapping xmlns:xcurator="http://www.cs.toronto.edu/xcurator" xmlns:class="http://xcurator.com/resource/class" xmlns:property="http://xcurator.com/resource/property">
+  <xcurator:entity path="/clinical_studies/clinical_study" type="class:clinical_study" xmlType="clinical_study">
+    <xcurator:attribute name="property:start_date" path="./start_date/text()"/>
+    <xcurator:attribute name="property:official_title" path="./official_title/text()"/>
+    <xcurator:attribute name="property:overall_status" path="./overall_status/text()"/>
+    <xcurator:attribute name="property:phase" path="./phase/text()"/>
+    <xcurator:attribute name="property:keyword" path="./keyword/text()"/>
+    <xcurator:attribute name="property:study_type" path="./study_type/text()"/>
+    <xcurator:attribute name="property:verification_date" path="./verification_date/text()"/>
+    <xcurator:attribute name="property:completion_date" path="./completion_date/text()"/>
+    <xcurator:attribute name="property:is_section_801" path="./is_section_801/text()"/>
+    <xcurator:attribute name="property:is_fda_regulated" path="./is_fda_regulated/text()"/>
+    <xcurator:attribute name="property:why_stopped" path="./why_stopped/text()"/>
+    <xcurator:attribute name="property:firstreceived_results_date" path="./firstreceived_results_date/text()"/>
+    <xcurator:attribute name="property:lastchanged_date" path="./lastchanged_date/text()"/>
+    <xcurator:attribute name="property:has_expanded_access" path="./has_expanded_access/text()"/>
+    <xcurator:attribute name="property:enrollment" path="./enrollment/text()"/>
+    <xcurator:attribute name="property:number_of_arms" path="./number_of_arms/text()"/>
+    <xcurator:attribute name="property:study_design" path="./study_design/text()"/>
+    <xcurator:attribute name="property:biospec_retention" path="./biospec_retention/text()"/>
+    <xcurator:attribute name="property:condition" path="./condition/text()"/>
+    <xcurator:attribute name="property:source" path="./source/text()"/>
+    <xcurator:attribute name="property:brief_title" path="./brief_title/text()"/>
+    <xcurator:attribute name="property:acronym" path="./acronym/text()"/>
+    <xcurator:attribute name="property:primary_completion_date" path="./primary_completion_date/text()"/>
+    <xcurator:attribute name="property:firstreceived_date" path="./firstreceived_date/text()"/>
+    <xcurator:attribute name="property:number_of_groups" path="./number_of_groups/text()"/>
+    <xcurator:relation name="property:arm_group" path="./arm_group" targetEntityXmlType="arm_group"/>
+    <xcurator:relation name="property:overall_contact" path="./overall_contact" targetEntityXmlType="overall_contact"/>
+    <xcurator:relation name="property:overall_official" path="./overall_official" targetEntityXmlType="overall_official"/>
+    <xcurator:relation name="property:intervention_browse" path="./intervention_browse" targetEntityXmlType="intervention_browse"/>
+    <xcurator:relation name="property:completion_date" path="./completion_date" targetEntityXmlType="completion_date"/>
+    <xcurator:relation name="property:results_reference" path="./results_reference" targetEntityXmlType="results_reference"/>
+    <xcurator:relation name="property:reference" path="./reference" targetEntityXmlType="reference"/>
+    <xcurator:relation name="property:eligibility" path="./eligibility" targetEntityXmlType="eligibility"/>
+    <xcurator:relation name="property:removed_countries" path="./removed_countries" targetEntityXmlType="removed_countries"/>
+    <xcurator:relation name="property:sponsors" path="./sponsors" targetEntityXmlType="sponsors"/>
+    <xcurator:relation name="property:primary_outcome" path="./primary_outcome" targetEntityXmlType="primary_outcome"/>
+    <xcurator:relation name="property:id_info" path="./id_info" targetEntityXmlType="id_info"/>
+    <xcurator:relation name="property:required_header" path="./required_header" targetEntityXmlType="required_header"/>
+    <xcurator:relation name="property:link" path="./link" targetEntityXmlType="link"/>
+    <xcurator:relation name="property:enrollment" path="./enrollment" targetEntityXmlType="enrollment"/>
+    <xcurator:relation name="property:oversight_info" path="./oversight_info" targetEntityXmlType="oversight_info"/>
+    <xcurator:relation name="property:brief_summary" path="./brief_summary" targetEntityXmlType="brief_summary"/>
+    <xcurator:relation name="property:responsible_party" path="./responsible_party" targetEntityXmlType="responsible_party"/>
+    <xcurator:relation name="property:location_countries" path="./location_countries" targetEntityXmlType="location_countries"/>
+    <xcurator:relation name="property:condition_browse" path="./condition_browse" targetEntityXmlType="condition_browse"/>
+    <xcurator:relation name="property:biospec_descr" path="./biospec_descr" targetEntityXmlType="biospec_descr"/>
+    <xcurator:relation name="property:secondary_outcome" path="./secondary_outcome" targetEntityXmlType="secondary_outcome"/>
+    <xcurator:relation name="property:primary_completion_date" path="./primary_completion_date" targetEntityXmlType="primary_completion_date"/>
+    <xcurator:relation name="property:intervention" path="./intervention" targetEntityXmlType="intervention"/>
+    <xcurator:relation name="property:detailed_description" path="./detailed_description" targetEntityXmlType="detailed_description"/>
+    <xcurator:relation name="property:location" path="./location" targetEntityXmlType="location"/>
+    <xcurator:relation name="property:overall_contact_backup" path="./overall_contact_backup" targetEntityXmlType="overall_contact_backup"/>
+  </xcurator:entity>
+  <xcurator:entity path="/clinical_studies/clinical_study/brief_summary" type="class:brief_summary" xmlType="brief_summary">
+    <xcurator:attribute name="property:textblock" path="./textblock/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/clinical_studies/clinical_study/eligibility/criteria" type="class:criteria" xmlType="criteria">
+    <xcurator:attribute name="property:textblock" path="./textblock/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/clinical_studies/clinical_study/link" type="class:link" xmlType="link">
+    <xcurator:attribute name="property:description" path="./description/text()"/>
+    <xcurator:attribute name="property:url" path="./url/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/clinical_studies/clinical_study/eligibility" type="class:eligibility" xmlType="eligibility">
+    <xcurator:attribute name="property:gender" path="./gender/text()"/>
+    <xcurator:attribute name="property:maximum_age" path="./maximum_age/text()"/>
+    <xcurator:attribute name="property:minimum_age" path="./minimum_age/text()"/>
+    <xcurator:attribute name="property:sampling_method" path="./sampling_method/text()"/>
+    <xcurator:attribute name="property:healthy_volunteers" path="./healthy_volunteers/text()"/>
+    <xcurator:relation name="property:criteria" path="./criteria" targetEntityXmlType="criteria"/>
+    <xcurator:relation name="property:study_pop" path="./study_pop" targetEntityXmlType="study_pop"/>
+  </xcurator:entity>
+  <xcurator:entity path="/clinical_studies/clinical_study/location_countries" type="class:location_countries" xmlType="location_countries">
+    <xcurator:attribute name="property:country" path="./country/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/clinical_studies/clinical_study/sponsors/collaborator" type="class:collaborator" xmlType="collaborator">
+    <xcurator:attribute name="property:agency_class" path="./agency_class/text()"/>
+    <xcurator:attribute name="property:agency" path="./agency/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/clinical_studies/clinical_study/location/contact_backup" type="class:contact_backup" xmlType="contact_backup">
+    <xcurator:attribute name="property:phone" path="./phone/text()"/>
+    <xcurator:attribute name="property:email" path="./email/text()"/>
+    <xcurator:attribute name="property:last_name" path="./last_name/text()"/>
+    <xcurator:attribute name="property:phone_ext" path="./phone_ext/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/clinical_studies/clinical_study/biospec_descr" type="class:biospec_descr" xmlType="biospec_descr">
+    <xcurator:attribute name="property:textblock" path="./textblock/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/clinical_studies/clinical_study/reference" type="class:reference" xmlType="reference">
+    <xcurator:attribute name="property:PMID" path="./PMID/text()"/>
+    <xcurator:attribute name="property:citation" path="./citation/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/clinical_studies/clinical_study/sponsors/lead_sponsor" type="class:lead_sponsor" xmlType="lead_sponsor">
+    <xcurator:attribute name="property:agency_class" path="./agency_class/text()"/>
+    <xcurator:attribute name="property:agency" path="./agency/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/clinical_studies/clinical_study/intervention_browse" type="class:intervention_browse" xmlType="intervention_browse">
+    <xcurator:attribute name="property:mesh_term" path="./mesh_term/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/clinical_studies/clinical_study/location/investigator" type="class:investigator" xmlType="investigator">
+    <xcurator:attribute name="property:last_name" path="./last_name/text()"/>
+    <xcurator:attribute name="property:role" path="./role/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/clinical_studies/clinical_study/primary_completion_date" type="class:primary_completion_date" xmlType="primary_completion_date">
+    <xcurator:attribute name="property:type" path="@type"/>
+    <xcurator:attribute name="property:value" path="text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/clinical_studies/clinical_study/sponsors" type="class:sponsors" xmlType="sponsors">
+    <xcurator:relation name="property:lead_sponsor" path="./lead_sponsor" targetEntityXmlType="lead_sponsor"/>
+    <xcurator:relation name="property:collaborator" path="./collaborator" targetEntityXmlType="collaborator"/>
+  </xcurator:entity>
+  <xcurator:entity path="/clinical_studies/clinical_study/overall_official" type="class:overall_official" xmlType="overall_official">
+    <xcurator:attribute name="property:last_name" path="./last_name/text()"/>
+    <xcurator:attribute name="property:role" path="./role/text()"/>
+    <xcurator:attribute name="property:affiliation" path="./affiliation/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/clinical_studies/clinical_study/location/contact" type="class:contact" xmlType="contact">
+    <xcurator:attribute name="property:phone_ext" path="./phone_ext/text()"/>
+    <xcurator:attribute name="property:last_name" path="./last_name/text()"/>
+    <xcurator:attribute name="property:email" path="./email/text()"/>
+    <xcurator:attribute name="property:phone" path="./phone/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/clinical_studies/clinical_study/condition_browse" type="class:condition_browse" xmlType="condition_browse">
+    <xcurator:attribute name="property:mesh_term" path="./mesh_term/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/clinical_studies/clinical_study/overall_contact_backup" type="class:overall_contact_backup" xmlType="overall_contact_backup">
+    <xcurator:attribute name="property:last_name" path="./last_name/text()"/>
+    <xcurator:attribute name="property:phone" path="./phone/text()"/>
+    <xcurator:attribute name="property:phone_ext" path="./phone_ext/text()"/>
+    <xcurator:attribute name="property:email" path="./email/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/clinical_studies/clinical_study/overall_contact" type="class:overall_contact" xmlType="overall_contact">
+    <xcurator:attribute name="property:phone" path="./phone/text()"/>
+    <xcurator:attribute name="property:email" path="./email/text()"/>
+    <xcurator:attribute name="property:phone_ext" path="./phone_ext/text()"/>
+    <xcurator:attribute name="property:last_name" path="./last_name/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/clinical_studies/clinical_study/responsible_party" type="class:responsible_party" xmlType="responsible_party">
+    <xcurator:attribute name="property:name_title" path="./name_title/text()"/>
+    <xcurator:attribute name="property:organization" path="./organization/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/clinical_studies/clinical_study/eligibility/study_pop" type="class:study_pop" xmlType="study_pop">
+    <xcurator:attribute name="property:textblock" path="./textblock/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/clinical_studies/clinical_study/location/facility/address" type="class:address" xmlType="address">
+    <xcurator:attribute name="property:zip" path="./zip/text()"/>
+    <xcurator:attribute name="property:city" path="./city/text()"/>
+    <xcurator:attribute name="property:state" path="./state/text()"/>
+    <xcurator:attribute name="property:country" path="./country/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/clinical_studies/clinical_study/arm_group" type="class:arm_group" xmlType="arm_group">
+    <xcurator:attribute name="property:arm_group_label" path="./arm_group_label/text()"/>
+    <xcurator:attribute name="property:arm_group_type" path="./arm_group_type/text()"/>
+    <xcurator:attribute name="property:description" path="./description/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/clinical_studies/clinical_study/primary_outcome" type="class:primary_outcome" xmlType="primary_outcome">
+    <xcurator:attribute name="property:time_frame" path="./time_frame/text()"/>
+    <xcurator:attribute name="property:safety_issue" path="./safety_issue/text()"/>
+    <xcurator:attribute name="property:description" path="./description/text()"/>
+    <xcurator:attribute name="property:measure" path="./measure/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/clinical_studies/clinical_study/secondary_outcome" type="class:secondary_outcome" xmlType="secondary_outcome">
+    <xcurator:attribute name="property:safety_issue" path="./safety_issue/text()"/>
+    <xcurator:attribute name="property:time_frame" path="./time_frame/text()"/>
+    <xcurator:attribute name="property:measure" path="./measure/text()"/>
+    <xcurator:attribute name="property:description" path="./description/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/clinical_studies/clinical_study/oversight_info" type="class:oversight_info" xmlType="oversight_info">
+    <xcurator:attribute name="property:has_dmc" path="./has_dmc/text()"/>
+    <xcurator:attribute name="property:authority" path="./authority/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/clinical_studies/clinical_study/removed_countries" type="class:removed_countries" xmlType="removed_countries">
+    <xcurator:attribute name="property:country" path="./country/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/clinical_studies/clinical_study/id_info" type="class:id_info" xmlType="id_info">
+    <xcurator:attribute name="property:nct_alias" path="./nct_alias/text()"/>
+    <xcurator:attribute name="property:nct_id" path="./nct_id/text()"/>
+    <xcurator:attribute name="property:org_study_id" path="./org_study_id/text()"/>
+    <xcurator:attribute name="property:secondary_id" path="./secondary_id/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/clinical_studies/clinical_study/enrollment" type="class:enrollment" xmlType="enrollment">
+    <xcurator:attribute name="property:type" path="@type"/>
+    <xcurator:attribute name="property:value" path="text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/clinical_studies/clinical_study/detailed_description" type="class:detailed_description" xmlType="detailed_description">
+    <xcurator:attribute name="property:textblock" path="./textblock/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/clinical_studies/clinical_study/required_header" type="class:required_header" xmlType="required_header">
+    <xcurator:attribute name="property:link_text" path="./link_text/text()"/>
+    <xcurator:attribute name="property:download_date" path="./download_date/text()"/>
+    <xcurator:attribute name="property:url" path="./url/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/clinical_studies" type="class:clinical_studies" xmlType="clinical_studies">
+    <xcurator:relation name="property:clinical_study" path="./clinical_study" targetEntityXmlType="clinical_study"/>
+  </xcurator:entity>
+  <xcurator:entity path="/clinical_studies/clinical_study/location" type="class:location" xmlType="location">
+    <xcurator:attribute name="property:status" path="./status/text()"/>
+    <xcurator:relation name="property:contact_backup" path="./contact_backup" targetEntityXmlType="contact_backup"/>
+    <xcurator:relation name="property:investigator" path="./investigator" targetEntityXmlType="investigator"/>
+    <xcurator:relation name="property:facility" path="./facility" targetEntityXmlType="facility"/>
+    <xcurator:relation name="property:contact" path="./contact" targetEntityXmlType="contact"/>
+  </xcurator:entity>
+  <xcurator:entity path="/clinical_studies/clinical_study/completion_date" type="class:completion_date" xmlType="completion_date">
+    <xcurator:attribute name="property:value" path="text()"/>
+    <xcurator:attribute name="property:type" path="@type"/>
+  </xcurator:entity>
+  <xcurator:entity path="/clinical_studies/clinical_study/intervention" type="class:intervention" xmlType="intervention">
+    <xcurator:attribute name="property:intervention_name" path="./intervention_name/text()"/>
+    <xcurator:attribute name="property:other_name" path="./other_name/text()"/>
+    <xcurator:attribute name="property:intervention_type" path="./intervention_type/text()"/>
+    <xcurator:attribute name="property:arm_group_label" path="./arm_group_label/text()"/>
+    <xcurator:attribute name="property:description" path="./description/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/clinical_studies/clinical_study/location/facility" type="class:facility" xmlType="facility">
+    <xcurator:attribute name="property:name" path="./name/text()"/>
+    <xcurator:relation name="property:address" path="./address" targetEntityXmlType="address"/>
+  </xcurator:entity>
+  <xcurator:entity path="/clinical_studies/clinical_study/results_reference" type="class:results_reference" xmlType="results_reference">
+    <xcurator:attribute name="property:PMID" path="./PMID/text()"/>
+    <xcurator:attribute name="property:citation" path="./citation/text()"/>
+  </xcurator:entity>
+</xcurator:mapping>

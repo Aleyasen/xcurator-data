@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bookstore>
+    <book id="b1">
+        <title>Title1</title>
+        <authors>
+            <author>
+                <firstname>firstname1</firstname>
+                <lastname>lastname1</lastname>
+            </author>
+            <author>
+                <firstname>firstname2</firstname>
+                <lastname>lastname2</lastname>
+            </author>
+        </authors>
+        <publisher>publisher1</publisher>
+        <year>2007</year>
+        <similar>
+            <book>b2</book>
+            <book>b3</book>
+        </similar>
+    </book>
+    <book id="b2">
+        <title>Title2</title>
+        <authors>
+            <author>
+                <firstname>firstname3</firstname>
+                <lastname>lastname3</lastname>
+            </author>
+        </authors>
+        <publisher>publisher2</publisher>
+        <year>2010</year>
+    </book>
+    <book id="b3">
+        <title>Title3</title>
+        <authors>
+            <author>
+                <firstname>firstname4</firstname>
+                <lastname>lastname4</lastname>
+            </author>
+        </authors>
+        <publisher>publisher1</publisher>
+        <similar>
+            <book>b3</book>
+        </similar>
+    </book>
+    
+</bookstore>
