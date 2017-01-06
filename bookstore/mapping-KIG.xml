@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xcurator:mapping xmlns:xcurator="http://www.cs.toronto.edu/xcurator" xmlns:class="http://xcurator.com/resource/class" xmlns:property="http://xcurator.com/resource/property">
+  <xcurator:entity path="/bookstore/book/similar" type="class:similar" xmlType="similar">
+    <xcurator:attribute name="property:book" path="./book/text()"/>
+    <xcurator:relation name="property:book" path="/bookstore/book" targetEntityXmlType="book">
+      <xcurator:reference path="./book/text()" targetPath="@id"/>
+    </xcurator:relation>
+  </xcurator:entity>
+  <xcurator:entity path="/bookstore/book/authors/author" type="class:author" xmlType="author">
+    <xcurator:attribute name="property:lastname" path="./lastname/text()"/>
+    <xcurator:attribute name="property:firstname" path="./firstname/text()"/>
+  </xcurator:entity>
+  <xcurator:entity path="/bookstore/book" type="class:book" xmlType="book">
+    <xcurator:attribute name="property:id" path="@id"/>
+    <xcurator:attribute name="property:title" path="./title/text()"/>
+    <xcurator:attribute name="property:publisher" path="./publisher/text()"/>
+    <xcurator:attribute name="property:year" path="./year/text()"/>
+    <xcurator:relation name="property:similar" path="./similar" targetEntityXmlType="similar"/>
+  </xcurator:entity>
+</xcurator:mapping>
