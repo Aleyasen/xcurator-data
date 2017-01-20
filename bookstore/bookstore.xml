@@ -15,8 +15,8 @@
         <publisher>publisher1</publisher>
         <year>2007</year>
         <similar>
-            <book>b2</book>
-            <book>b3</book>
+            <ent>b2</ent>
+            <ent>b3</ent>
         </similar>
     </book>
     <book id="b2">
@@ -40,7 +40,7 @@
         </authors>
         <publisher>publisher1</publisher>
         <similar>
-            <book>b3</book>
+            <ent>b3</ent>
         </similar>
     </book>
     

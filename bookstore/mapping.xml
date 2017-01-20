@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <xcurator:mapping xmlns:xcurator="http://www.cs.toronto.edu/xcurator" xmlns:class="http://xcurator.com/resource/class" xmlns:property="http://xcurator.com/resource/property">
   <xcurator:entity path="/bookstore/book/similar" type="class:similar" xmlType="similar">
-    <xcurator:attribute name="property:book" path="./book/text()"/>
+    <xcurator:attribute name="property:ent" path="./ent/text()"/>
   </xcurator:entity>
   <xcurator:entity path="/bookstore" type="class:bookstore" xmlType="bookstore">
     <xcurator:relation name="property:book" path="./book" targetEntityXmlType="book"/>
